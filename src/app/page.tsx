@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import AppCard from '@/components/AppCard'
-import SearchBar from '@/components/SearchBar'
-import FilterOptions from '@/components/FilterOptions'
+import AppCard from './components/AppCard'
+import SearchBar from './components/SearchBar'
+import FilterOptions from './components/FilterOptions'
 
 interface App {
   id: string
