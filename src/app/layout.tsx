@@ -8,10 +8,10 @@ import { useEffect } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Windows ARM Apps Directory',
-  description: 'A comprehensive directory of applications compatible with Windows ARM64 devices',
-}
+//export const metadata = {
+  //title: 'Windows ARM Apps Directory',
+  //description: 'A comprehensive directory of applications compatible with Windows ARM64 devices',
+//}
 
 export default function RootLayout({
   children,
