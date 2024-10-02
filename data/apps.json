@@ -1,0 +1,53 @@
+[
+    {
+      "id": "001",
+      "name": "WhatsApp",
+      "category": "Social",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.whatsapp.com/download",
+      "storeLink": "https://www.microsoft.com/store/productId/9NKSQGP7F2NH",
+      "remarks": "WhatsApp is available natively for Windows ARM devices.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    },
+    {
+      "id": "002",
+      "name": "Spotify",
+      "category": "Music",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.spotify.com/download/windows",
+      "storeLink": "https://www.microsoft.com/store/productId/9N6PCMWDLDLH",
+      "remarks": "Spotify is fully supported on Windows ARM.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg"
+    },
+    {
+      "id": "003",
+      "name": "Telegram Desktop",
+      "category": "Social",
+      "status": "Available Natively",
+      "directDownloadLink": "https://desktop.telegram.org/",
+      "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRZD68S",
+      "remarks": "The desktop version of Telegram works on Windows ARM.",
+      "icon": "https://telegram.org/img/t_logo.png"
+    },
+    {
+      "id": "004",
+      "name": "Microsoft 365",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.microsoft.com/microsoft-365/get-started-with-office-2021",
+      "storeLink": "https://www.microsoft.com/store/productId/CFQ7TTC0K7C8",
+      "remarks": "Microsoft 365 apps are optimized for Windows ARM.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_Office_2021_%28Word%2C_Excel%2C_Outlook%29.png"
+    },
+    {
+      "id": "005",
+      "name": "Slack",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://slack.com/downloads/windows",
+      "storeLink": "https://www.microsoft.com/store/productId/9PLWGZR8B2F6",
+      "remarks": "Slack is available for Windows ARM.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png"
+    }
+  ]
+  
