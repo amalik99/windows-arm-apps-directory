@@ -1,4 +1,6 @@
-[
+{
+  "apps": [
+    
     {
       "id": "001",
       "name": "WhatsApp",
@@ -50,4 +52,5 @@
       "icon": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png"
     }
   ]
+}
   

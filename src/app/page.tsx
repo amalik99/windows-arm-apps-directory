@@ -5,7 +5,6 @@ import AppCard from '@/components/AppCard'
 import SearchBar from '@/components/SearchBar'
 import FilterOptions from '@/components/FilterOptions'
 
-
 interface App {
   id: string
   name: string
@@ -31,8 +30,18 @@ export default function Directory() {
   const fetchApps = async () => {
     setLoading(true)
     try {
-      const response = await fetch(process.env.NEXT_PUBLIC_DATA_URL || '/data/apps.json')
+      const dataUrl = process.env.NEXT_PUBLIC_DATA_URL || 'https://raw.githubusercontent.com/amalik99/windows-arm-apps-directory/refs/heads/main/data/apps.json'
+      console.log('Fetching data from:', dataUrl) // Log the URL being fetched
+      const response = await fetch(dataUrl)
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
       const data = await response.json()
+      console.log('Fetched data:', data) // Log the fetched data
+
+      if (!data.apps) {
+        throw new Error('Invalid data structure: "apps" property is missing')
+      }
       setApps(data.apps)
       setFilteredApps(data.apps)
       setCategories([...new Set(data.apps.map((app: App) => app.category))])
@@ -74,7 +83,7 @@ export default function Directory() {
             Windows Apps for ARM Devices
           </h1>
           <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Discover and explore our curated collection of applications on Windows ARM64 devicesm, such as Copilot Plus PCs and more. 
+            Discover and explore our curated collection of applications on Windows ARM64 devices, such as Copilot Plus PCs and more. 
           </p>
         </div>
         <div className="flex mb-8">
