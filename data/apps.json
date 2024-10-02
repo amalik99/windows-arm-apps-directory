@@ -101,7 +101,49 @@
       "storeLink": null,
       "remarks": "Asana is a work management tool designed to help teams track their work, from tasks to projects. The desktop app offers the same features as the web version, allowing users to plan, organize, and collaborate in a distraction-free environment. It supports real-time syncing across devices, and it is available for Windows and macOS.",
       "icon": "https://luna1.co/0ebcc3.png"
+    },
+    {
+      "id": "011",
+      "name": "Trello",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": null,
+      "storeLink": "https://apps.microsoft.com/detail/9nblggh4xxvw?hl=en-us&gl=US",
+      "remarks": "Trello is a versatile task management and collaboration tool that allows users to organize tasks, projects, and workflows using boards, lists, and cards. The desktop app offers native notifications, Quick Add options, and multiple windows, helping users stay organized and focused. Available for Windows 10/11 through the Microsoft Store.",
+      "icon": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+    },
+    {
+      "id": "012",
+      "name": "Gmail",
+      "category": "Productivity",
+      "status": "Not Available",
+      "directDownloadLink": null,
+      "storeLink": null,
+      "remarks": "Gmail does not have an official native app for Windows. Users can create a shortcut via Chrome or Edge to access Gmail on the desktop, offering an app-like experience.",
+      "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico"
+    },
+    {
+      "id": "013",
+      "name": "Thunderbird",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.thunderbird.net/en-US/download/",
+      "storeLink": "https://apps.microsoft.com/detail/mozilla-thunderbird-email/9PM5VM1S3VMQ?hl=en-US&gl=US",
+      "remarks": "Thunderbird is a free, open-source email, newsfeed, chat, and calendaring client. It supports multiple email protocols such as IMAP and POP3, and features customizable settings and add-ons. Available via direct download and through the Microsoft Store for Windows.",
+      "icon": "https://www.thunderbird.net/media/img/thunderbird/icons/icon-48x48.png"
+    },
+    {
+      "id": "014",
+      "name": "Skype",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.skype.com/en/get-skype/",
+      "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj364?hl=en-us&gl=US",
+      "remarks": "Skype is a versatile communication platform allowing free video calls, messaging, and voice calls with up to 100 participants. It supports screen sharing, file transfers, and integrates AI features like Microsoft Copilot. Available for Windows, Mac, Linux, and mobile devices.",
+      "icon": "https://www.skype.com/favicon.ico"
     }
+    
+    
     
     
         
