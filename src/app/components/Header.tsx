@@ -38,7 +38,7 @@ const Header = () => {
         </nav>
         <div className="flex items-center">
           {/* GitHub Icon */}
-          <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer" className="mr-4">
+          <a href="https://github.com/amalik99/windows-arm-apps-directory" target="_blank" rel="noopener noreferrer" className="mr-4">
             <FaGithub className="w-5 h-5 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors" />
           </a>
           <button onClick={toggleDarkMode} className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300">

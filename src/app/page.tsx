@@ -31,21 +31,23 @@ export default function Directory() {
     setLoading(true)
     try {
       const dataUrl = process.env.NEXT_PUBLIC_DATA_URL || 'https://raw.githubusercontent.com/amalik99/windows-arm-apps-directory/refs/heads/main/data/apps.json'
-      console.log('Fetching data from:', dataUrl) // Log the URL being fetched
+      console.log('Fetching data from:', dataUrl)
       const response = await fetch(dataUrl)
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
       }
       const data = await response.json()
-      console.log('Fetched data:', data) // Log the fetched data
+      console.log('Fetched data:', data)
 
-      if (!data.apps) {
-        throw new Error('Invalid data structure: "apps" property is missing')
+      if (!data.apps || !Array.isArray(data.apps)) {
+        throw new Error('Invalid data structure: "apps" property is missing or not an array')
       }
-      setApps(data.apps)
-      setFilteredApps(data.apps)
-      setCategories([...new Set(data.apps.map((app: App) => app.category))])
-      setStatuses([...new Set(data.apps.map((app: App) => app.status))])
+
+      const typedApps = data.apps as App[]
+      setApps(typedApps)
+      setFilteredApps(typedApps)
+      setCategories([...new Set(typedApps.map(app => app.category))])
+      setStatuses([...new Set(typedApps.map(app => app.status))])
     } catch (error) {
       console.error('Error fetching apps:', error)
     } finally {
