@@ -87,7 +87,7 @@ const AppCard: React.FC<AppCardProps> = ({
           >
             <div className="relative w-6 h-6 mr-2">
               <Image
-                src="/data/downloadfromstore.png"
+                src="/downloadfromstore.png"
                 alt="Download from Store"
                 layout="fill"
                 objectFit="contain"
