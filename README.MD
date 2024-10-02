@@ -1,4 +1,4 @@
-# Native Apps for Windows ARM - Directory
+# Windows ARM Apps Directory - windowsarm.org
 
 A comprehensive, community-maintained directory of applications compatible with Windows ARM64 devices.
 
@@ -6,25 +6,10 @@ A comprehensive, community-maintained directory of applications compatible with 
 
 This web application serves as a directory for applications that are compatible with Windows ARM64 devices (Qualcomm chips). It allows users to browse, search, and filter applications based on their compatibility status and category. The directory aims to help users find native ARM64 applications, as well as those that run through emulation on Windows ARM devices.
 
-## Setup Instructions
+## ## Hosted on WindowsARM.org
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/native-apps-windows-arm-directory.git
-   cd native-apps-windows-arm-directory
-   ```
+This project is hosted on [WindowsARM.org](https://windowsarm.org).
 
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Run the development server:
-   ```
-   npm run dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
 ## How to Contribute
 
