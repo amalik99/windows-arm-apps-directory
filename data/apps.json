@@ -3,54 +3,113 @@
     
     {
       "id": "001",
-      "name": "WhatsApp",
-      "category": "Social",
+      "name": "Microsoft Office 365",
+      "category": "Productivity",
       "status": "Available Natively",
-      "directDownloadLink": "https://www.whatsapp.com/download",
-      "storeLink": "https://www.microsoft.com/store/productId/9NKSQGP7F2NH",
-      "remarks": "WhatsApp is available natively for Windows ARM devices.",
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+      "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-365/get-started-with-office-365",
+      "storeLink": "https://apps.microsoft.com/detail/9wzdncrd29v9?hl=en-us&gl=US",
+      "remarks": "Microsoft Office 365 offers powerful productivity tools like Word, Excel, PowerPoint, and more. ",
+      "icon": "https://www.microsoft.com/favicon.ico"
     },
     {
       "id": "002",
-      "name": "Spotify",
-      "category": "Music",
-      "status": "Available Natively",
-      "directDownloadLink": "https://www.spotify.com/download/windows",
-      "storeLink": "https://www.microsoft.com/store/productId/9N6PCMWDLDLH",
-      "remarks": "Spotify is fully supported on Windows ARM.",
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg"
-    },
-    {
-      "id": "003",
-      "name": "Telegram Desktop",
-      "category": "Social",
-      "status": "Available Natively",
-      "directDownloadLink": "https://desktop.telegram.org/",
-      "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRZD68S",
-      "remarks": "The desktop version of Telegram works on Windows ARM.",
-      "icon": "https://telegram.org/img/t_logo.png"
-    },
-    {
-      "id": "004",
-      "name": "Microsoft 365",
-      "category": "Productivity",
-      "status": "Available Natively",
-      "directDownloadLink": "https://www.microsoft.com/microsoft-365/get-started-with-office-2021",
-      "storeLink": "https://www.microsoft.com/store/productId/CFQ7TTC0K7C8",
-      "remarks": "Microsoft 365 apps are optimized for Windows ARM.",
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_Office_2021_%28Word%2C_Excel%2C_Outlook%29.png"
-    },
-    {
-      "id": "005",
       "name": "Slack",
       "category": "Productivity",
       "status": "Available Natively",
       "directDownloadLink": "https://slack.com/downloads/windows",
-      "storeLink": "https://www.microsoft.com/store/productId/9PLWGZR8B2F6",
-      "remarks": "Slack is available for Windows ARM.",
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png"
+      "storeLink": "https://apps.microsoft.com/detail/9wzdncrdk3wp?hl=en-us&gl=US",
+      "remarks": "Slack is a collaboration tool for teams, providing messaging, file sharing, voice, and video calls. It integrates with various services like Google Drive, Asana, and Dropbox, making it a versatile workplace communication platform.",
+      "icon": "https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png"
+    },
+    {
+      "id": "003",
+      "name": "Zoom",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://zoom.us/download",
+      "storeLink": "https://apps.microsoft.com/detail/xp99j3kp4xz4vv?hl=en-US&gl=US",
+      "remarks": "Zoom is a popular video conferencing platform for hosting virtual meetings, webinars, and collaborations. It offers features like chat, screen sharing, and recording, with seamless integration for businesses and personal use.",
+      "icon": "https://d24cgw3uvb9a9h.cloudfront.net/static/93927/image/thumb.png"
+    },
+    {
+      "id": "004",
+      "name": "OneNote",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.onenote.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/xpffzhvgqwwlhb?hl=en-US&gl=US",
+      "remarks": "OneNote is a digital notebook for capturing and organizing notes, drawings, and media. It supports both cloud and local storage and is widely used for note-taking in classrooms, meetings, and personal planning.",
+      "icon": "https://cdn.iconscout.com/icon/free/png-256/microsoft-onenote-2-569439.png"
+    },
+    {
+      "id": "005",
+      "name": "Evernote",
+      "category": "Productivity",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://evernote.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/evernote/9wzdncrfj3g8",
+      "remarks": "Evernote is a versatile note-taking app designed for capturing, organizing, and syncing notes, to-do lists, and documents across multiple devices. It offers integration with Google Calendar and powerful search features, including text recognition in images.",
+      "icon": "https://cdn1.evernote.com/evernote-web/assets/favicon.png"
+    },
+    {
+      "id": "006",
+      "name": "Bitwarden",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://bitwarden.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/9pjsdv0vpk04?hl=en-us&gl=US",
+      "remarks": "Bitwarden is an open-source, highly secure password manager that offers end-to-end encryption for password and credential management. It supports cross-device synchronization and includes features like two-factor authentication (2FA), password generation, and secure data sharing.",
+      "icon": "https://cdn.bitwarden.com/assets/icons/bitwarden-icon.png"
+    },
+    {
+      "id": "007",
+      "name": "Google Chrome",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.google.com/chrome/",
+      "storeLink": null,
+      "remarks": "Google Chrome is a fast, secure, and widely used web browser. It is not directly available on the Microsoft Store, but can be downloaded and installed via the official Google Chrome website. Chrome offers strong integration with Google's services and advanced features for syncing across devices.",
+      "icon": "https://www.google.com/images/icons/product/chrome-48.png"
+    },
+    {
+      "id": "008",
+      "name": "Microsoft Teams",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-teams/download-app",
+      "storeLink": "https://apps.microsoft.com/store/detail/microsoft-teams/XPFFFQTYF17TCR?hl=en-us&gl=us",
+      "remarks": "Microsoft Teams is a versatile collaboration platform that integrates meetings, chat, files, tasks, and calendars into one application. It is ideal for both personal and business use. Features include video calls, screen sharing, and secure document sharing. It is available natively for Windows 10 and Windows 11, with different installation paths based on account type.",
+      "icon": "https://cdn.iconscout.com/icon/free/png-256/microsoft-teams-21-722560.png"
+    },
+    {
+      "id": "009",
+      "name": "WhatsApp Desktop",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.whatsapp.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/9nksqgp7f2nh?hl=en-US&gl=US",
+      "remarks": "WhatsApp Desktop is a free messaging app offering text, voice, and video communication. It syncs with your mobile WhatsApp account and features end-to-end encryption for secure conversations. Available for both Windows 10 and 11, it supports file sharing, group chats, and voice calls.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    },
+    
+    {
+      "id": "010",
+      "name": "Asana",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://asana.com/download",
+      "storeLink": null,
+      "remarks": "Asana is a work management tool designed to help teams track their work, from tasks to projects. The desktop app offers the same features as the web version, allowing users to plan, organize, and collaborate in a distraction-free environment. It supports real-time syncing across devices, and it is available for Windows and macOS.",
+      "icon": "https://luna1.co/0ebcc3.png"
     }
-  ]
+    
+    
+        
+    
+    
+    
+    
+    
+    ]
 }
   

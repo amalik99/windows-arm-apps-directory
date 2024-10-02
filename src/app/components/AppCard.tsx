@@ -27,10 +27,12 @@ const AppCard: React.FC<AppCardProps> = ({
     switch (status) {
       case 'Available Natively':
         return <span className="text-green-500">●</span>
-      case 'Available in Emulation':
+      case 'Available via Emulation':
         return <span className="text-yellow-500">●</span>
       case 'Not Available':
         return <span className="text-red-500">●</span>
+      case 'Unknown':
+        return <span className="text-gray-500">●</span>
       default:
         return <span className="text-gray-500">●</span>
     }
