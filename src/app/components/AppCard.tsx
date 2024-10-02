@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { FaDownload } from 'react-icons/fa'
 import Image from 'next/image'
 
@@ -20,6 +21,8 @@ const AppCard: React.FC<AppCardProps> = ({
   remarks,
   icon
 }) => {
+  const [imgSrc, setImgSrc] = useState(icon)
+
   const getStatusIcon = () => {
     switch (status) {
       case 'Available Natively':
@@ -39,14 +42,12 @@ const AppCard: React.FC<AppCardProps> = ({
         <div className="flex items-center mb-4">
           <div className="w-12 h-12 mr-4 relative">
             <Image
-              src={icon}
+              src={imgSrc}
               alt={`${name} icon`}
               layout="fill"
               objectFit="cover"
               className="rounded-full"
-              onError={(e) => {
-                e.currentTarget.src = '/icons/default.png'
-              }}
+              onError={() => setImgSrc('/defaultappicon.jpg')} // Update state on error
             />
           </div>
           <div>
