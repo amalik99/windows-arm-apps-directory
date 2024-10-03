@@ -1,48 +1,8 @@
-'use client'
 import React from 'react';
 import Image from 'next/image';
-import { useEffect } from 'react'
 
-// Declare the gtag function type
-declare global {
-  interface Window {
-    gtag?: (
-      type: string,
-      eventName: string,
-      eventParams?: {
-        [key: string]: any;
-      }
-    ) => void;
-  }
-}
 
 export default function FindingARMApps() {
-
-  useEffect(() => {
-    // Define gtag function type
-    type GtagFunction = (
-      type: string,
-      eventName: string,
-      eventParams?: {
-        [key: string]: any;
-      }
-    ) => void;
-
-    // Check if gtag is available and assert its type
-    if (
-      process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID &&
-      typeof window.gtag === 'function'
-    ) {
-      const gtag = window.gtag as GtagFunction;
-      
-      gtag('event', 'page_view', {
-        page_title: 'Finding ARM Apps',
-        page_location: window.location.href,
-        page_path: '/finding-arm-apps',
-      });
-    }
-  }, []);
-
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">Finding ARM Apps for Windows</h1>

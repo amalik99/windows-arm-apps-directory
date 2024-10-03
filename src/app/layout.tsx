@@ -5,47 +5,40 @@ import { Inter } from 'next/font/google'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { useEffect } from 'react'
-import Script from 'next/script'
-import { usePathname, useSearchParams } from 'next/navigation'
 
 const inter = Inter({ subsets: ['latin'] })
+
+//export const metadata = {
+  //title: 'Windows ARM Apps Directory',
+  //description: 'A comprehensive directory of applications compatible with Windows ARM64 devices',
+//}
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-  const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
-  const pathname = usePathname()
-  const searchParams = useSearchParams()
-
   useEffect(() => {
-    if (GA_MEASUREMENT_ID) {
-      const url = pathname + searchParams.toString()
-      pageview(GA_MEASUREMENT_ID, url)
+    const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
+    if (GA_ID) {
+      const script1 = document.createElement('script')
+      script1.async = true
+      script1.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`
+      document.head.appendChild(script1)
+
+      const script2 = document.createElement('script')
+      script2.innerHTML = `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${GA_ID}');
+      `
+      document.head.appendChild(script2)
     }
-  }, [pathname, searchParams, GA_MEASUREMENT_ID])
+  }, [])
 
   return (
     <html lang="en">
-      <head>
-        {GA_MEASUREMENT_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="google-analytics" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${GA_MEASUREMENT_ID}');
-              `}
-            </Script>
-          </>
-        )}
-      </head>
       <body className={`${inter.className} bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100`}>
         <div className="flex flex-col min-h-screen">
           <Header />
@@ -57,11 +50,4 @@ export default function RootLayout({
       </body>
     </html>
   )
-}
-
-// Google Analytics pageview function
-function pageview(GA_MEASUREMENT_ID: string, url: string) {
-  window.gtag('config', GA_MEASUREMENT_ID, {
-    page_path: url,
-  })
 }
