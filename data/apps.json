@@ -313,6 +313,106 @@
   "storeLink": "https://apps.microsoft.com/detail/9nncb5bs59ph?hl=en-us&gl=US",
   "remarks": "Tidal is a music streaming platform offering high-fidelity sound and exclusive artist content.",
   "icon": "https://tidal.com/favicon.ico"
+},
+{
+  "id": "app_035",
+  "name": "Audacity",
+  "category": "Media & Entertainment",
+  "status": "Available Natively",
+  "directDownloadLink": "https://www.audacityteam.org/download/",
+  "storeLink": "https://apps.microsoft.com/detail/xp8k0j757hhrdw?hl=en-US&gl=US",
+  "remarks": "Audacity is a free, open-source audio editing tool widely used for editing podcasts, music tracks, and other audio recordings. It is fully supported natively on Windows, including ARM64 versions of Windows.",
+  "icon": "https://www.audacityteam.org/wp-content/uploads/2021/08/cropped-favicon-32x32.png"
+},
+{
+  "id": "app_036",
+  "name": "OBS Studio",
+  "category": "Media & Entertainment",
+  "status": "Available Natively",
+  "directDownloadLink": "https://obsproject.com/download",
+  "storeLink": "https://apps.microsoft.com/detail/xpffh613w8v6lv?hl=en-US&gl=US",
+  "remarks": "OBS Studio is a free, open-source tool for video recording and live streaming, compatible with ARM64 systems on Windows.",
+  "icon": "https://obsproject.com/assets/images/icon.svg"
+},
+{
+  "id": "app_037",
+  "name": "Visual Studio Code",
+  "category": "Development & Design",
+  "status": "Available Natively",
+  "directDownloadLink": "https://code.visualstudio.com/download",
+  "storeLink": "https://apps.microsoft.com/detail/xp9khm4bk9fz7q?hl=en-US&gl=US",
+  "remarks": "A free, lightweight code editor available natively for ARM64 devices on Windows.",
+  "icon": "https://code.visualstudio.com/assets/images/code-stable.png"
+},
+{
+  "id": "app_038",
+  "name": "Atom",
+  "category": "Development & Design",
+  "status": "Not Available",
+  "directDownloadLink": "https://github.com/atom/atom/releases",
+  "storeLink": null,
+  "remarks": "Atom is no longer actively maintained and does not natively support ARM64 on Windows.",
+  "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png"
+},
+{
+  "id": "app_039",
+  "name": "Sublime Text",
+  "category": "Development & Design",
+  "status": "Available via Emulation",
+  "directDownloadLink": "https://www.sublimetext.com/",
+  "storeLink": null,
+  "remarks": "Sublime Text supports ARM64 natively for macOS and Linux, but requires emulation on Windows ARM64.",
+  "icon": "https://www.sublimetext.com/images/icon.png"
+},
+{
+  "id": "app_040",
+  "name": "XAMPP",
+  "category": "Development & Design",
+  "status": "Available Natively",
+  "directDownloadLink": "https://www.apachefriends.org/index.html",
+  "storeLink": null,
+  "remarks": "XAMPP is available natively on Windows, Linux, and macOS but lacks native support for Windows ARM64.",
+  "icon": "https://www.apachefriends.org/images/favicon.ico"
+},
+{
+  "id": "app_041",
+  "name": "Notepad++",
+  "category": "Development & Design",
+  "status": "Available Natively",
+  "directDownloadLink": "https://notepad-plus-plus.org/downloads/",
+  "storeLink": null,
+  "remarks": "Notepad++ supports ARM64 natively as of version 8.",
+  "icon": "https://notepad-plus-plus.org/images/logo.svg"
+},
+{
+  "id": "app_042",
+  "name": "GitHub Desktop",
+  "category": "Development & Design",
+  "status": "Available via Emulation",
+  "directDownloadLink": "https://desktop.github.com/",
+  "storeLink": null,
+  "remarks": "GitHub Desktop lacks native ARM64 support but can be run via x64 emulation.",
+  "icon": "https://desktop.github.com/images/github-desktop-icon.svg"
+},
+{
+  "id": "app_043",
+  "name": "Brackets",
+  "category": "Development & Design",
+  "status": "Available via Emulation",
+  "directDownloadLink": "https://brackets.io/",
+  "storeLink": null,
+  "remarks": "Brackets is no longer maintained by Adobe, and ARM64 users must run it via emulation.",
+  "icon": "https://brackets.io/favicon.ico"
+},
+{
+  "id": "app_044",
+  "name": "Adobe Photoshop",
+  "category": "Development & Design",
+  "status": "Available Natively",
+  "directDownloadLink": "https://www.adobe.com/products/photoshop.html",
+  "storeLink": "https://apps.microsoft.com/detail/xpfd4t9n395qn6?hl=en-US&gl=US",
+  "remarks": "Adobe Photoshop is natively available for ARM64 with some feature limitations on Windows ARM.",
+  "icon": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/photoshop.svg"
 }
 
     
