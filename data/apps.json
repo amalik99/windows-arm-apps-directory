@@ -29,27 +29,27 @@
         "directDownloadLink": "https://zoom.us/download",
         "storeLink": "https://apps.microsoft.com/detail/xp99j3kp4xz4vv?hl=en-US&gl=US",
         "remarks": "Zoom is a popular video conferencing platform for hosting virtual meetings.",
-        "icon": "https://d24cgw3uvb9a9h.cloudfront.net/static/93927/image/thumb.png"
+        "icon": "https://us01st-cf.zoom.us/homepage/publish/static-image/zoom-logo.svg"
       },
       {
         "id": "004",
-        "name": "OneNote",
+        "name": "Microosft OneNote",
         "category": "Productivity",
         "status": "Available Natively",
         "directDownloadLink": "https://www.onenote.com/download",
         "storeLink": "https://apps.microsoft.com/detail/xpffzhvgqwwlhb?hl=en-US&gl=US",
         "remarks": "OneNote is a digital notebook for capturing and organizing notes and media.",
-        "icon": "https://cdn.iconscout.com/icon/free/png-256/microsoft-onenote-2-569439.png"
+        "icon": "https://en.m.wikipedia.org/wiki/File:Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg"
       },
       {
         "id": "005",
         "name": "Evernote",
         "category": "Productivity",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://evernote.com/download",
-        "storeLink": "https://apps.microsoft.com/detail/evernote/9wzdncrfj3g8",
+        "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRFJ3MB",
         "remarks": "Evernote is a versatile note-taking app designed for capturing, organizing, and syncing notes.",
-        "icon": "https://cdn1.evernote.com/evernote-web/assets/favicon.png"
+        "icon": "https://evernote.com/_next/image?url=%2Fimages%2Ficons%2Fprojects.webp&w=64&q=75"
       },
       {
         "id": "006",
@@ -59,7 +59,7 @@
         "directDownloadLink": "https://bitwarden.com/download",
         "storeLink": "https://apps.microsoft.com/detail/9pjsdv0vpk04?hl=en-us&gl=US",
         "remarks": "Bitwarden is an open-source, highly secure password manager.",
-        "icon": "https://cdn.bitwarden.com/assets/icons/bitwarden-icon.png"
+        "icon": "https://static-00.iconduck.com/assets.00/bitwarden-v2-icon-512x512-cstnj11p.png"
       },
       {
         "id": "007",
@@ -79,7 +79,7 @@
         "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-teams/download-app",
         "storeLink": "https://apps.microsoft.com/store/detail/microsoft-teams/XPFFFQTYF17TCR?hl=en-us&gl=us",
         "remarks": "Microsoft Teams is a versatile collaboration platform.",
-        "icon": "https://cdn.iconscout.com/icon/free/png-256/microsoft-teams-21-722560.png"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/512px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
       },
       {
         "id": "009",
@@ -95,19 +95,19 @@
         "id": "010",
         "name": "Asana",
         "category": "Productivity",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://asana.com/download",
         "storeLink": null,
         "remarks": "Asana is a work management tool designed to help teams track their work.",
-        "icon": "https://luna1.co/0ebcc3.png"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Asana_logo.svg/798px-Asana_logo.svg.png"
       },
       {
         "id": "011",
         "name": "Trello",
         "category": "Productivity",
-        "status": "Available Natively",
-        "directDownloadLink": null,
-        "storeLink": null,
+        "status": "Available via Emulation",
+        "directDownloadLink": "https://trello.com/platforms",
+        "storeLink": "https://apps.microsoft.com/detail/9nblggh4xxvw",
         "remarks": "Trello is a task management and collaboration tool.",
         "icon": "https://cdn.iconscout.com/icon/free/png-256/trello-7-569395.png"
       },
@@ -118,24 +118,24 @@
         "status": "Not Available",
         "directDownloadLink": null,
         "storeLink": null,
-        "remarks": "Gmail does not have an official native app for Windows.",
+        "remarks": "Gmail does not have an official native app for Windows, use web browser instead.",
         "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico"
       },
       {
         "id": "013",
         "name": "Thunderbird",
         "category": "Productivity",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://www.thunderbird.net/en-US/download/",
         "storeLink": "https://apps.microsoft.com/detail/mozilla-thunderbird-email/9PM5VM1S3VMQ?hl=en-US&gl=US",
         "remarks": "Thunderbird is a free, open-source email client.",
-        "icon": "https://www.thunderbird.net/media/img/thunderbird/icons/icon-48x48.png"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Thunderbird_Logo%2C_2018.svg/512px-Thunderbird_Logo%2C_2018.svg.png"
       },
       {
         "id": "014",
         "name": "Skype",
         "category": "Productivity",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://www.skype.com/en/get-skype/",
         "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj364?hl=en-us&gl=US",
         "remarks": "Skype is a versatile communication platform.",
@@ -145,27 +145,27 @@
         "id": "015",
         "name": "Signal",
         "category": "Productivity",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://signal.org/download/windows/",
         "storeLink": null,
         "remarks": "Signal is a secure messaging platform.",
-        "icon": "https://signal.org/assets/Signal-Logo.svg"
+        "icon": "https://signal.org/assets/images/header/logo.png"
       },
       {
         "id": "016",
         "name": "Discord",
         "category": "Social",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://discord.com/download",
         "storeLink": "https://apps.microsoft.com/detail/xpdc2rh70k22mn?hl=en-US&gl=US",
         "remarks": "Discord is a popular social platform designed for communication.",
-        "icon": "https://discord.com/assets/145dc557845548a36a82337912ca3ac5.ico"
+        "icon": "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6257d23c5fb25be7e0b6e220_Open%20Source%20Projects%20_%20Discord-7.svg"
       },
       {
         "id": "017",
         "name": "Ginger",
         "category": "Productivity",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://www.gingersoftware.com/download/",
         "storeLink": null,
         "remarks": "Ginger is an AI-powered writing assistant.",
@@ -175,22 +175,13 @@
         "id": "018",
         "name": "7-Zip",
         "category": "Utilities",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://www.7-zip.org/download.html",
         "storeLink": null,
         "remarks": "7-Zip is a free, open-source file archiver with a high compression ratio.",
         "icon": "https://www.7-zip.org/favicon.ico"
       },
-      {
-        "id": "019",
-        "name": "WinRAR",
-        "category": "Utilities",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.win-rar.com/predownload.html",
-        "storeLink": null,
-        "remarks": "WinRAR is a powerful file archiver and compression tool.",
-        "icon": "https://www.win-rar.com/favicon.ico"
-      },
+    
       {
         "id": "020",
         "name": "Dropbox",
