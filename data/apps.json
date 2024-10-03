@@ -583,7 +583,7 @@
   "id": "066",
   "name": "GeForce Experience",
   "category": "Gaming & Performance Tools",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.nvidia.com/en-us/geforce/geforce-experience/",
   "storeLink": null,
   "remarks": "GeForce Experience optimizes game settings, updates drivers, and enables gameplay recording for NVIDIA GPUs.",
