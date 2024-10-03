@@ -2,6 +2,16 @@
 import { useEffect } from 'react'
 
 export default function Contribute() {
+
+  interface Window {
+    gtag: (
+      type: string,
+      eventName: string,
+      eventParams?: {
+        [key: string]: any;
+      }
+    ) => void;
+  }
   useEffect(() => {
     if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && typeof window.gtag === 'function') {
       window.gtag('event', 'page_view', {
