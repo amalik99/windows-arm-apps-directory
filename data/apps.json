@@ -419,21 +419,21 @@
   "id": "046",
   "name": "Inkscape",
   "category": "Development & Design",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://inkscape.org/release/",
   "storeLink": "https://apps.microsoft.com/detail/9pd9bhglfc7h?hl=en-us&gl=US",
   "remarks": "Inkscape is a free, open-source vector graphics editor used for creating and editing illustrations, logos, diagrams, and more.",
-  "icon": "https://inkscape.org/static/images/inkscape-logo.svg"
+  "icon": "https://media.inkscape.org/static/images/inkscape-logo.svg"
 },
 {
   "id": "047",
   "name": "Malwarebytes",
   "category": "Security & Optimization",
-  "status": "Available Natively",
+  "status": "Unknown",
   "directDownloadLink": "https://www.malwarebytes.com/mwb-download/",
   "storeLink": null,
-  "remarks": "Malwarebytes fully supports ARM-based devices with native protection.",
-  "icon": "https://www.malwarebytes.com/assets/icons/favicon.ico"
+  "remarks": "Malwarebytes is anti-malware software for Microsoft Windows, macOS, ChromeOS, Android, and iOS that finds and removes malware.",
+  "icon": "https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/footer-logo-1.svg"
 },
 {
   "id": "048",
@@ -449,29 +449,20 @@
   "id": "049",
   "name": "Avast Free Antivirus",
   "category": "Security & Optimization",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.avast.com/free-antivirus-download",
   "storeLink": "https://apps.microsoft.com/detail/XPDNZJFNCR1B07?hl=en-US&gl=US",
   "remarks": "Avast Free Antivirus provides real-time protection against malware and viruses.",
   "icon": "https://www.avast.com/favicon.ico"
 },
-{
-  "id": "050",
-  "name": "Kaspersky Internet Security",
-  "category": "Security & Optimization",
-  "status": "Available Natively",
-  "directDownloadLink": "https://www.kaspersky.com/downloads",
-  "storeLink": null,
-  "remarks": "Kaspersky offers advanced protection against malware, phishing, and ransomware.",
-  "icon": "https://www.kaspersky.com/favicon.ico"
-},
+
 {
   "id": "051",
-  "name": "LastPass",
+  "name": "LastPass for Windows Desktop",
   "category": "Security & Optimization",
   "status": "Available Natively",
   "directDownloadLink": "https://www.lastpass.com/download",
-  "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj3k1?hl=en-US&gl=US",
+  "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj3qk",
   "remarks": "LastPass securely stores and autofills passwords with AES-256 encryption.",
   "icon": "https://www.lastpass.com/favicon.ico"
 },
