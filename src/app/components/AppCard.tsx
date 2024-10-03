@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { FaDownload } from 'react-icons/fa'
+import { FaDownload, FaCheckCircle, FaTimesCircle, FaQuestionCircle, FaExclamationTriangle } from 'react-icons/fa'
 import Image from 'next/image'
 
 interface AppCardProps {
@@ -26,15 +26,15 @@ const AppCard: React.FC<AppCardProps> = ({
   const getStatusIcon = () => {
     switch (status) {
       case 'Available Natively':
-        return <span className="text-green-500">●</span>
+        return <FaCheckCircle className="text-green-500" />
       case 'Available via Emulation':
-        return <span className="text-yellow-500">●</span>
+        return <FaExclamationTriangle className="text-yellow-500" />
       case 'Not Available':
-        return <span className="text-red-500">●</span>
+        return <FaTimesCircle className="text-red-500" />
       case 'Unknown':
-        return <span className="text-gray-500">●</span>
+        return <FaQuestionCircle className="text-gray-500" />
       default:
-        return <span className="text-gray-500">●</span>
+        return <FaQuestionCircle className="text-gray-500" />
     }
   }
 
@@ -58,8 +58,8 @@ const AppCard: React.FC<AppCardProps> = ({
           </div>
         </div>
         <div className="flex items-center mb-4">
-          {getStatusIcon()}
-          <span className="ml-2 text-sm text-gray-700 dark:text-gray-300">{status}</span>
+          <span className="mr-2">{getStatusIcon()}</span>
+          <span className="text-sm text-gray-700 dark:text-gray-300">{status}</span>
         </div>
         <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{remarks}</p>
         <div className="flex space-x-2">
