@@ -404,6 +404,86 @@
   "storeLink": "https://apps.microsoft.com/detail/xpfd4t9n395qn6?hl=en-US&gl=US",
   "remarks": "Adobe Photoshop is natively available for ARM64 with some feature limitations on Windows ARM.",
   "icon": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/photoshop.svg"
+},
+{
+  "id": "045",
+  "name": "GIMP",
+  "category": "Development & Design",
+  "status": "Available Natively",
+  "directDownloadLink": "https://www.gimp.org/downloads/",
+  "storeLink": "https://apps.microsoft.com/detail/xpdm27w10192q0?hl=en-US&gl=US",
+  "remarks": "GIMP is a free, open-source image editor available on multiple platforms, including Windows, with experimental ARM64 support.",
+  "icon": "https://www.gimp.org/images/frontpage/wilber-big.png"
+},
+{
+  "id": "046",
+  "name": "Inkscape",
+  "category": "Development & Design",
+  "status": "Available Natively",
+  "directDownloadLink": "https://inkscape.org/release/",
+  "storeLink": "https://apps.microsoft.com/detail/9pd9bhglfc7h?hl=en-us&gl=US",
+  "remarks": "Inkscape is a free, open-source vector graphics editor used for creating and editing illustrations, logos, diagrams, and more.",
+  "icon": "https://inkscape.org/static/images/inkscape-logo.svg"
+},
+{
+  "id": "047",
+  "name": "Malwarebytes",
+  "category": "Security & Optimization",
+  "status": "Available Natively",
+  "directDownloadLink": "https://www.malwarebytes.com/mwb-download/",
+  "storeLink": null,
+  "remarks": "Malwarebytes fully supports ARM-based devices with native protection.",
+  "icon": "https://www.malwarebytes.com/assets/icons/favicon.ico"
+},
+{
+  "id": "048",
+  "name": "CCleaner",
+  "category": "Security & Optimization",
+  "status": "Available Natively",
+  "directDownloadLink": "https://www.ccleaner.com/ccleaner/download",
+  "storeLink": "https://apps.microsoft.com/detail/xpfcwp0sqwxm3v?hl=en-ca&gl=ca",
+  "remarks": "CCleaner is a popular tool for cleaning and optimizing Windows systems.",
+  "icon": "https://www.ccleaner.com/favicon.ico"
+},
+{
+  "id": "049",
+  "name": "Avast Free Antivirus",
+  "category": "Security & Optimization",
+  "status": "Available Natively",
+  "directDownloadLink": "https://www.avast.com/free-antivirus-download",
+  "storeLink": "https://apps.microsoft.com/detail/XPDNZJFNCR1B07?hl=en-US&gl=US",
+  "remarks": "Avast Free Antivirus provides real-time protection against malware and viruses.",
+  "icon": "https://www.avast.com/favicon.ico"
+},
+{
+  "id": "050",
+  "name": "Kaspersky Internet Security",
+  "category": "Security & Optimization",
+  "status": "Available Natively",
+  "directDownloadLink": "https://www.kaspersky.com/downloads",
+  "storeLink": null,
+  "remarks": "Kaspersky offers advanced protection against malware, phishing, and ransomware.",
+  "icon": "https://www.kaspersky.com/favicon.ico"
+},
+{
+  "id": "051",
+  "name": "LastPass",
+  "category": "Security & Optimization",
+  "status": "Available Natively",
+  "directDownloadLink": "https://www.lastpass.com/download",
+  "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj3k1?hl=en-US&gl=US",
+  "remarks": "LastPass securely stores and autofills passwords with AES-256 encryption.",
+  "icon": "https://www.lastpass.com/favicon.ico"
+},
+{
+  "id": "052",
+  "name": "Dashlane",
+  "category": "Security & Optimization",
+  "status": "Available Natively",
+  "directDownloadLink": "https://www.dashlane.com/download",
+  "storeLink": null,
+  "remarks": "Dashlane securely stores passwords and provides autofill with additional features like password health monitoring.",
+  "icon": "https://www.dashlane.com/favicon.ico"
 }
 
     
