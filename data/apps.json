@@ -301,7 +301,29 @@
         "storeLink": null,
         "remarks": "Audible discontinued their Windows app, but users can listen via their web browser or mobile app.",
         "icon": "https://www.audible.com/favicon.ico"
+      },
+      {
+        "id": "032",
+        "name": "iTunes",
+        "category": "Media",
+        "status": "Available Natively",
+        "directDownloadLink": "https://www.apple.com/itunes/download/",
+        "storeLink": "https://apps.microsoft.com/detail/9pb2mz1zmb1s?hl=en-us&gl=US",
+        "remarks": "iTunes allows users to manage their music, movies, and TV shows, and access Apple Music.",
+        "icon": "https://www.apple.com/favicon.ico"
+      },
+      {
+        "id": "033",
+        "name": "Kodi",
+        "category": "Media",
+        "status": "Available Natively",
+        "directDownloadLink": "https://kodi.tv/download",
+        "storeLink": "https://apps.microsoft.com/detail/9nblggh4t892?hl=en-US&gl=US",
+        "remarks": "Kodi is a free and open-source media player and entertainment hub for digital media.",
+        "icon": "https://kodi.tv/sites/default/themes/kodi/favicon.ico"
       }
+    
+    
 
 
 
