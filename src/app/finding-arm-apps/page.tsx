@@ -3,11 +3,10 @@ import React from 'react';
 import Image from 'next/image';
 import { useEffect } from 'react'
 
-
-export default function FindingARMApps() {
-
+// Declare the gtag function type
+declare global {
   interface Window {
-    gtag: (
+    gtag?: (
       type: string,
       eventName: string,
       eventParams?: {
@@ -15,9 +14,28 @@ export default function FindingARMApps() {
       }
     ) => void;
   }
+}
+
+export default function FindingARMApps() {
+
   useEffect(() => {
-    if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && typeof window.gtag === 'function') {
-      window.gtag('event', 'page_view', {
+    // Define gtag function type
+    type GtagFunction = (
+      type: string,
+      eventName: string,
+      eventParams?: {
+        [key: string]: any;
+      }
+    ) => void;
+
+    // Check if gtag is available and assert its type
+    if (
+      process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID &&
+      typeof window.gtag === 'function'
+    ) {
+      const gtag = window.gtag as GtagFunction;
+      
+      gtag('event', 'page_view', {
         page_title: 'Finding ARM Apps',
         page_location: window.location.href,
         page_path: '/finding-arm-apps',

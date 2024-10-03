@@ -2,19 +2,24 @@
 import { useEffect } from 'react'
 
 export default function Contribute() {
-
-  interface Window {
-    gtag: (
+  useEffect(() => {
+    // Define gtag function type
+    type GtagFunction = (
       type: string,
       eventName: string,
       eventParams?: {
         [key: string]: any;
       }
     ) => void;
-  }
-  useEffect(() => {
-    if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && typeof window.gtag === 'function') {
-      window.gtag('event', 'page_view', {
+
+    // Check if gtag is available and assert its type
+    if (
+      process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID &&
+      typeof (window as any).gtag === 'function'
+    ) {
+      const gtag = (window as any).gtag as GtagFunction;
+      
+      gtag('event', 'page_view', {
         page_title: 'Contribute',
         page_location: window.location.href,
         page_path: '/contribute',
