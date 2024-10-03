@@ -1,6 +1,6 @@
 {
   "apps": [
-  
+
       {
         "id": "001",
         "name": "Microsoft Office 365",
@@ -14,7 +14,7 @@
       {
         "id": "002",
         "name": "Slack",
-        "category": "Productivity",
+        "category": "Communication",
         "status": "Available Natively",
         "directDownloadLink": "https://slack.com/downloads/windows",
         "storeLink": "https://apps.microsoft.com/detail/9wzdncrdk3wp?hl=en-us&gl=US",
@@ -24,7 +24,7 @@
       {
         "id": "003",
         "name": "Zoom",
-        "category": "Productivity",
+        "category": "Communication",
         "status": "Available Natively",
         "directDownloadLink": "https://zoom.us/download",
         "storeLink": "https://apps.microsoft.com/detail/xp99j3kp4xz4vv?hl=en-US&gl=US",
@@ -54,7 +54,7 @@
       {
         "id": "006",
         "name": "Bitwarden",
-        "category": "Productivity",
+        "category": "Security",
         "status": "Available Natively",
         "directDownloadLink": "https://bitwarden.com/download",
         "storeLink": "https://apps.microsoft.com/detail/9pjsdv0vpk04?hl=en-us&gl=US",
@@ -64,7 +64,7 @@
       {
         "id": "007",
         "name": "Google Chrome",
-        "category": "Productivity",
+        "category": "Utilities",
         "status": "Available Natively",
         "directDownloadLink": "https://www.google.com/chrome/",
         "storeLink": null,
@@ -74,7 +74,7 @@
       {
         "id": "008",
         "name": "Microsoft Teams",
-        "category": "Productivity",
+        "category": "Communication",
         "status": "Available Natively",
         "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-teams/download-app",
         "storeLink": "https://apps.microsoft.com/store/detail/microsoft-teams/XPFFFQTYF17TCR?hl=en-us&gl=us",
@@ -84,7 +84,7 @@
       {
         "id": "009",
         "name": "WhatsApp Desktop",
-        "category": "Productivity",
+        "category": "Communication",
         "status": "Available Natively",
         "directDownloadLink": "https://www.whatsapp.com/download",
         "storeLink": "https://apps.microsoft.com/detail/9nksqgp7f2nh?hl=en-US&gl=US",
@@ -114,7 +114,7 @@
       {
         "id": "012",
         "name": "Gmail",
-        "category": "Productivity",
+        "category": "Communication",
         "status": "Not Available",
         "directDownloadLink": null,
         "storeLink": null,
@@ -124,7 +124,7 @@
       {
         "id": "013",
         "name": "Thunderbird",
-        "category": "Productivity",
+        "category": "Communication",
         "status": "Available via Emulation",
         "directDownloadLink": "https://www.thunderbird.net/en-US/download/",
         "storeLink": "https://apps.microsoft.com/detail/mozilla-thunderbird-email/9PM5VM1S3VMQ?hl=en-US&gl=US",
@@ -134,7 +134,7 @@
       {
         "id": "014",
         "name": "Skype",
-        "category": "Productivity",
+        "category": "Communication",
         "status": "Available via Emulation",
         "directDownloadLink": "https://www.skype.com/en/get-skype/",
         "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj364?hl=en-us&gl=US",
@@ -144,7 +144,7 @@
       {
         "id": "015",
         "name": "Signal",
-        "category": "Productivity",
+        "category": "Communication",
         "status": "Available via Emulation",
         "directDownloadLink": "https://signal.org/download/windows/",
         "storeLink": null,
@@ -154,7 +154,7 @@
       {
         "id": "016",
         "name": "Discord",
-        "category": "Social",
+        "category": "Communication",
         "status": "Available via Emulation",
         "directDownloadLink": "https://discord.com/download",
         "storeLink": "https://apps.microsoft.com/detail/xpdc2rh70k22mn?hl=en-US&gl=US",
@@ -225,14 +225,14 @@
       {
         "id": "024",
         "name": "Files App",
-        "category": "Productivity",
+        "category": "Utilities",
         "status": "Available Natively",
         "directDownloadLink": "https://files.community/download",
         "storeLink": "https://apps.microsoft.com/detail/9NGHP3DX8HDX?hl=en-us&gl=US",
         "remarks": "Files App is a sleek file manager for Windows that enhances file navigation and management.",
         "icon": "https://files.community/branding/logo-dark.svg"
       },
-   
+     
     
       {
         "id": "027",
@@ -305,378 +305,364 @@
         "icon": "https://kodi.tv/images/kodi-logo-with-text.svg"
       },
     {
-  "id": "034",
-  "name": "Tidal",
-  "category": "Media",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://tidal.com/download",
-  "storeLink": "https://apps.microsoft.com/detail/9nncb5bs59ph?hl=en-us&gl=US",
-  "remarks": "Tidal is a music streaming platform offering high-fidelity sound and exclusive artist content.",
-  "icon": "https://tidal.com/favicon.ico"
-},
-{
-  "id": "035",
-  "name": "Audacity",
-  "category": "Media & Entertainment",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.audacityteam.org/download/",
-  "storeLink": "https://apps.microsoft.com/detail/xp8k0j757hhrdw?hl=en-US&gl=US",
-  "remarks": "Audacity is a free, open-source audio editing tool widely used for editing podcasts, music tracks, and other audio recordings.",
-  "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxseQJV573Uwugf0POF9I45CxYkDTe9L9RpBQ0NviXnyGtveCxdSwzcWHn8q6VdXAjJYtSJdpsx8zzt0MgOW6boc-&format=source&h=210"
-},
-{
-  "id": "036",
-  "name": "OBS Studio",
-  "category": "Media & Entertainment",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://obsproject.com/download",
-  "storeLink": "https://apps.microsoft.com/detail/xpffh613w8v6lv?hl=en-US&gl=US",
-  "remarks": "OBS Studio is a free, open-source tool for video recording and live streaming, compatible with ARM64 systems on Windows.",
-  "icon": "https://obsproject.com/assets/images/new_icon_small-r.png"
-},
-{
-  "id": "037",
-  "name": "Visual Studio Code",
-  "category": "Development & Design",
-  "status": "Available Natively",
-  "directDownloadLink": "https://code.visualstudio.com/download",
-  "storeLink": "https://apps.microsoft.com/detail/xp9khm4bk9fz7q?hl=en-US&gl=US",
-  "remarks": "VSCode,A free, lightweight code editor available natively for ARM64 devices on Windows.",
-  "icon": "https://code.visualstudio.com/assets/images/code-stable.png"
-},
-{
-  "id": "038",
-  "name": "Atom",
-  "category": "Development & Design",
-  "status": "Not Available",
-  "directDownloadLink": "https://github.com/atom/atom/releases",
-  "storeLink": null,
-  "remarks": "Atom is no longer actively maintained and does not natively support ARM64 on Windows.",
-  "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png"
-},
-{
-  "id": "039",
-  "name": "Sublime Text",
-  "category": "Development & Design",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.sublimetext.com/",
-  "storeLink": null,
-  "remarks": "Sublime Text supports ARM64 natively for macOS and Linux, but requires emulation on Windows ARM64.",
-  "icon": "https://www.sublimetext.com/images/icon.png"
-},
-{
-  "id": "040",
-  "name": "XAMPP",
-  "category": "Development & Design",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.apachefriends.org/index.html",
-  "storeLink": null,
-  "remarks": "XAMPP is available natively on Windows, Linux, and macOS but lacks native support for Windows ARM64.",
-  "icon": "https://www.apachefriends.org/images/xampp-logo-ac950edf.svg"
-},
-{
-  "id": "041",
-  "name": "Notepad++",
-  "category": "Development & Design",
-  "status": "Available Natively",
-  "directDownloadLink": "https://notepad-plus-plus.org/downloads/",
-  "storeLink": null,
-  "remarks": "Notepad++ supports ARM64 natively as of version 8.",
-  "icon": "https://notepad-plus-plus.org/images/logo.svg"
-},
-{
-  "id": "042",
-  "name": "GitHub Desktop",
-  "category": "Development & Design",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://desktop.github.com/",
-  "storeLink": null,
-  "remarks": "GitHub Desktop lacks native ARM64 support but can be run via x64 emulation, Beta available for ARM64",
-  "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/128px-Github-desktop-logo-symbol.svg.png?20200316183539"
-},
-
-{
-  "id": "044",
-  "name": "Adobe Photoshop",
-  "category": "Development & Design",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.adobe.com/products/photoshop.html",
-  "storeLink": "https://apps.microsoft.com/detail/xpfd4t9n395qn6?hl=en-US&gl=US",
-  "remarks": "Adobe Photoshop is natively available for ARM64 with some feature limitations on Windows ARM.",
-  "icon": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/photoshop.svg"
-},
-{
-  "id": "045",
-  "name": "GIMP",
-  "category": "Development & Design",
-  "status": "Available Natively",
-  "directDownloadLink": "https://www.gimp.org/downloads/",
-  "storeLink": "https://apps.microsoft.com/detail/xpdm27w10192q0?hl=en-US&gl=US",
-  "remarks": "GIMP is a free, open-source image editor available on multiple platforms, including Windows, with experimental ARM64 support.",
-  "icon": "https://www.gimp.org/images/frontpage/wilber-big.png"
-},
-{
-  "id": "046",
-  "name": "Inkscape",
-  "category": "Development & Design",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://inkscape.org/release/",
-  "storeLink": "https://apps.microsoft.com/detail/9pd9bhglfc7h?hl=en-us&gl=US",
-  "remarks": "Inkscape is a free, open-source vector graphics editor used for creating and editing illustrations, logos, diagrams, and more.",
-  "icon": "https://media.inkscape.org/static/images/inkscape-logo.svg"
-},
-{
-  "id": "047",
-  "name": "Malwarebytes",
-  "category": "Security & Optimization",
-  "status": "Unknown",
-  "directDownloadLink": "https://www.malwarebytes.com/mwb-download/",
-  "storeLink": null,
-  "remarks": "Malwarebytes is anti-malware software for Microsoft Windows, macOS, ChromeOS, Android, and iOS that finds and removes malware.",
-  "icon": "https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/footer-logo-1.svg"
-},
-{
-  "id": "048",
-  "name": "CCleaner",
-  "category": "Security & Optimization",
-  "status": "Available Natively",
-  "directDownloadLink": "https://www.ccleaner.com/ccleaner/download",
-  "storeLink": "https://apps.microsoft.com/detail/xpfcwp0sqwxm3v?hl=en-ca&gl=ca",
-  "remarks": "CCleaner is a popular tool for cleaning and optimizing Windows systems.",
-  "icon": "https://www.ccleaner.com/favicon.ico"
-},
-{
-  "id": "049",
-  "name": "Avast Free Antivirus",
-  "category": "Security & Optimization",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.avast.com/free-antivirus-download",
-  "storeLink": "https://apps.microsoft.com/detail/XPDNZJFNCR1B07?hl=en-US&gl=US",
-  "remarks": "Avast Free Antivirus provides real-time protection against malware and viruses.",
-  "icon": "https://www.avast.com/favicon.ico"
-},
-
-{
-  "id": "051",
-  "name": "LastPass for Windows Desktop",
-  "category": "Security & Optimization",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.lastpass.com/download",
-  "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj3qk",
-  "remarks": "LastPass securely stores and autofills passwords with AES-256 encryption.",
-  "icon": "https://www.lastpass.com/favicon.ico"
-},
-{
-  "id": "052",
-  "name": "Dashlane",
-  "category": "Security & Optimization",
-  "status": "Available Natively",
-  "directDownloadLink": "https://www.dashlane.com/download",
-  "storeLink": null,
-  "remarks": "Dashlane securely stores passwords and provides autofill with additional features like password health monitoring.",
-  "icon": "https://store-images.s-microsoft.com/image/apps.44258.78499670-4411-4c7e-866e-5ebf3a36d5df.83f5370b-f507-4e3b-83f9-caea03ca89da.2f591c7b-2315-4d4b-a261-41afa8b527d0?mode=scale&h=100&q=90&w=100"
-},
-{
-  "id": "053",
-  "name": "NordVPN",
-  "category": "Security & Optimization",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://nordvpn.com/download",
-  "storeLink": null,
-  "remarks": "NordVPN offers a secure VPN service with multiple servers and encryption for privacy.",
-  "icon": "https://s1.nordcdn.com/nordvpn/media/1.2164.0/images/cms/benefits/multiple-devices/laptop-phone-tablet-protection-fast-multiple-devices-md.webp"
-},
-
-
-{
-  "id": "056",
-  "name": "Adobe Premiere Pro",
-  "category": "Creative Software",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.adobe.com/in/products/premiere.html",
-  "storeLink": null,
-  "remarks": "Adobe Premiere Pro is a leading video editing tool with AI features for faster workflows.",
-  "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro.svg"
-},
-{
-  "id": "057",
-  "name": "DaVinci Resolve",
-  "category": "Creative Software",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.blackmagicdesign.com/products/davinciresolve",
-  "storeLink": null,
-  "remarks": "DaVinci Resolve is a professional video editing software used for color correction, audio post-production, and VFX.",
-  "icon": "https://images.blackmagicdesign.com/images/products/davinciresolve/common/resolve-19-logo.svg?_v=1712289576"
-},
-{
-  "id": "058",
-  "name": "Adobe Lightroom",
-  "category": "Creative Software",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.adobe.com/products/photoshop-lightroom.html",
-  "storeLink": "https://apps.microsoft.com/store/detail/adobe-lightroom/XPFFNX1B8TXC0V?hl=en-us&gl=us",
-  "remarks": "Adobe Lightroom is an AI-powered tool for editing, organizing, and sharing photos and videos.",
-  "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/lightroom.svg"
-},
-{
-  "id": "059",
-  "name": "CorelDRAW",
-  "category": "Creative Software",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.coreldraw.com/en/free-trials/",
-  "storeLink": "https://apps.microsoft.com/detail/XPDM28CQSPXTWQ?hl=en-ww&gl=ww",
-  "remarks": "CorelDRAW is a powerful vector illustration and graphic design tool used for a wide range of creative projects.",
-  "icon": "https://www.coreldraw.com/static/cdgs/images/coreldraw-wordmark-color.png"
-},
-{
-  "id": "060",
-  "name": "Blender",
-  "category": "Creative Software",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.blender.org/download/",
-  "storeLink": "https://apps.microsoft.com/detail/9pp3c07gtvrh?hl=en-us&gl=us",
-  "remarks": "Blender is a free and open-source tool for 3D modeling, animation, and rendering.",
-  "icon": "https://www.blender.org/favicon.ico"
-},
-{
-  "id": "061",
-  "name": "Krita",
-  "category": "Creative Software",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://krita.org/en/download/",
-  "storeLink": "https://apps.microsoft.com/detail/9n6x57zgrw96?hl=en-us&gl=US",
-  "remarks": "Krita is a free and open-source digital painting tool used for illustrations, comics, and animations.",
-  "icon": "https://krita.org/favicon.ico"
-},
-{
-  "id": "062",
-  "name": "Steam",
-  "category": "Gaming & Performance Tools",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://store.steampowered.com/about/",
-  "storeLink": null,
-  "remarks": "Steam is a popular platform for purchasing, downloading, and playing PC games.",
-  "icon": "https://store.steampowered.com/favicon.ico"
-},
-{
-  "id": "063",
-  "name": "Epic Games Store",
-  "category": "Gaming & Performance Tools",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://store.epicgames.com/en/download",
-  "storeLink": "https://apps.microsoft.com/detail/xp99vr1bpsbqj2?hl=en-US&gl=US",
-  "remarks": "Epic Games Launcher is used for downloading, purchasing, and playing PC games like Fortnite and Rocket League.",
-  "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxg5le_71pSmzlLco9xckzgo0BEdZxwKw6McwkrT4GpgCDjU34Cf_N1FycqkOB65pK.4msYj7eYFlnnxlBelebdM-&format=source&h=210"
-},
-{
-  "id": "064",
-  "name": "Razer Cortex",
-  "category": "Gaming & Performance Tools",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.razer.com/mena-en/cortex",
-  "storeLink": "https://apps.microsoft.com/detail/9pk9w5qv2pkx?hl=en-us&gl=US",
-  "remarks": "Razer Cortex optimizes PC performance for gaming by freeing up system resources and boosting FPS.",
-  "icon": "https://www.razer.com/favicon.ico"
-},
-
-{
-  "id": "066",
-  "name": "GeForce Experience",
-  "category": "Gaming & Performance Tools",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.nvidia.com/en-us/geforce/geforce-experience/",
-  "storeLink": null,
-  "remarks": "GeForce Experience optimizes game settings, updates drivers, and enables gameplay recording for NVIDIA GPUs.",
-  "icon": "https://www.nvidia.com/favicon.ico"
-},
-{
-  "id": "067",
-  "name": "Duolingo",
-  "category": "Education & Learning",
-  "status": "Available Natively",
-  "directDownloadLink": "https://www.duolingo.com/",
-  "storeLink": "https://apps.microsoft.com/detail/9wzdncrcv5xn?hl=en-us&gl=us",
-  "remarks": "Duolingo offers free, gamified lessons to help users learn over 40 languages.",
-  "icon": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg"
-},
-
-
-
-{
-  "id": "071",
-  "name": "Adobe Photoshop Express",
-  "category": "Photo & Video",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.adobe.com/products/photoshop-express.html",
-  "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRFJ27N?ocid=pdpshare",
-  "remarks": "A simplified version of Photoshop for quick and easy photo edits on mobile and desktop.",
-  "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/photoshop-express-64.svg"
-},
-{
-  "id": "072",
-  "name": "IrfanView",
-  "category": "Photo & Video",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.irfanview.com/",
-  "storeLink": "https://apps.microsoft.com/detail/9nl0r0jnnzm0",
-  "remarks": "A lightweight and fast image viewer and editor supporting multiple formats.",
-  "icon": "https://www.irfanview.com/images/logo.png"
-},
-
-{
-  "id": "074",
-  "name": "Loom",
-  "category": "Photo & Video",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.loom.com/download",
-  "storeLink": null,
-  "remarks": "A versatile screen recording tool that supports capturing screen and webcam with instant sharing.",
-  "icon": "https://cdn.sanity.io/images/pvn35iyy/production/ed4626352add7a8aa7f018a082d42f223df93392-403x278.svg?auto=format&dpr=1"
-},
-
-
-{
-  "id": "078",
-  "name": "Rainmeter",
-  "category": "Miscellaneous Tools",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://www.rainmeter.net/",
-  "storeLink": null,
-  "remarks": "A desktop customization tool that allows users to display skins for system monitoring, widgets, and more.",
-  "icon": "https://www.rainmeter.net/img/logo_nav.png"
-},
-
-
-{
-  "id": "080",
-  "name": "Todoist",
-  "category": "Miscellaneous Tools",
-  "status": "Available Natively",
-  "directDownloadLink": "https://todoist.com/downloads",
-  "storeLink": "https://apps.microsoft.com/detail/xp99k37g9cwbdc",
-  "remarks": "A powerful task manager that helps users organize their tasks and projects across multiple platforms.",
-  "icon": "https://todoist.com/favicon.ico"
-}
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    ]
-
-}
+    "id": "034",
+    "name": "Tidal",
+    "category": "Media",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://tidal.com/download",
+    "storeLink": "https://apps.microsoft.com/detail/9nncb5bs59ph?hl=en-us&gl=US",
+    "remarks": "Tidal is a music streaming platform offering high-fidelity sound and exclusive artist content.",
+    "icon": "https://tidal.com/favicon.ico"
+  },
+  {
+    "id": "035",
+    "name": "Audacity",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.audacityteam.org/download/",
+    "storeLink": "https://apps.microsoft.com/detail/xp8k0j757hhrdw?hl=en-US&gl=US",
+    "remarks": "Audacity is a free, open-source audio editing tool widely used for editing podcasts, music tracks, and other audio recordings.",
+    "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxseQJV573Uwugf0POF9I45CxYkDTe9L9RpBQ0NviXnyGtveCxdSwzcWHn8q6VdXAjJYtSJdpsx8zzt0MgOW6boc-&format=source&h=210"
+  },
+  {
+    "id": "036",
+    "name": "OBS Studio",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://obsproject.com/download",
+    "storeLink": "https://apps.microsoft.com/detail/xpffh613w8v6lv?hl=en-US&gl=US",
+    "remarks": "OBS Studio is a free, open-source tool for video recording and live streaming, compatible with ARM64 systems on Windows.",
+    "icon": "https://obsproject.com/assets/images/new_icon_small-r.png"
+  },
+  {
+    "id": "037",
+    "name": "Visual Studio Code",
+    "category": "Development",
+    "status": "Available Natively",
+    "directDownloadLink": "https://code.visualstudio.com/download",
+    "storeLink": "https://apps.microsoft.com/detail/xp9khm4bk9fz7q?hl=en-US&gl=US",
+    "remarks": "VSCode,A free, lightweight code editor available natively for ARM64 devices on Windows.",
+    "icon": "https://code.visualstudio.com/assets/images/code-stable.png"
+  },
+  {
+    "id": "038",
+    "name": "Atom",
+    "category": "Development",
+    "status": "Not Available",
+    "directDownloadLink": "https://github.com/atom/atom/releases",
+    "storeLink": null,
+    "remarks": "Atom is no longer actively maintained and does not natively support ARM64 on Windows.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png"
+  },
+  {
+    "id": "039",
+    "name": "Sublime Text",
+    "category": "Development",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.sublimetext.com/",
+    "storeLink": null,
+    "remarks": "Sublime Text supports ARM64 natively for macOS and Linux, but requires emulation on Windows ARM64.",
+    "icon": "https://www.sublimetext.com/images/icon.png"
+  },
+  {
+    "id": "040",
+    "name": "XAMPP",
+    "category": "Development",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.apachefriends.org/index.html",
+    "storeLink": null,
+    "remarks": "XAMPP is available natively on Windows, Linux, and macOS but lacks native support for Windows ARM64.",
+    "icon": "https://www.apachefriends.org/images/xampp-logo-ac950edf.svg"
+  },
+  {
+    "id": "041",
+    "name": "Notepad++",
+    "category": "Development",
+    "status": "Available Natively",
+    "directDownloadLink": "https://notepad-plus-plus.org/downloads/",
+    "storeLink": null,
+    "remarks": "Notepad++ supports ARM64 natively as of version 8.",
+    "icon": "https://notepad-plus-plus.org/images/logo.svg"
+  },
+  {
+    "id": "042",
+    "name": "GitHub Desktop",
+    "category": "Development",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://desktop.github.com/",
+    "storeLink": null,
+    "remarks": "GitHub Desktop lacks native ARM64 support but can be run via x64 emulation, Beta available for ARM64",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/128px-Github-desktop-logo-symbol.svg.png?20200316183539"
+  },
   
+  {
+    "id": "044",
+    "name": "Adobe Photoshop",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.adobe.com/products/photoshop.html",
+    "storeLink": "https://apps.microsoft.com/detail/xpfd4t9n395qn6?hl=en-US&gl=US",
+    "remarks": "Adobe Photoshop is natively available for ARM64 with some feature limitations on Windows ARM.",
+    "icon": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/photoshop.svg"
+  },
+  {
+    "id": "045",
+    "name": "GIMP",
+    "category": "Creative",
+    "status": "Available Natively",
+    "directDownloadLink": "https://www.gimp.org/downloads/",
+    "storeLink": "https://apps.microsoft.com/detail/xpdm27w10192q0?hl=en-US&gl=US",
+    "remarks": "GIMP is a free, open-source image editor available on multiple platforms, including Windows, with experimental ARM64 support.",
+    "icon": "https://www.gimp.org/images/frontpage/wilber-big.png"
+  },
+  {
+    "id": "046",
+    "name": "Inkscape",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://inkscape.org/release/",
+    "storeLink": "https://apps.microsoft.com/detail/9pd9bhglfc7h?hl=en-us&gl=US",
+    "remarks": "Inkscape is a free, open-source vector graphics editor used for creating and editing illustrations, logos, diagrams, and more.",
+    "icon": "https://media.inkscape.org/static/images/inkscape-logo.svg"
+  },
+  {
+    "id": "047",
+    "name": "Malwarebytes",
+    "category": "Security",
+    "status": "Unknown",
+    "directDownloadLink": "https://www.malwarebytes.com/mwb-download/",
+    "storeLink": null,
+    "remarks": "Malwarebytes is anti-malware software for Microsoft Windows, macOS, ChromeOS, Android, and iOS that finds and removes malware.",
+    "icon": "https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/footer-logo-1.svg"
+  },
+  {
+    "id": "048",
+    "name": "CCleaner",
+    "category": "Utilities",
+    "status": "Available Natively",
+    "directDownloadLink": "https://www.ccleaner.com/ccleaner/download",
+    "storeLink": "https://apps.microsoft.com/detail/xpfcwp0sqwxm3v?hl=en-ca&gl=ca",
+    "remarks": "CCleaner is a popular tool for cleaning and optimizing Windows systems.",
+    "icon": "https://www.ccleaner.com/favicon.ico"
+  },
+  {
+    "id": "049",
+    "name": "Avast Free Antivirus",
+    "category": "Security",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.avast.com/free-antivirus-download",
+    "storeLink": "https://apps.microsoft.com/detail/XPDNZJFNCR1B07?hl=en-US&gl=US",
+    "remarks": "Avast Free Antivirus provides real-time protection against malware and viruses.",
+    "icon": "https://www.avast.com/favicon.ico"
+  },
+  
+  {
+    "id": "051",
+    "name": "LastPass for Windows Desktop",
+    "category": "Security",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.lastpass.com/download",
+    "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj3qk",
+    "remarks": "LastPass securely stores and autofills passwords with AES-256 encryption.",
+    "icon": "https://www.lastpass.com/favicon.ico"
+  },
+  {
+    "id": "052",
+    "name": "Dashlane",
+    "category": "Security",
+    "status": "Available Natively",
+    "directDownloadLink": "https://www.dashlane.com/download",
+    "storeLink": null,
+    "remarks": "Dashlane securely stores passwords and provides autofill with additional features like password health monitoring.",
+    "icon": "https://store-images.s-microsoft.com/image/apps.44258.78499670-4411-4c7e-866e-5ebf3a36d5df.83f5370b-f507-4e3b-83f9-caea03ca89da.2f591c7b-2315-4d4b-a261-41afa8b527d0?mode=scale&h=100&q=90&w=100"
+  },
+  {
+    "id": "053",
+    "name": "NordVPN",
+    "category": "Security",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://nordvpn.com/download",
+    "storeLink": null,
+    "remarks": "NordVPN offers a secure VPN service with multiple servers and encryption for privacy.",
+    "icon": "https://s1.nordcdn.com/nordvpn/media/1.2164.0/images/cms/benefits/multiple-devices/laptop-phone-tablet-protection-fast-multiple-devices-md.webp"
+  },
+  
+  
+  {
+    "id": "056",
+    "name": "Adobe Premiere Pro",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.adobe.com/in/products/premiere.html",
+    "storeLink": null,
+    "remarks": "Adobe Premiere Pro is a leading video editing tool with AI features for faster workflows.",
+    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro.svg"
+  },
+  {
+    "id": "057",
+    "name": "DaVinci Resolve",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "storeLink": null,
+    "remarks": "DaVinci Resolve is a professional video editing software used for color correction, audio post-production, and VFX.",
+    "icon": "https://images.blackmagicdesign.com/images/products/davinciresolve/common/resolve-19-logo.svg?_v=1712289576"
+  },
+  {
+    "id": "058",
+    "name": "Adobe Lightroom",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.adobe.com/products/photoshop-lightroom.html",
+    "storeLink": "https://apps.microsoft.com/store/detail/adobe-lightroom/XPFFNX1B8TXC0V?hl=en-us&gl=us",
+    "remarks": "Adobe Lightroom is an AI-powered tool for editing, organizing, and sharing photos and videos.",
+    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/lightroom.svg"
+  },
+  {
+    "id": "059",
+    "name": "CorelDRAW",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.coreldraw.com/en/free-trials/",
+    "storeLink": "https://apps.microsoft.com/detail/XPDM28CQSPXTWQ?hl=en-ww&gl=ww",
+    "remarks": "CorelDRAW is a powerful vector illustration and graphic design tool used for a wide range of creative projects.",
+    "icon": "https://www.coreldraw.com/static/cdgs/images/coreldraw-wordmark-color.png"
+  },
+  {
+    "id": "060",
+    "name": "Blender",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.blender.org/download/",
+    "storeLink": "https://apps.microsoft.com/detail/9pp3c07gtvrh?hl=en-us&gl=us",
+    "remarks": "Blender is a free and open-source tool for 3D modeling, animation, and rendering.",
+    "icon": "https://www.blender.org/favicon.ico"
+  },
+  {
+    "id": "061",
+    "name": "Krita",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://krita.org/en/download/",
+    "storeLink": "https://apps.microsoft.com/detail/9n6x57zgrw96?hl=en-us&gl=US",
+    "remarks": "Krita is a free and open-source digital painting tool used for illustrations, comics, and animations.",
+    "icon": "https://krita.org/favicon.ico"
+  },
+  {
+    "id": "062",
+    "name": "Steam",
+    "category": "Gaming",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://store.steampowered.com/about/",
+    "storeLink": null,
+    "remarks": "Steam is a popular platform for purchasing, downloading, and playing PC games.",
+    "icon": "https://store.steampowered.com/favicon.ico"
+  },
+  {
+    "id": "063",
+    "name": "Epic Games Store",
+    "category": "Gaming",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://store.epicgames.com/en/download",
+    "storeLink": "https://apps.microsoft.com/detail/xp99vr1bpsbqj2?hl=en-US&gl=US",
+    "remarks": "Epic Games Launcher is used for downloading, purchasing, and playing PC games like Fortnite and Rocket League.",
+    "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxg5le_71pSmzlLco9xckzgo0BEdZxwKw6McwkrT4GpgCDjU34Cf_N1FycqkOB65pK.4msYj7eYFlnnxlBelebdM-&format=source&h=210"
+  },
+  {
+    "id": "064",
+    "name": "Razer Cortex",
+    "category": "Gaming",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.razer.com/mena-en/cortex",
+    "storeLink": "https://apps.microsoft.com/detail/9pk9w5qv2pkx?hl=en-us&gl=US",
+    "remarks": "Razer Cortex optimizes PC performance for gaming by freeing up system resources and boosting FPS.",
+    "icon": "https://www.razer.com/favicon.ico"
+  },
+  
+  {
+    "id": "066",
+    "name": "GeForce Experience",
+    "category": "Gaming",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.nvidia.com/en-us/geforce/geforce-experience/",
+    "storeLink": null,
+    "remarks": "GeForce Experience optimizes game settings, updates drivers, and enables gameplay recording for NVIDIA GPUs.",
+    "icon": "https://www.nvidia.com/favicon.ico"
+  },
+  {
+    "id": "067",
+    "name": "Duolingo",
+    "category": "Education",
+    "status": "Available Natively",
+    "directDownloadLink": "https://www.duolingo.com/",
+    "storeLink": "https://apps.microsoft.com/detail/9wzdncrcv5xn?hl=en-us&gl=us",
+    "remarks": "Duolingo offers free, gamified lessons to help users learn over 40 languages.",
+    "icon": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg"
+  },
+  
+  
+  
+  {
+    "id": "071",
+    "name": "Adobe Photoshop Express",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.adobe.com/products/photoshop-express.html",
+    "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRFJ27N?ocid=pdpshare",
+    "remarks": "A simplified version of Photoshop for quick and easy photo edits on mobile and desktop.",
+    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/photoshop-express-64.svg"
+  },
+  {
+    "id": "072",
+    "name": "IrfanView",
+    "category": "Utilities",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.irfanview.com/",
+    "storeLink": "https://apps.microsoft.com/detail/9nl0r0jnnzm0",
+    "remarks": "A lightweight and fast image viewer and editor supporting multiple formats.",
+    "icon": "https://www.irfanview.com/images/logo.png"
+  },
+  
+  {
+    "id": "074",
+    "name": "Loom",
+    "category": "Creative",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.loom.com/download",
+    "storeLink": null,
+    "remarks": "A versatile screen recording tool that supports capturing screen and webcam with instant sharing.",
+    "icon": "https://cdn.sanity.io/images/pvn35iyy/production/ed4626352add7a8aa7f018a082d42f223df93392-403x278.svg?auto=format&dpr=1"
+  },
+  
+  
+  {
+    "id": "078",
+    "name": "Rainmeter",
+    "category": "Personalization",
+    "status": "Available via Emulation",
+    "directDownloadLink": "https://www.rainmeter.net/",
+    "storeLink": null,
+    "remarks": "A desktop customization tool that allows users to display skins for system monitoring, widgets, and more.",
+    "icon": "https://www.rainmeter.net/img/logo_nav.png"
+  },
+  
+  
+  {
+    "id": "080",
+    "name": "Todoist",
+    "category": "Productivity",
+    "status": "Available Natively",
+    "directDownloadLink": "https://todoist.com/downloads",
+    "storeLink": "https://apps.microsoft.com/detail/xp99k37g9cwbdc",
+    "remarks": "A powerful task manager that helps users organize their tasks and projects across multiple platforms.",
+    "icon": "https://todoist.com/favicon.ico"
+  }
+
+
+
+
+
+
+  ]
+
+}
