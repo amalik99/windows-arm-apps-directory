@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import AppCard from './components/AppCard'
 import SearchBar from './components/SearchBar'
 import FilterOptions from './components/FilterOptions'
+import Head from 'next/head'
 
 interface App {
   id: string
@@ -78,6 +79,11 @@ export default function Directory() {
   }
 
   return (
+    <>
+    <Head>
+      <title>Windows ARM Apps Directory</title>
+      <meta name="description" content="A comprehensive directory of applications compatible with Windows ARM64 devices" />
+    </Head>
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="text-center mb-8">
@@ -110,5 +116,6 @@ export default function Directory() {
         )}
       </div>
     </div>
+    </>
   )
 }

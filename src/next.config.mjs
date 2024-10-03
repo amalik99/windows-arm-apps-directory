@@ -13,10 +13,7 @@ const nextConfig = {
         hostname: '*',
       },
     ],
-  },
-  experimental: {
-    appDir: true,
-  },
+  }
 }
 
 export default nextConfig

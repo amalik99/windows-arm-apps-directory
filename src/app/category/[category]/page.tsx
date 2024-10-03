@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import AppCard from '../../components/AppCard'
 import SearchBar from '../../components/SearchBar'
 import FilterOptions from '../../components/FilterOptions'
-
+import Head from 'next/head'
 interface App {
   id: string
   name: string
@@ -72,7 +72,16 @@ export default function CategoryPage({ params }: { params: { category: string } 
   const categoryTitle = decodeURIComponent(params.category)
   const categoryDescription = `Explore our curated collection of ${categoryTitle.toLowerCase()} applications for Windows ARM64 devices.`
 
+  const pageTitle = `${categoryTitle} Apps for Windows ARM`
+  const pageDescription = `Explore our curated collection of ${categoryTitle.toLowerCase()} applications compatible with Windows ARM64 devices.`
+  
   return (
+    <>
+    <Head>
+      <title>{pageTitle}</title>
+      <meta name="description" content={pageDescription} />
+      <meta name="keywords" content={`Windows ARM, ARM64, ${categoryTitle}, applications, directory`} />
+    </Head>
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="text-center mb-8">
@@ -105,5 +114,6 @@ export default function CategoryPage({ params }: { params: { category: string } 
         )}
       </div>
     </div>
+    </>
   )
 }

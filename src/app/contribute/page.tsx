@@ -1,5 +1,13 @@
+import Head from 'next/head'
+
 export default function Contribute() {
   return (
+    <>
+    <Head>
+      <title>Contribute to Windows ARM Apps Directory</title>
+      <meta name="description" content="Learn how to contribute to our comprehensive directory of applications compatible with Windows ARM64 devices." />
+      <meta name="keywords" content="contribute, Windows ARM, ARM64, applications, directory" />
+    </Head>
     <div>
       <h1 className="text-3xl font-bold mb-4">Contribute to the Directory</h1>
       <p className="mb-4">
@@ -27,5 +35,6 @@ export default function Contribute() {
         Incase of any issues, please report them to the <a href="https://github.com/amalik99/windows-arm-apps-directory/issues" className="text-blue-600 hover:underline">GitHub repository</a>.
       </p>
     </div>
+    </>
   )
 }

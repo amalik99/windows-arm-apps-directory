@@ -1,9 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
+import Head from 'next/head'
 
 
 export default function FindingARMApps() {
   return (
+    <>
+    <Head>
+      <title>Finding ARM Apps for Windows</title>
+      <meta name="description" content="Learn how to find native ARM64 applications for your Windows ARM device, including tips for using the Microsoft Store and developer websites." />
+      <meta name="keywords" content="Windows ARM, ARM64, native applications, Microsoft Store, developer websites" />
+    </Head>
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">Finding ARM Apps for Windows</h1>
       
@@ -100,5 +107,6 @@ export default function FindingARMApps() {
         </p>
       </section>
     </div>
+    </>
   );
 }
