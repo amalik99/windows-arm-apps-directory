@@ -196,7 +196,7 @@
         "id": "021",
         "name": "Google Drive",
         "category": "Utilities",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://www.google.com/drive/download/",
         "storeLink": null,
         "remarks": "Google Drive is a cloud storage service that allows users to sync and manage files across devices.",
@@ -210,14 +210,14 @@
         "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-365/onedrive/download",
         "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj1p3?hl=en-us&gl=US",
         "remarks": "OneDrive allows users to access and edit their files from all their devices.",
-        "icon": "https://c.s-microsoft.com/favicon.ico?v2"
+        "icon": "https://store-images.s-microsoft.com/image/apps.62525.9007199266242890.65e04bdd-4345-4361-b587-32a76407d265.55045362-f41f-4e18-a44e-2d8611bc1932?h=210"
       },
       {
         "id": "023",
         "name": "TranslucentTB",
         "category": "Personalization",
         "status": "Available Natively",
-        "directDownloadLink": null,
+        "directDownloadLink": "https://translucenttb.com/download/",
         "storeLink": "https://apps.microsoft.com/detail/9pf4kz2vn4w9?hl=en-us&gl=US",
         "remarks": "TranslucentTB is a lightweight utility that customizes the Windows taskbar by making it translucent or transparent.",
         "icon": "https://translucenttb.github.io/favicon.ico"
@@ -230,28 +230,10 @@
         "directDownloadLink": "https://files.community/download",
         "storeLink": "https://apps.microsoft.com/detail/9NGHP3DX8HDX?hl=en-us&gl=US",
         "remarks": "Files App is a sleek file manager for Windows that enhances file navigation and management.",
-        "icon": "https://files.community/favicon.ico"
+        "icon": "https://files.community/branding/logo-dark.svg"
       },
-      {
-        "id": "025",
-        "name": "Torrex Lite",
-        "category": "Utilities",
-        "status": "Available Natively",
-        "directDownloadLink": null,
-        "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj9l0?hl=en-us&gl=US",
-        "remarks": "Torrex Lite is a BitTorrent client that allows users to download and stream media while the download is in progress.",
-        "icon": "https://apps.microsoft.com/favicon.ico"
-      },
-      {
-        "id": "026",
-        "name": "VeraCrypt",
-        "category": "Security",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.veracrypt.fr/en/Downloads.html",
-        "storeLink": null,
-        "remarks": "VeraCrypt is a free open-source disk encryption software that provides enhanced security for encrypted partitions.",
-        "icon": "https://www.veracrypt.fr/resources/veracrypt-icon.png"
-      },
+   
+    
       {
         "id": "027",
         "name": "Spotify",
@@ -260,7 +242,7 @@
         "directDownloadLink": "https://www.spotify.com/us/download/windows/",
         "storeLink": "https://apps.microsoft.com/detail/9ncbcszsjrsb?hl=en-us&gl=US",
         "remarks": "Spotify is a music streaming platform offering millions of songs, podcasts, and playlists.",
-        "icon": "https://www.spotify.com/favicon.ico"
+        "icon": "https://store-images.s-microsoft.com/image/apps.10546.13571498826857201.6603a5e2-631f-4f29-9b08-f96589723808.dc893fe0-ecbc-4846-9ac6-b13886604095?h=210"
       },
       {
         "id": "028",
@@ -280,13 +262,13 @@
         "directDownloadLink": "https://www.videolan.org/vlc/",
         "storeLink": "https://apps.microsoft.com/detail/9WZDNCRFJ3T0?hl=en-GB&gl=NL",
         "remarks": "VLC Media Player is a free and open-source cross-platform multimedia player.",
-        "icon": "https://www.videolan.org/images/favicon.png"
+        "icon": "https://images.videolan.org/images/logoOrange.png"
       },
       {
         "id": "030",
         "name": "Plex",
         "category": "Media",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://www.plex.tv/downloads",
         "storeLink": "https://apps.microsoft.com/detail/xp9cdqw6ml4nqn?hl=en-US&gl=US",
         "remarks": "Plex allows users to organize and stream their personal media across devices.",
@@ -306,7 +288,7 @@
         "id": "032",
         "name": "iTunes",
         "category": "Media",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://www.apple.com/itunes/download/",
         "storeLink": "https://apps.microsoft.com/detail/9pb2mz1zmb1s?hl=en-us&gl=US",
         "remarks": "iTunes allows users to manage their music, movies, and TV shows, and access Apple Music.",
@@ -316,12 +298,23 @@
         "id": "033",
         "name": "Kodi",
         "category": "Media",
-        "status": "Available Natively",
+        "status": "Available via Emulation",
         "directDownloadLink": "https://kodi.tv/download",
         "storeLink": "https://apps.microsoft.com/detail/9nblggh4t892?hl=en-US&gl=US",
         "remarks": "Kodi is a free and open-source media player and entertainment hub for digital media.",
-        "icon": "https://kodi.tv/sites/default/themes/kodi/favicon.ico"
-      }
+        "icon": "https://kodi.tv/images/kodi-logo-with-text.svg"
+      },
+    {
+  "id": "034",
+  "name": "Tidal",
+  "category": "Media",
+  "status": "Available via Emulation",
+  "directDownloadLink": "https://tidal.com/download",
+  "storeLink": "https://apps.microsoft.com/detail/9nncb5bs59ph?hl=en-us&gl=US",
+  "remarks": "Tidal is a music streaming platform offering high-fidelity sound and exclusive artist content.",
+  "icon": "https://tidal.com/favicon.ico"
+}
+
     
     
 
