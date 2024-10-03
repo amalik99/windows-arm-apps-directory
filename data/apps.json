@@ -64,7 +64,7 @@
       {
         "id": "007",
         "name": "Google Chrome",
-        "category": "Utilities",
+        "category": "Web Browser",
         "status": "Available Natively",
         "directDownloadLink": "https://www.google.com/chrome/",
         "storeLink": null,
@@ -656,7 +656,67 @@
     "storeLink": "https://apps.microsoft.com/detail/xp99k37g9cwbdc",
     "remarks": "A powerful task manager that helps users organize their tasks and projects across multiple platforms.",
     "icon": "https://todoist.com/favicon.ico"
-  }
+  },
+    {
+      "id": "081",
+      "name": "Mozilla Firefox",
+      "category": "Web Browser",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.mozilla.org/firefox/new/",
+      "storeLink": "https://apps.microsoft.com/detail/9nzvdkpmr9rd?mode=mini&cid=firefox-all",
+      "remarks": "Mozilla Firefox is a free and open-source web browser known for its speed and privacy features.",
+      "icon": "https://www.mozilla.org/media/protocol/img/logos/firefox/logo.fedb52c912d6.svg"
+    },
+    {
+      "id": "082",
+      "name": "Microsoft Edge",
+      "category": "Web Browser",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.microsoft.com/en-us/edge/download?form=MA13FJ",
+      "storeLink": "https://apps.microsoft.com/store/detail/XPFFTQ037JWMHS?ocid=pdpshare",
+      "remarks": "Microsoft Edge is a fast and secure browser that helps protect your data and save time and money.",
+      "icon": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/29bfeef37eef4ca3bcf962274c1c7766.png"
+    },
+    {
+      "id": "083",
+      "name": "Opera",
+      "category": "Web Browser",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.opera.com/download",
+      "storeLink": "https://apps.microsoft.com/store/detail/XP8CF6S8G2D5T6?ocid=pdpshare",
+      "remarks": "Opera is a fast and secure browser with a built-in ad blocker and VPN.",
+      "icon": "https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-flat-horizontal.3a48a9c34651.svg"
+    },
+    {
+      "id": "084",
+      "name": "Brave Browser",
+      "category": "Web Browser",
+      "status": "Available Natively",
+      "directDownloadLink": "https://brave.com/download/",
+      "storeLink": "https://apps.microsoft.com/store/detail/XP8C9QZMS2PC1T?ocid=pdpshare",
+      "remarks": "Brave is a privacy-focused browser that blocks ads and trackers by default.",
+      "icon": "https://brave.com/static-assets/images/brave-logo-sans-text.svg"
+    },
+    {
+      "id": "085",
+      "name": "Vivaldi",
+      "category": "Web Browser",
+      "status": "Available Natively",
+      "directDownloadLink": "https://vivaldi.com/download/",
+      "storeLink": "https://apps.microsoft.com/store/detail/XP99GVQDX7JPR4?ocid=pdpshare",
+      "remarks": "Vivaldi is a highly customizable browser that adapts to you, not the other way around.",
+      "icon": "https://vivaldi.com/wp-content/uploads/2017/08/vivaldi-icon.gif"
+    },
+    {
+      "id": "086",
+      "name": "Tor Browser",
+      "category": "Web Browser",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.torproject.org/download/",
+      "storeLink": null,
+      "remarks": "Tor Browser enables anonymous communication by directing internet traffic through a free, worldwide network.",
+      "icon": "https://www.torproject.org/static/images/tor-logo@2x.png?h=16ad42bc"
+    }
 
 
 
