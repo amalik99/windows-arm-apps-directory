@@ -272,7 +272,7 @@
         "directDownloadLink": "https://www.plex.tv/downloads",
         "storeLink": "https://apps.microsoft.com/detail/xp9cdqw6ml4nqn?hl=en-US&gl=US",
         "remarks": "Plex allows users to organize and stream their personal media across devices.",
-        "icon": "https://www.plex.tv/favicon.ico"
+        "icon": "https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg"
       },
       {
         "id": "031",
@@ -318,21 +318,21 @@
   "id": "035",
   "name": "Audacity",
   "category": "Media & Entertainment",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.audacityteam.org/download/",
   "storeLink": "https://apps.microsoft.com/detail/xp8k0j757hhrdw?hl=en-US&gl=US",
-  "remarks": "Audacity is a free, open-source audio editing tool widely used for editing podcasts, music tracks, and other audio recordings. It is fully supported natively on Windows, including ARM64 versions of Windows.",
-  "icon": "https://www.audacityteam.org/wp-content/uploads/2021/08/cropped-favicon-32x32.png"
+  "remarks": "Audacity is a free, open-source audio editing tool widely used for editing podcasts, music tracks, and other audio recordings.",
+  "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxseQJV573Uwugf0POF9I45CxYkDTe9L9RpBQ0NviXnyGtveCxdSwzcWHn8q6VdXAjJYtSJdpsx8zzt0MgOW6boc-&format=source&h=210"
 },
 {
   "id": "036",
   "name": "OBS Studio",
   "category": "Media & Entertainment",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://obsproject.com/download",
   "storeLink": "https://apps.microsoft.com/detail/xpffh613w8v6lv?hl=en-US&gl=US",
   "remarks": "OBS Studio is a free, open-source tool for video recording and live streaming, compatible with ARM64 systems on Windows.",
-  "icon": "https://obsproject.com/assets/images/icon.svg"
+  "icon": "https://obsproject.com/assets/images/new_icon_small-r.png"
 },
 {
   "id": "037",
@@ -341,7 +341,7 @@
   "status": "Available Natively",
   "directDownloadLink": "https://code.visualstudio.com/download",
   "storeLink": "https://apps.microsoft.com/detail/xp9khm4bk9fz7q?hl=en-US&gl=US",
-  "remarks": "A free, lightweight code editor available natively for ARM64 devices on Windows.",
+  "remarks": "VSCode,A free, lightweight code editor available natively for ARM64 devices on Windows.",
   "icon": "https://code.visualstudio.com/assets/images/code-stable.png"
 },
 {
@@ -368,11 +368,11 @@
   "id": "040",
   "name": "XAMPP",
   "category": "Development & Design",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.apachefriends.org/index.html",
   "storeLink": null,
   "remarks": "XAMPP is available natively on Windows, Linux, and macOS but lacks native support for Windows ARM64.",
-  "icon": "https://www.apachefriends.org/images/favicon.ico"
+  "icon": "https://www.apachefriends.org/images/xampp-logo-ac950edf.svg"
 },
 {
   "id": "041",
@@ -391,24 +391,15 @@
   "status": "Available via Emulation",
   "directDownloadLink": "https://desktop.github.com/",
   "storeLink": null,
-  "remarks": "GitHub Desktop lacks native ARM64 support but can be run via x64 emulation.",
-  "icon": "https://desktop.github.com/images/github-desktop-icon.svg"
+  "remarks": "GitHub Desktop lacks native ARM64 support but can be run via x64 emulation, Beta available for ARM64",
+  "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/128px-Github-desktop-logo-symbol.svg.png?20200316183539"
 },
-{
-  "id": "043",
-  "name": "Brackets",
-  "category": "Development & Design",
-  "status": "Available via Emulation",
-  "directDownloadLink": "https://brackets.io/",
-  "storeLink": null,
-  "remarks": "Brackets is no longer maintained by Adobe, and ARM64 users must run it via emulation.",
-  "icon": "https://brackets.io/favicon.ico"
-},
+
 {
   "id": "044",
   "name": "Adobe Photoshop",
   "category": "Development & Design",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.adobe.com/products/photoshop.html",
   "storeLink": "https://apps.microsoft.com/detail/xpfd4t9n395qn6?hl=en-US&gl=US",
   "remarks": "Adobe Photoshop is natively available for ARM64 with some feature limitations on Windows ARM.",
