@@ -460,7 +460,7 @@
   "id": "051",
   "name": "LastPass for Windows Desktop",
   "category": "Security & Optimization",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.lastpass.com/download",
   "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj3qk",
   "remarks": "LastPass securely stores and autofills passwords with AES-256 encryption.",
@@ -477,97 +477,79 @@
   "icon": "https://store-images.s-microsoft.com/image/apps.44258.78499670-4411-4c7e-866e-5ebf3a36d5df.83f5370b-f507-4e3b-83f9-caea03ca89da.2f591c7b-2315-4d4b-a261-41afa8b527d0?mode=scale&h=100&q=90&w=100"
 },
 {
-  "id": "app_053",
+  "id": "053",
   "name": "NordVPN",
   "category": "Security & Optimization",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://nordvpn.com/download",
   "storeLink": null,
   "remarks": "NordVPN offers a secure VPN service with multiple servers and encryption for privacy.",
-  "icon": "https://assets.nordcdn.com/app-icons/nordvpn/icon_192x192.png"
+  "icon": "https://s1.nordcdn.com/nordvpn/media/1.2164.0/images/cms/benefits/multiple-devices/laptop-phone-tablet-protection-fast-multiple-devices-md.webp"
 },
+
+
 {
-  "id": "app_054",
-  "name": "ExpressVPN",
-  "category": "Security & Optimization",
-  "status": "Available Natively",
-  "directDownloadLink": "https://www.expressvpn.com/vpn-software/windows",
-  "storeLink": "https://apps.microsoft.com/store/detail/expressvpn/XP8J9S6J7RZX",
-  "remarks": "ExpressVPN is a fast, secure VPN service with global server access and strong encryption.",
-  "icon": "https://www.expressvpn.com/favicon.ico"
-},
-{
-  "id": "app_055",
-  "name": "GlassWire",
-  "category": "Security & Optimization",
-  "status": "Available Natively",
-  "directDownloadLink": "https://www.glasswire.com/download/",
-  "storeLink": null,
-  "remarks": "GlassWire offers real-time network monitoring and firewall protection for Windows systems.",
-  "icon": "https://www.glasswire.com/images/favicon-32x32.png"
-},
-{
-  "id": "app_056",
+  "id": "056",
   "name": "Adobe Premiere Pro",
   "category": "Creative Software",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.adobe.com/in/products/premiere.html",
   "storeLink": null,
   "remarks": "Adobe Premiere Pro is a leading video editing tool with AI features for faster workflows.",
-  "icon": "https://main--cc--adobecom.hlx.page/cc-shared/assets/img/product-icons/svg/premiere-pro.svg"
+  "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro.svg"
 },
 {
-  "id": "app_057",
+  "id": "057",
   "name": "DaVinci Resolve",
   "category": "Creative Software",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.blackmagicdesign.com/products/davinciresolve",
   "storeLink": null,
   "remarks": "DaVinci Resolve is a professional video editing software used for color correction, audio post-production, and VFX.",
-  "icon": "https://www.blackmagicdesign.com/images/res_logo_icon.png"
+  "icon": "https://images.blackmagicdesign.com/images/products/davinciresolve/common/resolve-19-logo.svg?_v=1712289576"
 },
 {
-  "id": "app_058",
+  "id": "058",
   "name": "Adobe Lightroom",
   "category": "Creative Software",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.adobe.com/products/photoshop-lightroom.html",
   "storeLink": "https://apps.microsoft.com/store/detail/adobe-lightroom/XPFFNX1B8TXC0V?hl=en-us&gl=us",
   "remarks": "Adobe Lightroom is an AI-powered tool for editing, organizing, and sharing photos and videos.",
-  "icon": "https://main--cc--adobecom.hlx.page/cc-shared/assets/img/product-icons/svg/lightroom.svg"
+  "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/lightroom.svg"
 },
 {
-  "id": "app_059",
+  "id": "059",
   "name": "CorelDRAW",
   "category": "Creative Software",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.coreldraw.com/en/free-trials/",
   "storeLink": "https://apps.microsoft.com/detail/XPDM28CQSPXTWQ?hl=en-ww&gl=ww",
   "remarks": "CorelDRAW is a powerful vector illustration and graphic design tool used for a wide range of creative projects.",
-  "icon": "https://www.coreldraw.com/static/images/favicon.ico"
+  "icon": "https://www.coreldraw.com/static/cdgs/images/coreldraw-wordmark-color.png"
 },
 {
-  "id": "app_060",
+  "id": "060",
   "name": "Blender",
   "category": "Creative Software",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.blender.org/download/",
   "storeLink": "https://apps.microsoft.com/detail/9pp3c07gtvrh?hl=en-us&gl=us",
   "remarks": "Blender is a free and open-source tool for 3D modeling, animation, and rendering.",
   "icon": "https://www.blender.org/favicon.ico"
 },
 {
-  "id": "app_061",
+  "id": "061",
   "name": "Krita",
   "category": "Creative Software",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://krita.org/en/download/",
   "storeLink": "https://apps.microsoft.com/detail/9n6x57zgrw96?hl=en-us&gl=US",
   "remarks": "Krita is a free and open-source digital painting tool used for illustrations, comics, and animations.",
   "icon": "https://krita.org/favicon.ico"
 },
 {
-  "id": "app_062",
+  "id": "062",
   "name": "Steam",
   "category": "Gaming & Performance Tools",
   "status": "Available via Emulation",
@@ -577,37 +559,28 @@
   "icon": "https://store.steampowered.com/favicon.ico"
 },
 {
-  "id": "app_063",
-  "name": "Epic Games Launcher",
+  "id": "063",
+  "name": "Epic Games Store",
   "category": "Gaming & Performance Tools",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://store.epicgames.com/en/download",
   "storeLink": "https://apps.microsoft.com/detail/xp99vr1bpsbqj2?hl=en-US&gl=US",
   "remarks": "Epic Games Launcher is used for downloading, purchasing, and playing PC games like Fortnite and Rocket League.",
-  "icon": "https://store.epicgames.com/favicon.ico"
+  "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxg5le_71pSmzlLco9xckzgo0BEdZxwKw6McwkrT4GpgCDjU34Cf_N1FycqkOB65pK.4msYj7eYFlnnxlBelebdM-&format=source&h=210"
 },
 {
-  "id": "app_064",
+  "id": "064",
   "name": "Razer Cortex",
   "category": "Gaming & Performance Tools",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.razer.com/mena-en/cortex",
   "storeLink": "https://apps.microsoft.com/detail/9pk9w5qv2pkx?hl=en-us&gl=US",
   "remarks": "Razer Cortex optimizes PC performance for gaming by freeing up system resources and boosting FPS.",
   "icon": "https://www.razer.com/favicon.ico"
 },
+
 {
-  "id": "app_065",
-  "name": "MSI Afterburner",
-  "category": "Gaming & Performance Tools",
-  "status": "Available Natively",
-  "directDownloadLink": "https://www.msi.com/Landing/afterburner",
-  "storeLink": null,
-  "remarks": "MSI Afterburner is a popular overclocking and hardware monitoring tool for graphics cards.",
-  "icon": "https://www.msi.com/favicon.ico"
-},
-{
-  "id": "app_066",
+  "id": "066",
   "name": "GeForce Experience",
   "category": "Gaming & Performance Tools",
   "status": "Available Natively",
@@ -617,14 +590,14 @@
   "icon": "https://www.nvidia.com/favicon.ico"
 },
 {
-  "id": "app_067",
+  "id": "067",
   "name": "Duolingo",
   "category": "Education & Learning",
   "status": "Available Natively",
   "directDownloadLink": "https://www.duolingo.com/",
   "storeLink": "https://apps.microsoft.com/detail/9wzdncrcv5xn?hl=en-us&gl=us",
   "remarks": "Duolingo offers free, gamified lessons to help users learn over 40 languages.",
-  "icon": "https://www.duolingo.com/favicon.ico"
+  "icon": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg"
 }
 
     
