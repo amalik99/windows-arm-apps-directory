@@ -22,20 +22,28 @@ export default function Directory() {
   const [categories, setCategories] = useState<string[]>([])
   const [statuses, setStatuses] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
-
+  interface Window {
+    gtag: (
+      type: string,
+      eventName: string,
+      eventParams?: {
+        [key: string]: any;
+      }
+    ) => void;
+  }
   useEffect(() => {
     fetchApps()
   }, [])
 
   useEffect(() => {
-    if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID) {
+    if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && typeof window.gtag === 'function') {
       window.gtag('event', 'page_view', {
         page_title: 'Directory',
         page_location: window.location.href,
         page_path: '/',
-      })
+      });
     }
-  }, [])
+  }, []);
 
   const fetchApps = async () => {
     setLoading(true)

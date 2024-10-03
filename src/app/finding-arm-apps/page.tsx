@@ -6,14 +6,14 @@ import { useEffect } from 'react'
 
 export default function FindingARMApps() {
   useEffect(() => {
-    if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID) {
+    if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && typeof window.gtag === 'function') {
       window.gtag('event', 'page_view', {
         page_title: 'Finding ARM Apps',
         page_location: window.location.href,
         page_path: '/finding-arm-apps',
-      })
+      });
     }
-  }, [])
+  }, []);
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
