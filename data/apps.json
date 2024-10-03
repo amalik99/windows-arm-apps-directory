@@ -315,7 +315,7 @@
   "icon": "https://tidal.com/favicon.ico"
 },
 {
-  "id": "app_035",
+  "id": "035",
   "name": "Audacity",
   "category": "Media & Entertainment",
   "status": "Available Natively",
@@ -325,7 +325,7 @@
   "icon": "https://www.audacityteam.org/wp-content/uploads/2021/08/cropped-favicon-32x32.png"
 },
 {
-  "id": "app_036",
+  "id": "036",
   "name": "OBS Studio",
   "category": "Media & Entertainment",
   "status": "Available Natively",
@@ -335,7 +335,7 @@
   "icon": "https://obsproject.com/assets/images/icon.svg"
 },
 {
-  "id": "app_037",
+  "id": "037",
   "name": "Visual Studio Code",
   "category": "Development & Design",
   "status": "Available Natively",
@@ -345,7 +345,7 @@
   "icon": "https://code.visualstudio.com/assets/images/code-stable.png"
 },
 {
-  "id": "app_038",
+  "id": "038",
   "name": "Atom",
   "category": "Development & Design",
   "status": "Not Available",
@@ -355,7 +355,7 @@
   "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png"
 },
 {
-  "id": "app_039",
+  "id": "039",
   "name": "Sublime Text",
   "category": "Development & Design",
   "status": "Available via Emulation",
@@ -365,7 +365,7 @@
   "icon": "https://www.sublimetext.com/images/icon.png"
 },
 {
-  "id": "app_040",
+  "id": "040",
   "name": "XAMPP",
   "category": "Development & Design",
   "status": "Available Natively",
@@ -375,7 +375,7 @@
   "icon": "https://www.apachefriends.org/images/favicon.ico"
 },
 {
-  "id": "app_041",
+  "id": "041",
   "name": "Notepad++",
   "category": "Development & Design",
   "status": "Available Natively",
@@ -385,7 +385,7 @@
   "icon": "https://notepad-plus-plus.org/images/logo.svg"
 },
 {
-  "id": "app_042",
+  "id": "042",
   "name": "GitHub Desktop",
   "category": "Development & Design",
   "status": "Available via Emulation",
@@ -395,7 +395,7 @@
   "icon": "https://desktop.github.com/images/github-desktop-icon.svg"
 },
 {
-  "id": "app_043",
+  "id": "043",
   "name": "Brackets",
   "category": "Development & Design",
   "status": "Available via Emulation",
@@ -405,7 +405,7 @@
   "icon": "https://brackets.io/favicon.ico"
 },
 {
-  "id": "app_044",
+  "id": "044",
   "name": "Adobe Photoshop",
   "category": "Development & Design",
   "status": "Available Natively",
