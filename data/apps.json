@@ -599,126 +599,54 @@
   "remarks": "Duolingo offers free, gamified lessons to help users learn over 40 languages.",
   "icon": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg"
 },
-{
-  "id": "068",
-  "name": "Khan Academy",
-  "category": "Education & Learning",
-  "status": "Available Natively",
-  "directDownloadLink": "https://www.khanacademy.org/downloads",
-  "storeLink": null,
-  "remarks": "Offers free courses in various subjects including math, science, and humanities.",
-  "icon": "https://www.khanacademy.org/favicon.ico"
-},
-{
-  "id": "069",
-  "name": "Coursera",
-  "category": "Education & Learning",
-  "status": "Available Natively",
-  "directDownloadLink": "https://www.coursera.org/about/mobile",
-  "storeLink": null,
-  "remarks": "Provides courses and degrees from top universities and companies worldwide.",
-  "icon": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/favicon-v2-96x96.png"
-},
-{
-  "id": "070",
-  "name": "Udemy",
-  "category": "Education & Learning",
-  "status": "Available Natively",
-  "directDownloadLink": "https://download.udemy.com/",
-  "storeLink": null,
-  "remarks": "Provides a vast selection of online courses with lifetime access for users.",
-  "icon": "https://s.udemycdn.com/meta/default-meta-image.png"
-},
+
+
+
 {
   "id": "071",
   "name": "Adobe Photoshop Express",
   "category": "Photo & Video",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.adobe.com/products/photoshop-express.html",
-  "storeLink": "https://apps.microsoft.com/store/detail/adobe-photoshop-express/9WZDNCRFJBH4",
+  "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRFJ27N?ocid=pdpshare",
   "remarks": "A simplified version of Photoshop for quick and easy photo edits on mobile and desktop.",
-  "icon": "https://main--cc--adobecom.hlx.page/cc-shared/assets/img/product-icons/svg/photoshop-express-64.svg"
+  "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/photoshop-express-64.svg"
 },
 {
   "id": "072",
   "name": "IrfanView",
   "category": "Photo & Video",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.irfanview.com/",
   "storeLink": "https://apps.microsoft.com/detail/9nl0r0jnnzm0",
   "remarks": "A lightweight and fast image viewer and editor supporting multiple formats.",
-  "icon": "https://www.irfanview.com/img/irfanview_logo.png"
+  "icon": "https://www.irfanview.com/images/logo.png"
 },
-{
-  "id": "073",
-  "name": "Greenshot",
-  "category": "Photo & Video",
-  "status": "Available Natively",
-  "directDownloadLink": "https://getgreenshot.org/downloads/",
-  "storeLink": null,
-  "remarks": "An open-source tool for quick screenshots with annotations and sharing options.",
-  "icon": "https://getgreenshot.org/wp-content/themes/greenshot/images/logo.png"
-},
+
 {
   "id": "074",
   "name": "Loom",
   "category": "Photo & Video",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.loom.com/download",
   "storeLink": null,
   "remarks": "A versatile screen recording tool that supports capturing screen and webcam with instant sharing.",
-  "icon": "https://www.loom.com/favicon.ico"
+  "icon": "https://cdn.sanity.io/images/pvn35iyy/production/ed4626352add7a8aa7f018a082d42f223df93392-403x278.svg?auto=format&dpr=1"
 },
-{
-  "id": "075",
-  "name": "Lightworks",
-  "category": "Photo & Video",
-  "status": "Available Natively",
-  "directDownloadLink": "https://lwks.com/download",
-  "storeLink": null,
-  "remarks": "A professional-grade video editing software available in free and paid versions with 4K support.",
-  "icon": "https://lwks.com/images/favicon.png"
-},
-{
-  "id": "076",
-  "name": "Flipboard",
-  "category": "Miscellaneous Tools",
-  "status": "Available Natively",
-  "directDownloadLink": "https://about.flipboard.com/download-flipboard/",
-  "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj32q",
-  "remarks": "A personalized news aggregation app for following topics from trusted sources.",
-  "icon": "https://about.flipboard.com/wp-content/uploads/2021/09/favicon.ico"
-},
+
+
 {
   "id": "078",
   "name": "Rainmeter",
   "category": "Miscellaneous Tools",
-  "status": "Available Natively",
+  "status": "Available via Emulation",
   "directDownloadLink": "https://www.rainmeter.net/",
   "storeLink": null,
   "remarks": "A desktop customization tool that allows users to display skins for system monitoring, widgets, and more.",
-  "icon": "https://www.rainmeter.net/images/favicon.ico"
+  "icon": "https://www.rainmeter.net/img/logo_nav.png"
 },
-{
-  "id": "077",
-  "name": "f.lux",
-  "category": "Miscellaneous Tools",
-  "status": "Available Natively",
-  "directDownloadLink": "https://justgetflux.com/",
-  "storeLink": "https://apps.microsoft.com/detail/9n9kdphv91jt",
-  "remarks": "A tool that adjusts your computer's display color temperature according to the time of day to reduce eye strain.",
-  "icon": "https://justgetflux.com/images/favicon.ico"
-},
-{
-  "id": "079",
-  "name": "Wunderlist",
-  "category": "Miscellaneous Tools",
-  "status": "Not Available",
-  "directDownloadLink": null,
-  "storeLink": null,
-  "remarks": "A popular to-do list app that has been discontinued; users are encouraged to migrate to Microsoft To Do.",
-  "icon": "https://www.wunderlist.com/favicon.ico"
-},
+
+
 {
   "id": "080",
   "name": "Todoist",
