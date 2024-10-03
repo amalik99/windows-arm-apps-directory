@@ -27,6 +27,16 @@ export default function Directory() {
     fetchApps()
   }, [])
 
+  useEffect(() => {
+    if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID) {
+      window.gtag('event', 'page_view', {
+        page_title: 'Directory',
+        page_location: window.location.href,
+        page_path: '/',
+      })
+    }
+  }, [])
+
   const fetchApps = async () => {
     setLoading(true)
     try {

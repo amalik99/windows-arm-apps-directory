@@ -1,4 +1,17 @@
+'use client'
+import { useEffect } from 'react'
+
 export default function Contribute() {
+    useEffect(() => {
+      if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID) {
+        window.gtag('event', 'page_view', {
+          page_title: 'Contribute',
+          page_location: window.location.href,
+          page_path: '/contribute',
+        })
+      }
+    }, [])
+
     return (
       <div>
         <h1 className="text-3xl font-bold mb-4">Contribute to the Directory</h1>
