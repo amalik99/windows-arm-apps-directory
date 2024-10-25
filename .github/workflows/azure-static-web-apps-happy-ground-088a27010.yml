@@ -36,7 +36,7 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "" # Built app content directory - optional
         env:
-          NEXT_PUBLIC_GITHUB_TOKEN: $(NEXT_PUBLIC_GITHUB_TOKEN)
+          NEXT_PUBLIC_GITHUB_TOKEN: ${{ secrets.NEXT_PUBLIC_GITHUB_TOKEN }}
           NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: 'G-WSNH0FKL0N'
           NEXT_PUBLIC_DATA_URL: 'https://raw.githubusercontent.com/amalik99/windows-arm-apps-directory/refs/heads/main/data/apps.json'
 
