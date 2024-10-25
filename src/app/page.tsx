@@ -5,6 +5,7 @@ import AppCard from './components/AppCard'
 import SearchBar from './components/SearchBar'
 import FilterOptions from './components/FilterOptions'
 import Head from 'next/head'
+import SubmitAppForm from './components/SubmitAppForm'
 
 interface App {
   id: string
@@ -23,6 +24,15 @@ export default function Directory() {
   const [categories, setCategories] = useState<string[]>([])
   const [statuses, setStatuses] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
+  const [showSubmitForm, setShowSubmitForm] = useState(false)
+
+  const handleOpenSubmitForm = () => {
+    setShowSubmitForm(true)
+  }
+
+  const handleCloseSubmitForm = () => {
+    setShowSubmitForm(false)
+  }
 
   useEffect(() => {
     fetchApps()
@@ -63,6 +73,7 @@ export default function Directory() {
     )
     setFilteredApps(filtered)
   }
+  
 
   const handleCategoryChange = (category: string) => {
     const filtered = category
@@ -77,6 +88,7 @@ export default function Directory() {
       : apps
     setFilteredApps(filtered)
   }
+  
 
   return (
     <>
@@ -101,8 +113,15 @@ export default function Directory() {
             statuses={statuses}
             onCategoryChange={handleCategoryChange}
             onStatusChange={handleStatusChange}
-          />
-        </div>
+            />
+            <button
+              onClick={handleOpenSubmitForm}
+              className="ml-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
+            >
+              Submit App
+            </button>
+          </div>
+          {showSubmitForm && <SubmitAppForm onClose={handleCloseSubmitForm} />}
         {loading ? (
           <div className="flex justify-center items-center h-64">
             <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500"></div>
