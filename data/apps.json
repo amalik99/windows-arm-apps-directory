@@ -716,8 +716,17 @@
       "storeLink": null,
       "remarks": "Tor Browser enables anonymous communication by directing internet traffic through a free, worldwide network.",
       "icon": "https://www.torproject.org/static/images/tor-logo@2x.png?h=16ad42bc"
+    },
+    {
+      "id": "087",
+      "name": "Snagit Screen Capture",
+      "category": "Productivity",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.techsmith.com/store/snagit",
+      "storeLink": null,
+      "remarks": "With Snagit, you can quickly grab screenshots, record your screen, and add annotations to communicate processes and concepts clearly",
+      "icon": "https://www.techsmith.com/blog/wp-content/uploads/2024/09/snagit_logo-short-nopadding_black-2.svg"
     }
-
 
 
 
