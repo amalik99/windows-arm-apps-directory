@@ -21,6 +21,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
   const [filteredApps, setFilteredApps] = useState<App[]>([])
   const [statuses, setStatuses] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
+  const [isListView, setIsListView] = useState(false)
 
   useEffect(() => {
     fetchApps()
@@ -99,6 +100,8 @@ export default function CategoryPage({ params }: { params: { category: string } 
             statuses={statuses}
             onCategoryChange={() => {}}
             onStatusChange={handleStatusChange}
+            isListView={isListView}
+            onViewChange={setIsListView}
           />
         </div>
         {loading ? (
