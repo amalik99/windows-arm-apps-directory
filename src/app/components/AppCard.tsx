@@ -62,7 +62,7 @@ const AppCard: React.FC<AppCardProps> = ({
           <span className="text-sm text-gray-700 dark:text-gray-300">{status}</span>
         </div>
         <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{remarks}</p>
-        <div className="flex space-x-2">
+        <div className="flex flex-col sm:flex-row gap-2">
           <a
             href={directDownloadLink || '#'}
             target="_blank"
@@ -77,28 +77,24 @@ const AppCard: React.FC<AppCardProps> = ({
             <FaDownload className="mr-2" />
             Download
           </a>
-          <a
-            href={storeLink || '#'}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`flex items-center justify-center px-4 py-2 rounded-full transition-colors ${
-              storeLink
-                ? 'bg-blue-500 text-white hover:bg-blue-600'
-                : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-            }`}
-            onClick={(e) => !storeLink && e.preventDefault()}
-          >
-            <div className="relative w-6 h-6 mr-2">
-              <Image
-                src="/downloadfromstore.png"
-                alt="Download from Store"
-                layout="fill"
-                objectFit="contain"
-                className={storeLink ? '' : 'opacity-50 grayscale'}
-              />
-            </div>
-            Store
-          </a>
+          {storeLink && (
+            <a
+              href={storeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center px-4 py-2 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition-colors"
+            >
+              <div className="relative w-6 h-6 mr-2">
+                <Image
+                  src="/downloadfromstore.png"
+                  alt="Download from Store"
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+              Store
+            </a>
+          )}
         </div>
       </div>
     </div>

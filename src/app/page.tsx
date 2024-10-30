@@ -108,24 +108,32 @@ export default function Directory() {
             Discover and explore our curated collection of applications on Windows ARM64 devices, such as Copilot Plus PCs and more. 
           </p>
         </div>
-        <div className="flex mb-8">
-          <SearchBar onSearch={handleSearch} />
-          <FilterOptions
-            categories={categories}
-            statuses={statuses}
-            onCategoryChange={handleCategoryChange}
-            onStatusChange={handleStatusChange}
-            isListView={isListView}
-            onViewChange={setIsListView}
-            />
+        <div className="flex flex-col gap-4 mb-8">
+          <div className="w-full">
+            <SearchBar onSearch={handleSearch} />
+          </div>
+          
+          <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+            <div className="w-full sm:flex-1">
+              <FilterOptions
+                categories={categories}
+                statuses={statuses}
+                onCategoryChange={handleCategoryChange}
+                onStatusChange={handleStatusChange}
+                isListView={isListView}
+                onViewChange={setIsListView}
+              />
+            </div>
+            
             <button
               onClick={handleOpenSubmitForm}
-              className="ml-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
+              className="w-full sm:w-auto whitespace-nowrap bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors"
             >
               Submit App
             </button>
           </div>
-          {showSubmitForm && <SubmitAppForm onClose={handleCloseSubmitForm} />}
+        </div>
+        {showSubmitForm && <SubmitAppForm onClose={handleCloseSubmitForm} />}
         {loading ? (
           <div className="flex justify-center items-center h-64">
             <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500"></div>
