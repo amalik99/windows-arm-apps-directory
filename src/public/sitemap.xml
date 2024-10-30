@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://windowsarm.org</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/contribute</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/finding-arm-apps</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/[app]</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/[category]</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/microsoft-office-365</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/slack</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/zoom</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/microsoft-onenote</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/evernote</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/bitwarden</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/google-chrome</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/microsoft-teams</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/whatsapp-desktop</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/asana</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/trello</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/gmail</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/thunderbird</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/skype</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/signal</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/discord</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/ginger</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/7-zip</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/dropbox</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/google-drive</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/onedrive</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/translucenttb</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/files-app</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/spotify</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/netflix</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/vlc-media-player</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/plex</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/audible</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/itunes</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/kodi</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/tidal</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/audacity</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/obs-studio</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/visual-studio-code</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/atom</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/sublime-text</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/xampp</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/notepad-plus-plus</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/github-desktop</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/adobe-photoshop</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/gimp</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/inkscape</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/malwarebytes</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/ccleaner</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/avast-free-antivirus</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/lastpass-for-windows-desktop</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/dashlane</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/nordvpn</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/adobe-premiere-pro</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/davinci-resolve</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/adobe-lightroom</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/coreldraw</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/blender</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/krita</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/steam</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/epic-games-store</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/razer-cortex</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/geforce-experience</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/duolingo</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/adobe-photoshop-express</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/irfanview</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/loom</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/rainmeter</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/todoist</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/mozilla-firefox</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/microsoft-edge</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/opera</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/brave-browser</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/vivaldi</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/app/tor-browser</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/productivity</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/communication</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/security</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/web-browser</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/utilities</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/personalization</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/media</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/creative</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/development</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/gaming</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://windowsarm.org/category/education</loc>
+    <lastmod>2024-10-30T16:49:54.835Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
