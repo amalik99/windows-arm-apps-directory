@@ -29,6 +29,22 @@ interface AppPageProps {
   }
 }
 
+// Add interface for metadata
+interface Metadata {
+  title: string;
+  description: string;
+  keywords: string;
+  publisher: string;
+  lastUpdated: string;
+  status: string;
+  category: string;
+  armStatus?: {
+    status: string;
+    detail: string;
+    compatibility: string;
+  };
+}
+
 const AppPage = ({ params }: AppPageProps) => {
   const [app, setApp] = useState<App | null>(null)
   const [loading, setLoading] = useState(true)
@@ -82,12 +98,16 @@ const AppPage = ({ params }: AppPageProps) => {
     }
   }
 
-  const getMetadata = () => {
+  const getMetadata = (): Metadata => {
     if (!app) {
       return {
         title: 'App Not Found | Windows ARM Apps Directory',
         description: 'The requested application could not be found in the Windows ARM Apps Directory.',
-        keywords: 'Windows ARM, ARM64, applications, directory'
+        keywords: 'Windows ARM, ARM64, applications, directory',
+        publisher: '',
+        lastUpdated: '',
+        status: '',
+        category: ''
       }
     }
 
@@ -218,11 +238,13 @@ const AppPage = ({ params }: AppPageProps) => {
         <meta name="twitter:description" content={metadata.description} />
         {app?.icon && <meta name="twitter:image" content={app.icon} />}
 
-        {/* ARM-specific metadata */}
-        <meta name="arm-compatibility" content={app?.status} />
-        <meta name="arm-support-type" content={metadata.armStatus.detail} />
+        {/* ARM-specific metadata with null checking */}
+        <meta name="arm-compatibility" content={app?.status || ''} />
+        {metadata.armStatus && (
+          <meta name="arm-support-type" content={metadata.armStatus.detail} />
+        )}
         
-        {/* Schema.org markup for search engines */}
+        {/* Schema.org markup with null checking */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -230,7 +252,7 @@ const AppPage = ({ params }: AppPageProps) => {
             "name": app?.name,
             "applicationCategory": metadata.category,
             "operatingSystem": "Windows ARM",
-            "processorRequirements": metadata.armStatus.detail,
+            "processorRequirements": metadata.armStatus?.detail || 'Unknown',
             "description": metadata.description,
             "author": {
               "@type": "Organization",
@@ -238,7 +260,9 @@ const AppPage = ({ params }: AppPageProps) => {
             },
             "dateModified": metadata.lastUpdated,
             "applicationSubCategory": metadata.status,
-            "requirements": `Windows ARM - ${metadata.armStatus.compatibility}`,
+            "requirements": metadata.armStatus 
+              ? `Windows ARM - ${metadata.armStatus.compatibility}`
+              : 'Windows ARM',
             "offers": {
               "@type": "Offer",
               "price": "0",
