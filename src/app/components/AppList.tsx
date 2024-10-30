@@ -16,10 +16,17 @@ interface AppListProps {
     slug: string
     publisher: string
     lastUpdated: string
+    featured?: boolean
   }>
 }
 
 const AppList: React.FC<AppListProps> = ({ apps }) => {
+  const sortedApps = [...apps].sort((a, b) => {
+    if (a.featured && !b.featured) return -1;
+    if (!a.featured && b.featured) return 1;
+    return 0;
+  });
+
   const getStatusIcon = (status: string) => {
     switch (status) {
       case 'Available Natively':
@@ -83,7 +90,7 @@ const AppList: React.FC<AppListProps> = ({ apps }) => {
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md">
       {/* Mobile View */}
       <div className="md:hidden">
-        {apps.map((app) => (
+        {sortedApps.map((app) => (
           <div key={app.id} className="p-4 border-b border-gray-200 dark:border-gray-600 last:border-b-0">
             <div className="flex items-start justify-between">
               <div className="flex items-start space-x-3">
@@ -135,7 +142,7 @@ const AppList: React.FC<AppListProps> = ({ apps }) => {
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-200 dark:divide-gray-600">
-            {apps.map((app) => (
+            {sortedApps.map((app) => (
               <tr key={app.id} className="hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
                 <td className="px-6 py-4 whitespace-nowrap">
                   <div className="flex items-center">

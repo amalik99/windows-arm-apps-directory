@@ -1,0 +1,462 @@
+{
+  "devices": [
+    {
+      "id": "lenovo-thinkpad-t14s-gen6",
+      "brand": "Lenovo",
+      "model": "ThinkPad T14s",
+      "modelNumber": null,
+      "generation": "Gen 6",
+      "type": "Laptop",
+      "basePrice": 1181.40,
+      "msrp": 1969.00,
+      "rating": null,
+      "images": {
+        "hero": "path/to/hero-image.jpg",
+        "gallery": [
+          {
+            "url": "path/to/overhead-shot.jpg",
+            "alt": "Overhead shot with Copilot & rainbow bloom display"
+          },
+          {
+            "url": "path/to/side-profile.jpg",
+            "alt": "Left-side profile open 90 degrees"
+          }
+        ]
+      },
+      "configurations": {
+        "processor": [
+          {
+            "brand": "Qualcomm",
+            "model": "Snapdragon X Plus",
+            "sku": "X1P-42-100",
+            "cores": 8,
+            "clockSpeed": "3.40 GHz",
+            "priceAdjustment": -60.00
+          },
+          {
+            "brand": "Qualcomm",
+            "model": "Snapdragon X Elite",
+            "sku": "X1E-78-100",
+            "cores": 12,
+            "clockSpeed": "3.40 GHz",
+            "priceAdjustment": 0.00
+          }
+        ],
+        "memory": [
+          {
+            "size": 32,
+            "type": "LPDDR5X",
+            "speed": "8448MHz",
+            "details": "Soldered",
+            "priceAdjustment": 0.00
+          },
+          {
+            "size": 64,
+            "type": "LPDDR5X",
+            "speed": "8448MHz",
+            "details": "Soldered",
+            "priceAdjustment": 193.00
+          }
+        ],
+        "storage": [
+          {
+            "size": 256,
+            "type": "SSD",
+            "details": "M.2 2242 PCIe Gen4 TLC Opal",
+            "priceAdjustment": 0.00
+          },
+          {
+            "size": 512,
+            "type": "SSD",
+            "details": "M.2 2242 PCIe Gen4 TLC Opal",
+            "priceAdjustment": 180.00
+          },
+          {
+            "size": 1024,
+            "type": "SSD",
+            "details": "M.2 2242 PCIe Gen4 TLC Opal",
+            "priceAdjustment": 490.00
+          }
+        ],
+        "display": [
+          {
+            "size": 14,
+            "resolution": "1920x1200",
+            "technology": "IPS",
+            "features": [
+              "Anti-Glare",
+              "Non-Touch",
+              "100% sRGB",
+              "Low Power"
+            ],
+            "brightness": 400,
+            "refreshRate": 60,
+            "priceAdjustment": 0.00
+          },
+          {
+            "size": 14,
+            "resolution": "2880x1800",
+            "technology": "OLED",
+            "features": [
+              "Anti-Glare",
+              "Anti-Reflection",
+              "Anti-Smudge",
+              "Non-Touch",
+              "HDR 500",
+              "100% DCI-P3",
+              "Low Blue Light"
+            ],
+            "brightness": 400,
+            "refreshRate": 120,
+            "priceAdjustment": 315.00
+          }
+        ]
+      },
+      "features": {
+        "hasCopilotKey": true,
+        "copilotExperiences": true,
+        "fingerprint": true,
+        "backlit_keyboard": true,
+        "camera": null,
+        "speakers": null,
+        "keyboard": {
+          "backlit": true,
+          "numpad": false,
+          "type": "ThinkPad keyboard"
+        },
+        "touchpad": true,
+        "touchscreen": false
+      },
+      "connectivity": {
+        "wifi": null,
+        "bluetooth": null,
+        "ports": null
+      },
+      "battery": {
+        "life": 24,
+        "unit": "hours",
+        "cells": null,
+        "capacity": null,
+        "charger": null
+      },
+      "weight": null,
+      "security": {
+        "tpm": null,
+        "fingerprint": true
+      },
+      "links": {
+        "buy": "https://example.com/buy",
+        "learnMore": "https://example.com/learn-more",
+        "configurator": "https://example.com/configure"
+      }
+    },
+    {
+      "id": "microsoft-surface-laptop-7th-gen",
+      "brand": "Microsoft",
+      "model": "Surface Laptop",
+      "modelNumber": null,
+      "generation": "7th Edition",
+      "type": "Laptop",
+      "basePrice": 999.99,
+      "msrp": 1999.99,
+      "rating": null,
+      "images": {
+        "hero": "path/to/surface-hero.jpg",
+        "gallery": [
+          {
+            "url": "path/to/front-view-black.jpg",
+            "alt": "A front view of Surface Laptop in the color Black"
+          },
+          {
+            "url": "path/to/side-view-black.jpg",
+            "alt": "A side view of Surface Laptop in the color Black"
+          }
+        ]
+      },
+      "configurations": {
+        "processor": [
+          {
+            "brand": "Qualcomm",
+            "model": "Snapdragon X Plus",
+            "details": "10 Core",
+            "cores": 10,
+            "priceAdjustment": 0.00
+          },
+          {
+            "brand": "Qualcomm",
+            "model": "Snapdragon X Elite",
+            "details": "12 Core",
+            "cores": 12,
+            "priceAdjustment": 200.00
+          }
+        ],
+        "memory": [
+          {
+            "size": 16,
+            "type": "LPDDR5X",
+            "priceAdjustment": 0.00
+          },
+          {
+            "size": 32,
+            "type": "LPDDR5X",
+            "priceAdjustment": 600.00
+          },
+          {
+            "size": 64,
+            "type": "LPDDR5X",
+            "priceAdjustment": 1000.00,
+            "tag": "Microsoft Exclusive"
+          }
+        ],
+        "storage": [
+          {
+            "size": 512,
+            "type": "SSD",
+            "priceAdjustment": 0.00
+          },
+          {
+            "size": 1024,
+            "type": "SSD",
+            "priceAdjustment": 200.00
+          }
+        ],
+        "display": [
+          {
+            "size": 13.8,
+            "unit": "inch",
+            "priceAdjustment": 0.00
+          },
+          {
+            "size": 15,
+            "unit": "inch",
+            "priceAdjustment": 300.00
+          }
+        ]
+      },
+      "features": {
+        "hasCopilotKey": true,
+        "copilotExperiences": true,
+        "isAICopilotPC": true,
+        "camera": null,
+        "speakers": null,
+        "keyboard": null,
+        "touchpad": true,
+        "touchscreen": true
+      },
+      "connectivity": {
+        "wifi": null,
+        "bluetooth": null,
+        "ports": null
+      },
+      "battery": {
+        "life": 20,
+        "unit": "hours",
+        "details": "video playback",
+        "cells": null,
+        "capacity": null,
+        "charger": null
+      },
+      "colors": [
+        "Black",
+        "Sapphire",
+        "Dune",
+        "Platinum"
+      ],
+      "weight": null,
+      "security": {
+        "tpm": null,
+        "fingerprint": null
+      },
+      "protection": {
+        "options": [
+          {
+            "name": "Microsoft Complete - 2 year",
+            "duration": 2,
+            "priceAdjustment": 149.00
+          },
+          {
+            "name": "Microsoft Complete - 3 year",
+            "duration": 3,
+            "priceAdjustment": 219.00
+          },
+          {
+            "name": "Microsoft Complete - 4 year",
+            "duration": 4,
+            "priceAdjustment": 299.00
+          }
+        ],
+        "includes": [
+          "Mechanical breakdown coverage",
+          "Accidental damage protection",
+          "Prepaid return shipment",
+          "Software and hardware support"
+        ]
+      },
+      "links": {
+        "buy": "https://microsoft.com/surface-laptop/buy",
+        "learnMore": "https://microsoft.com/surface-laptop",
+        "configurator": "https://microsoft.com/surface-laptop/configure",
+        "bundle": "https://microsoft.com/surface-laptop/bundle"
+      }
+    },
+    {
+      "id": "samsung-galaxy-book4-edge",
+      "brand": "Samsung",
+      "model": "Galaxy Book4 Edge",
+      "modelNumber": "NP960XMA-KB1US",
+      "type": "Laptop",
+      "basePrice": 899.99,
+      "msrp": 1449.99,
+      "rating": {
+        "score": 4.0,
+        "count": 17
+      },
+      "images": {
+        "hero": "path/to/galaxy-book4-edge-hero.jpg",
+        "gallery": [
+          {
+            "url": "path/to/galaxy-book4-edge-1.jpg",
+            "alt": "Galaxy Book4 Edge front view"
+          }
+        ]
+      },
+      "configurations": {
+        "processor": [
+          {
+            "brand": "Qualcomm",
+            "model": "Snapdragon X Plus",
+            "sku": "X1P-42-100",
+            "cores": 8,
+            "clockSpeed": "3.2GHz",
+            "priceAdjustment": 0.00
+          },
+          {
+            "brand": "Qualcomm",
+            "model": "Snapdragon X Elite",
+            "sku": "X1E-80-100",
+            "cores": 12,
+            "clockSpeed": "3.4GHz",
+            "priceAdjustment": 550.00
+          },
+          {
+            "brand": "Qualcomm",
+            "model": "Snapdragon X Elite",
+            "sku": "X1E-84-100",
+            "cores": 12,
+            "clockSpeed": "3.8GHz",
+            "priceAdjustment": 850.00
+          }
+        ],
+        "memory": [
+          {
+            "size": 16,
+            "type": "LPDDR5X",
+            "details": "On Board",
+            "priceAdjustment": 0.00
+          }
+        ],
+        "storage": [
+          {
+            "size": 512,
+            "type": "eUFS",
+            "priceAdjustment": 0.00
+          }
+        ],
+        "display": [
+          {
+            "size": 14.0,
+            "priceAdjustment": 0.00
+          },
+          {
+            "size": 16.0,
+            "resolution": "2880x1800",
+            "technology": "AMOLED",
+            "features": [
+              "Anti-Reflective",
+              "Touch Screen",
+              "WQXGA+"
+            ],
+            "priceAdjustment": 100.00
+          }
+        ]
+      },
+      "features": {
+        "hasCopilotKey": true,
+        "copilotExperiences": true,
+        "fingerprint": true,
+        "camera": "2MP",
+        "speakers": {
+          "type": "Quad Speakers",
+          "details": [
+            "Woofer Max 5W x 2",
+            "Tweeter 2W x 2"
+          ],
+          "features": [
+            "Smart Amp",
+            "Dolby Atmos"
+          ]
+        },
+        "keyboard": {
+          "backlit": true,
+          "numpad": true,
+          "type": "Pro keyboard"
+        },
+        "touchpad": true,
+        "touchscreen": true
+      },
+      "connectivity": {
+        "wifi": {
+          "version": "7",
+          "standard": "802.11 be",
+          "antenna": "2x2"
+        },
+        "bluetooth": "5.3",
+        "ports": [
+          "HDMI 2.1 (Supports 4K@60Hz)",
+          "1 USB3.2",
+          "2 USB4.0",
+          "MicroSD Multi-media Card Reader",
+          "Headphone out/Mic-in Combo"
+        ]
+      },
+      "battery": {
+        "cells": 4,
+        "capacity": "61.8 Wh",
+        "charger": "65W USB Type-C Adapter"
+      },
+      "colors": ["Sapphire Blue"],
+      "weight": {
+        "value": 3.40,
+        "unit": "lbs"
+      },
+      "protection": {
+        "options": [
+          {
+            "name": "Samsung Care+ 2 Year Plan",
+            "duration": 2,
+            "priceAdjustment": 149.00,
+            "features": [
+              "Unlimited repairs for Drops, Spills, and Mechanical Breakdown",
+              "Convenient Mail-in Repair or Replacement",
+              "Samsung Care+ expert 24/7",
+              "Samsung Genuine Parts and Certified Technicians"
+            ]
+          }
+        ]
+      },
+      "security": {
+        "tpm": true,
+        "fingerprint": true
+      },
+      "links": {
+        "buy": "https://samsung.com/galaxy-book4-edge/buy",
+        "learnMore": "https://samsung.com/galaxy-book4-edge"
+      }
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2024-03-20",
+    "version": "1.0",
+    "currency": "USD"
+  }
+}

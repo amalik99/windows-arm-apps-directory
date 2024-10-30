@@ -18,7 +18,8 @@
             "Comprehensive productivity suite including Word, Excel, and PowerPoint.",
             "Cloud-based collaboration features enabling real-time file sharing.",
             "Cross-platform accessibility on desktops, tablets, and mobile devices."
-        ]
+        ],
+        "featured": true
     },
       {
         "id": "002",
@@ -38,7 +39,8 @@
             "Powerful search functionality across messages and files",
             "Extensive integration capabilities with other business tools",
             "Rich media sharing and collaboration features"
-        ]
+        ],
+        "featured": true
       },
       {
         "id": "003",
@@ -58,7 +60,8 @@
             "Advanced meeting features including breakout rooms and virtual backgrounds",
             "Comprehensive security options with end-to-end encryption",
             "Screen sharing and collaborative annotation tools"
-        ]
+        ],
+        "featured": true
       },
       {
         "id": "004",
@@ -138,7 +141,8 @@
             "Extensive library of extensions and themes",
             "Seamless integration with Google services",
             "Advanced developer tools and security features"
-        ]
+        ],
+        "featured": true
       },
       {
         "id": "008",
@@ -158,7 +162,8 @@
             "Seamless Microsoft 365 apps integration",
             "Extensive third-party app ecosystem",
             "Advanced meeting features including recordings and transcription"
-        ]
+        ],
+        "featured": true
       },
       {
         "id": "009",
@@ -178,7 +183,8 @@
             "Seamless mobile-desktop synchronization",
             "Rich media sharing capabilities",
             "Support for voice and video calls"
-        ]
+        ],
+        "featured": true
       },
       {
         "id": "010",
@@ -198,7 +204,8 @@
             "Advanced task and dependency management",
             "Workflow automation capabilities",
             "Comprehensive reporting and tracking features"
-        ]
+        ],
+        "featured": false
       },
       {
         "id": "011",
@@ -379,7 +386,8 @@
             "Version history and file recovery",
             "Smart sync for optimized storage",
             "Collaborative document editing tools"
-        ]
+        ],
+        "featured": true
       },
       {
         "id": "021",
@@ -399,7 +407,8 @@
             "Real-time collaboration capabilities",
             "AI-powered file organization and search",
             "Extensive file sharing and permission controls"
-        ]
+        ],
+        "featured": true
       },
       {
         "id": "022",
@@ -480,7 +489,8 @@
             "Personalized recommendations and playlists",
             "Cross-device playback sync",
             "Offline content download capability"
-        ]
+        ],
+        "featured": true
       },
       {
         "id": "028",
@@ -500,7 +510,8 @@
             "Personalized profiles and recommendations",
             "HD and 4K streaming support",
             "Offline viewing capabilities"
-        ]
+        ],
+        "featured": true
       },
       {
         "id": "029",
@@ -680,7 +691,8 @@
         "Wide range of programming languages support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
+    ],
+    "featured": true
   },
   {
     "id": "038",
@@ -801,7 +813,8 @@
         "Wide range of image formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
+    ],
+    "featured": true
   },
   {
     "id": "045",
@@ -821,7 +834,8 @@
         "Wide range of image formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
+    ],
+    "featured": true
   },
   {
     "id": "046",
@@ -1314,7 +1328,8 @@
           "Extensive customization options",
           "Cross-platform compatibility",
           "Extensive library management capabilities"
-      ]
+      ],
+      "featured": true
     },
     {
       "id": "082",
@@ -1335,7 +1350,8 @@
           "Integration with Microsoft services",
           "Cross-platform compatibility",
           "Extensive library management capabilities"
-      ]
+      ],
+      "featured": true
     },
     {
       "id": "083",
