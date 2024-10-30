@@ -12,7 +12,7 @@ interface AppCardProps {
   status: string
   directDownloadLink: string | null
   storeLink: string | null
-  remarks: string
+  about: string
   icon: string
   publisher: string
   lastUpdated: string
@@ -26,7 +26,7 @@ const AppCard: React.FC<AppCardProps> = ({
   status,
   directDownloadLink,
   storeLink,
-  remarks,
+  about,
   icon,
   publisher,
   lastUpdated
@@ -85,7 +85,7 @@ const AppCard: React.FC<AppCardProps> = ({
           <span className="mr-2">{getStatusIcon()}</span>
           <span className="text-sm text-gray-700 dark:text-gray-300">{status}</span>
         </div>
-        <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{remarks}</p>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{about}</p>
         <div className="flex flex-col sm:flex-row gap-2">
           <a
             href={directDownloadLink || '#'}

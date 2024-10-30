@@ -12,7 +12,7 @@ const SubmitAppForm: React.FC<SubmitAppFormProps> = ({ onClose }) => {
     status: '',
     directDownloadLink: '',
     storeLink: '',
-    remarks: '',
+    about: '',
     icon: ''
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -52,7 +52,7 @@ A new app has been submitted for the Windows ARM Apps Directory:
 - **Status**: ${formData.status}
 - **Direct Download Link**: ${formData.directDownloadLink || 'N/A'}
 - **Store Link**: ${formData.storeLink || 'N/A'}
-- **Remarks**: ${formData.remarks || 'N/A'}
+- **about**: ${formData.about || 'N/A'}
 - **Icon URL**: ${formData.icon || 'N/A'}
 
 Please review this submission and add it to the directory if appropriate.
@@ -198,11 +198,11 @@ Please review this submission and add it to the directory if appropriate.
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="remarks" className="block mb-1 text-gray-700 dark:text-gray-300">Remarks</label>
+              <label htmlFor="about" className="block mb-1 text-gray-700 dark:text-gray-300">about</label>
               <textarea
-                id="remarks"
-                name="remarks"
-                value={formData.remarks}
+                id="about"
+                name="about"
+                value={formData.about}
                 onChange={handleChange}
                 className="w-full px-3 py-2 border rounded text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-700 border-gray-300 dark:border-gray-600"
               ></textarea>

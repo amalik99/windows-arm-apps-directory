@@ -37,7 +37,7 @@ json
 "status": "Available Natively",
 "directDownloadLink": "https://example.com/download",
 "storeLink": "https://www.microsoft.com/store/productId/XXXXX",
-"remarks": "Brief description or notes about the app",
+"about": "Brief description or notes about the app",
 "icon": "https://example.com/app-icon.png"
 }
 
@@ -49,7 +49,7 @@ Fields to update:
 - `status`: One of the following: "Available Natively", "Available in Emulation", or "Not Available"
 - `directDownloadLink`: Direct download link from the official website (use `null` if not available)
 - `storeLink`: Microsoft Store link (use `null` if not available)
-- `remarks`: Brief notes about the app's compatibility or performance on ARM
+- `about`: Brief notes about the app's compatibility or performance on ARM
 - `icon`: URL to the app's icon image (preferably from the official source)
 
 Please ensure that all information is accurate and up-to-date. If you're unsure about any details, it's better to leave them blank or mark them as unknown.

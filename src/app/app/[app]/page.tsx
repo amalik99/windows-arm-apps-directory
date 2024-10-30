@@ -14,7 +14,9 @@ interface App {
   status: string
   directDownloadLink: string | null
   storeLink: string | null
-  remarks: string
+  about: string
+  description?: string
+  highlights?: string[]
   icon: string
   publisher: string
   lastUpdated: string
@@ -126,7 +128,6 @@ const AppPage = ({ params }: AppPageProps) => {
               </div>
               
               <div className="mt-4 space-y-3 text-gray-600 dark:text-gray-400">
-                <p className="text-lg">{app.remarks}</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   <p className="text-sm">
                     <span className="font-semibold">Publisher:</span> {app.publisher}
@@ -173,8 +174,37 @@ const AppPage = ({ params }: AppPageProps) => {
               </div>
             </div>
           </div>
+
+          <div className="mt-8 border-t border-gray-200 dark:border-gray-700 pt-6">
+            {app.description && (
+              <div className="mb-6">
+                <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">About {app.name}</h2>
+                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                  {app.description}
+                </p>
+              </div>
+            )}
+            
+            {app.highlights && app.highlights.length > 0 && (
+              <div className="mt-6">
+                <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">Key Features</h2>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {app.highlights.map((highlight, index) => (
+                    <li 
+                      key={index}
+                      className="flex items-start gap-2 text-gray-600 dark:text-gray-400"
+                    >
+                      <span className="text-blue-500 mt-1">•</span>
+                      <span>{highlight}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
         </div>
       </div>
+
       <div className="mt-6 text-center">
         <Link
           href="/"

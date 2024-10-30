@@ -11,7 +11,7 @@ interface AppListProps {
     status: string
     directDownloadLink: string | null
     storeLink: string | null
-    remarks: string
+    about: string
     icon: string
     slug: string
     publisher: string
@@ -34,12 +34,12 @@ const AppList: React.FC<AppListProps> = ({ apps }) => {
   }
 
   const DownloadButtons = ({ app }: { app: AppListProps['apps'][0] }) => (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-nowrap gap-2">
       <a
         href={app.directDownloadLink || '#'}
         target="_blank"
         rel="noopener noreferrer"
-        className={`inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+        className={`inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium transition-colors whitespace-nowrap ${
           app.directDownloadLink
             ? 'bg-blue-500 text-white hover:bg-blue-600'
             : 'bg-gray-300 text-gray-500 cursor-not-allowed'
@@ -54,7 +54,7 @@ const AppList: React.FC<AppListProps> = ({ apps }) => {
           href={app.storeLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium bg-blue-500 text-white hover:bg-blue-600 transition-colors"
+          className="inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium bg-blue-500 text-white hover:bg-blue-600 transition-colors whitespace-nowrap"
         >
           <div className="relative w-4 h-4 mr-1.5">
             <Image
@@ -111,8 +111,8 @@ const AppList: React.FC<AppListProps> = ({ apps }) => {
               <div className="ml-2">{getStatusIcon(app.status)}</div>
             </div>
             
-            {app.remarks && (
-              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">{app.remarks}</p>
+            {app.about && (
+              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">{app.about}</p>
             )}
             
             <div className="mt-3">
@@ -130,7 +130,7 @@ const AppList: React.FC<AppListProps> = ({ apps }) => {
               <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">App</th>
               <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Category</th>
               <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Status</th>
-              <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Remarks</th>
+              <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">about</th>
               <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Download</th>
             </tr>
           </thead>
@@ -168,7 +168,7 @@ const AppList: React.FC<AppListProps> = ({ apps }) => {
                   {getStatusIcon(app.status)}
                 </td>
                 <td className="px-6 py-4">
-                  <p className="text-sm text-gray-600 dark:text-gray-400 max-w-xs">{app.remarks}</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 max-w-xs">{app.about}</p>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
                   <DownloadButtons app={app} />

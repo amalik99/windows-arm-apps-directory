@@ -14,7 +14,7 @@ interface App {
   status: string
   directDownloadLink: string | null
   storeLink: string | null
-  remarks: string
+  about: string
   icon: string
   slug: string
   publisher: string
