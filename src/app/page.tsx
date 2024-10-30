@@ -6,6 +6,7 @@ import SearchBar from './components/SearchBar'
 import FilterOptions from './components/FilterOptions'
 import Head from 'next/head'
 import SubmitAppForm from './components/SubmitAppForm'
+import AppList from './components/AppList'
 
 interface App {
   id: string
@@ -25,6 +26,7 @@ export default function Directory() {
   const [statuses, setStatuses] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
   const [showSubmitForm, setShowSubmitForm] = useState(false)
+  const [isListView, setIsListView] = useState(false)
 
   const handleOpenSubmitForm = () => {
     setShowSubmitForm(true)
@@ -113,6 +115,8 @@ export default function Directory() {
             statuses={statuses}
             onCategoryChange={handleCategoryChange}
             onStatusChange={handleStatusChange}
+            isListView={isListView}
+            onViewChange={setIsListView}
             />
             <button
               onClick={handleOpenSubmitForm}
@@ -127,14 +131,18 @@ export default function Directory() {
             <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500"></div>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredApps.map((app) => (
-              <AppCard key={app.id} {...app} />
-            ))}
-          </div>
+          isListView ? (
+            <AppList apps={filteredApps} />
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredApps.map((app) => (
+                <AppCard key={app.id} {...app} />
+              ))}
+            </div>
+          )
         )}
       </div>
     </div>
-    </>
-  )
+  </>
+)
 }

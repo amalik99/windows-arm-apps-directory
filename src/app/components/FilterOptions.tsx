@@ -1,20 +1,25 @@
 import { FaLayerGroup, FaCheckCircle } from 'react-icons/fa'
+import ViewToggle from './ViewToggle'
 
 interface FilterOptionsProps {
   categories: string[]
   statuses: string[]
   onCategoryChange: (category: string) => void
   onStatusChange: (status: string) => void
+  isListView: boolean
+  onViewChange: (isListView: boolean) => void
 }
 
 const FilterOptions: React.FC<FilterOptionsProps> = ({
   categories,
   statuses,
   onCategoryChange,
-  onStatusChange
+  onStatusChange,
+  isListView,
+  onViewChange
 }) => {
   return (
-    <div className="flex space-x-4">
+    <div className="flex space-x-4 items-center">
       <div className="relative">
         <select
           onChange={(e) => onCategoryChange(e.target.value)}
@@ -43,6 +48,7 @@ const FilterOptions: React.FC<FilterOptionsProps> = ({
         </select>
         <FaCheckCircle className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-300" />
       </div>
+      <ViewToggle isListView={isListView} onViewChange={onViewChange} />
     </div>
   )
 }
