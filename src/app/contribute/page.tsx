@@ -40,6 +40,23 @@ export default function Contribute() {
         <li className="mb-2">Submit a pull request with your changes</li>
       </ol>
 
+      <h2 className="text-2xl font-bold mb-2">Legal Notice</h2>
+      <div className="mb-6 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+        <p className="text-sm mb-2">
+          When contributing to this directory, please ensure that:
+        </p>
+        <ul className="list-disc list-inside text-sm mb-4 ml-4">
+          <li className="mb-1">You only submit publicly available information</li>
+          <li className="mb-1">You respect all intellectual property rights</li>
+          <li className="mb-1">You provide accurate and verifiable information</li>
+          <li className="mb-1">You don't include any proprietary or confidential information</li>
+        </ul>
+        <p className="text-sm">
+          This directory does not claim ownership of any trademarks, logos, or brand names. 
+          All submissions are subject to review and may be modified or removed at any time.
+        </p>
+      </div>
+
       <h2 className="text-2xl font-bold mb-2">Contribution Guidelines</h2>
       <ul className="list-disc list-inside mb-4 ml-4">
         <li className="mb-2">Ensure all required fields are filled out for each app entry</li>

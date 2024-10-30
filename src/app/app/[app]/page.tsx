@@ -372,6 +372,15 @@ const AppPage = ({ params }: AppPageProps) => {
           </div>
         </div>
 
+        <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+          <h3 className="text-sm font-medium text-gray-900 dark:text-white mb-2">Disclaimer</h3>
+          <p className="text-sm text-gray-600 dark:text-gray-400">
+            The information provided about {app.name} is community-contributed and may not be current. 
+            All trademarks, product names, and company names or logos mentioned here are the property of their respective owners. 
+            Please verify compatibility and performance on your specific device before downloading or purchasing.
+          </p>
+        </div>
+
         <div className="mt-6 text-center">
           <Link
             href="/"
