@@ -67,13 +67,15 @@ const AppPage = ({ params }: AppPageProps) => {
   const getStatusIcon = (status: string) => {
     switch (status) {
       case 'Available Natively':
-        return <FaCheckCircle className="text-green-500" title={status} />
+        return <FaCheckCircle className="text-green-500" />
+      case 'Available via Emulation':
+        return <FaExclamationTriangle className="text-yellow-500" />
       case 'Not Available':
-        return <FaTimesCircle className="text-red-500" title={status} />
-      case 'In Development':
-        return <FaExclamationTriangle className="text-yellow-500" title={status} />
+        return <FaTimesCircle className="text-red-500" />
+      case 'Unknown':
+        return <FaQuestionCircle className="text-gray-500" />
       default:
-        return <FaQuestionCircle className="text-gray-500" title={status} />
+        return <FaQuestionCircle className="text-gray-500" />
     }
   }
 
