@@ -149,25 +149,20 @@ const Header = () => {
                 </button>
                 {isCategoryMenuOpen && (
                   <ul className="pl-4 space-y-2 mt-2">
-                    <li>
-                      <Link
-                        href="/category/Development"
-                        className="block py-2 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Development
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/category/Productivity"
-                        className="block py-2 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Productivity
-                      </Link>
-                    </li>
-                    {/* Add more categories as needed */}
+                    {categories.map((category) => (
+                      <li key={category}>
+                        <Link
+                          href={`/category/${encodeURIComponent(category)}`}
+                          className="block py-2 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
+                          onClick={() => {
+                            setIsMobileMenuOpen(false)
+                            setIsCategoryMenuOpen(false)
+                          }}
+                        >
+                          {category}
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
                 )}
               </li>

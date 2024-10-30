@@ -1,27 +1,46 @@
 import { useState } from 'react'
 import { FaDownload, FaCheckCircle, FaTimesCircle, FaQuestionCircle, FaExclamationTriangle } from 'react-icons/fa'
 import Image from 'next/image'
+import Link from 'next/link'
+import { format } from 'date-fns'
 
 interface AppCardProps {
+  id: string
   name: string
+  slug: string
   category: string
   status: string
   directDownloadLink: string | null
   storeLink: string | null
   remarks: string
   icon: string
+  publisher: string
+  lastUpdated: string
 }
 
 const AppCard: React.FC<AppCardProps> = ({
+  id,
   name,
+  slug,
   category,
   status,
   directDownloadLink,
   storeLink,
   remarks,
-  icon
+  icon,
+  publisher,
+  lastUpdated
 }) => {
   const [imgSrc, setImgSrc] = useState(icon)
+
+  const formatDate = (dateString: string) => {
+    try {
+      const date = new Date(dateString)
+      return format(date, 'MMM d, yyyy')
+    } catch {
+      return dateString
+    }
+  }
 
   const getStatusIcon = () => {
     switch (status) {
@@ -49,11 +68,16 @@ const AppCard: React.FC<AppCardProps> = ({
               layout="fill"
               objectFit="cover"
               className="rounded-full"
-              onError={() => setImgSrc('/defaultappicon.jpg')} // Update state on error
+              onError={() => setImgSrc('/defaultappicon.jpg')}
             />
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{name}</h3>
+            <Link 
+              href={`/app/${slug}`}
+              className="text-xl font-semibold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+            >
+              {name}
+            </Link>
             <p className="text-sm text-gray-600 dark:text-gray-400">{category}</p>
           </div>
         </div>
@@ -96,6 +120,7 @@ const AppCard: React.FC<AppCardProps> = ({
             </a>
           )}
         </div>
+        
       </div>
     </div>
   )

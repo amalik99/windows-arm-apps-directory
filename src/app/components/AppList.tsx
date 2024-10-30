@@ -1,5 +1,7 @@
 import { FaDownload, FaCheckCircle, FaTimesCircle, FaQuestionCircle, FaExclamationTriangle } from 'react-icons/fa'
 import Image from 'next/image'
+import Link from 'next/link'
+import { format } from 'date-fns'
 
 interface AppListProps {
   apps: Array<{
@@ -11,6 +13,9 @@ interface AppListProps {
     storeLink: string | null
     remarks: string
     icon: string
+    slug: string
+    publisher: string
+    lastUpdated: string
   }>
 }
 
@@ -65,6 +70,15 @@ const AppList: React.FC<AppListProps> = ({ apps }) => {
     </div>
   )
 
+  const formatDate = (dateString: string) => {
+    try {
+      const date = new Date(dateString)
+      return format(date, 'MMM d, yyyy')
+    } catch {
+      return dateString
+    }
+  }
+
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md">
       {/* Mobile View */}
@@ -82,9 +96,14 @@ const AppList: React.FC<AppListProps> = ({ apps }) => {
                     onError={(e: any) => { e.target.src = '/defaultappicon.jpg' }}
                   />
                 </div>
-                <div>
-                  <h3 className="font-medium text-gray-900 dark:text-white">{app.name}</h3>
-                  <span className="inline-block mt-1 px-2 py-0.5 text-xs rounded-full bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200">
+                <div className="flex flex-col space-y-2">
+                  <Link
+                    href={`/app/${encodeURIComponent(app.slug)}`}
+                    className="font-medium text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                  >
+                    {app.name}
+                  </Link>
+                  <span className="inline-block px-2 py-0.5 text-xs rounded-full bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200">
                     {app.category}
                   </span>
                 </div>
@@ -130,7 +149,13 @@ const AppList: React.FC<AppListProps> = ({ apps }) => {
                       />
                     </div>
                     <div className="ml-4">
-                      <div className="text-sm font-medium text-gray-900 dark:text-white">{app.name}</div>
+                      <Link
+                        href={`/app/${encodeURIComponent(app.slug)}`}
+                        className="text-sm font-medium text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                      >
+                        {app.name}
+                      </Link>
+                      <div className="text-sm text-gray-500 dark:text-gray-400">{app.publisher}</div>
                     </div>
                   </div>
                 </td>

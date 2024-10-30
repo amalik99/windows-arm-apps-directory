@@ -11,12 +11,15 @@ import AppList from './components/AppList'
 interface App {
   id: string
   name: string
+  slug: string
   category: string
   status: string
-  directDownloadLink: string
+  directDownloadLink: string | null
   storeLink: string | null
   remarks: string
   icon: string
+  publisher: string
+  lastUpdated: string
 }
 
 export default function Directory() {
@@ -56,7 +59,10 @@ export default function Directory() {
         throw new Error('Invalid data structure: "apps" property is missing or not an array')
       }
 
-      const typedApps = data.apps as App[]
+      const typedApps = data.apps.map(app => ({
+        ...app,
+        
+      })) as App[]
       setApps(typedApps)
       setFilteredApps(typedApps)
       setCategories([...new Set(typedApps.map(app => app.category))])

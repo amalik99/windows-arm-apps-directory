@@ -9,7 +9,10 @@
         "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-365/get-started-with-office-365",
         "storeLink": "https://apps.microsoft.com/detail/9wzdncrd29v9?hl=en-us&gl=US",
         "remarks": "Microsoft Office 365 offers powerful productivity tools like Word, Excel, PowerPoint.",
-        "icon": "https://www.microsoft.com/favicon.ico"
+        "icon": "https://www.microsoft.com/favicon.ico",
+        "slug": "microsoft-office-365",
+        "publisher": "Microsoft Corporation",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "002",
@@ -19,7 +22,10 @@
         "directDownloadLink": "https://slack.com/downloads/windows",
         "storeLink": "https://apps.microsoft.com/detail/9wzdncrdk3wp?hl=en-us&gl=US",
         "remarks": "Slack is a collaboration tool for teams, providing messaging, file sharing, and more.",
-        "icon": "https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png"
+        "icon": "https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png",
+        "slug": "slack",
+        "publisher": "Slack Technologies",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "003",
@@ -29,7 +35,10 @@
         "directDownloadLink": "https://zoom.us/download",
         "storeLink": "https://apps.microsoft.com/detail/xp99j3kp4xz4vv?hl=en-US&gl=US",
         "remarks": "Zoom is a popular video conferencing platform for hosting virtual meetings.",
-        "icon": "https://us01st-cf.zoom.us/homepage/publish/static-image/zoom-logo.svg"
+        "icon": "https://us01st-cf.zoom.us/homepage/publish/static-image/zoom-logo.svg",
+        "slug": "zoom",
+        "publisher": "Zoom Video Communications",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "004",
@@ -39,7 +48,10 @@
         "directDownloadLink": "https://www.onenote.com/download",
         "storeLink": "https://apps.microsoft.com/detail/xpffzhvgqwwlhb?hl=en-US&gl=US",
         "remarks": "OneNote is a digital notebook for capturing and organizing notes and media.",
-        "icon": "https://en.m.wikipedia.org/wiki/File:Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg"
+        "icon": "https://en.m.wikipedia.org/wiki/File:Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg",
+        "slug": "microsoft-onenote",
+        "publisher": "Microsoft Corporation",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "005",
@@ -49,7 +61,10 @@
         "directDownloadLink": "https://evernote.com/download",
         "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRFJ3MB",
         "remarks": "Evernote is a versatile note-taking app designed for capturing, organizing, and syncing notes.",
-        "icon": "https://evernote.com/_next/image?url=%2Fimages%2Ficons%2Fprojects.webp&w=64&q=75"
+        "icon": "https://evernote.com/_next/image?url=%2Fimages%2Ficons%2Fprojects.webp&w=64&q=75",
+        "slug": "evernote",
+        "publisher": "Evernote Corporation",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "006",
@@ -59,7 +74,10 @@
         "directDownloadLink": "https://bitwarden.com/download",
         "storeLink": "https://apps.microsoft.com/detail/9pjsdv0vpk04?hl=en-us&gl=US",
         "remarks": "Bitwarden is an open-source, highly secure password manager.",
-        "icon": "https://static-00.iconduck.com/assets.00/bitwarden-v2-icon-512x512-cstnj11p.png"
+        "icon": "https://static-00.iconduck.com/assets.00/bitwarden-v2-icon-512x512-cstnj11p.png",
+        "slug": "bitwarden",
+        "publisher": "Bitwarden",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "007",
@@ -69,7 +87,10 @@
         "directDownloadLink": "https://www.google.com/chrome/",
         "storeLink": null,
         "remarks": "Google Chrome is a fast, secure, and widely used web browser.",
-        "icon": "https://www.google.com/images/icons/product/chrome-48.png"
+        "icon": "https://www.google.com/images/icons/product/chrome-48.png",
+        "slug": "google-chrome",
+        "publisher": "Google LLC",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "008",
@@ -79,7 +100,10 @@
         "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-teams/download-app",
         "storeLink": "https://apps.microsoft.com/store/detail/microsoft-teams/XPFFFQTYF17TCR?hl=en-us&gl=us",
         "remarks": "Microsoft Teams is a versatile collaboration platform.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/512px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/512px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png",
+        "slug": "microsoft-teams",
+        "publisher": "Microsoft Corporation",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "009",
@@ -89,7 +113,10 @@
         "directDownloadLink": "https://www.whatsapp.com/download",
         "storeLink": "https://apps.microsoft.com/detail/9nksqgp7f2nh?hl=en-US&gl=US",
         "remarks": "WhatsApp Desktop is a free messaging app offering text, voice, and video communication.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+        "slug": "whatsapp-desktop",
+        "publisher": "WhatsApp Inc.",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "010",
@@ -99,7 +126,10 @@
         "directDownloadLink": "https://asana.com/download",
         "storeLink": null,
         "remarks": "Asana is a work management tool designed to help teams track their work.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Asana_logo.svg/798px-Asana_logo.svg.png"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Asana_logo.svg/798px-Asana_logo.svg.png",
+        "slug": "asana",
+        "publisher": "Asana Inc.",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "011",
@@ -109,7 +139,10 @@
         "directDownloadLink": "https://trello.com/platforms",
         "storeLink": "https://apps.microsoft.com/detail/9nblggh4xxvw",
         "remarks": "Trello is a task management and collaboration tool.",
-        "icon": "https://cdn.iconscout.com/icon/free/png-256/trello-7-569395.png"
+        "icon": "https://cdn.iconscout.com/icon/free/png-256/trello-7-569395.png",
+        "slug": "trello",
+        "publisher": "Trello Inc.",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "012",
@@ -119,7 +152,10 @@
         "directDownloadLink": null,
         "storeLink": null,
         "remarks": "Gmail does not have an official native app for Windows, use web browser instead.",
-        "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico"
+        "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
+        "slug": "gmail",
+        "publisher": "Google LLC",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "013",
@@ -129,7 +165,10 @@
         "directDownloadLink": "https://www.thunderbird.net/en-US/download/",
         "storeLink": "https://apps.microsoft.com/detail/mozilla-thunderbird-email/9PM5VM1S3VMQ?hl=en-US&gl=US",
         "remarks": "Thunderbird is a free, open-source email client.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Thunderbird_Logo%2C_2018.svg/512px-Thunderbird_Logo%2C_2018.svg.png"
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Thunderbird_Logo%2C_2018.svg/512px-Thunderbird_Logo%2C_2018.svg.png",
+        "slug": "thunderbird",
+        "publisher": "Mozilla Foundation",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "014",
@@ -139,7 +178,10 @@
         "directDownloadLink": "https://www.skype.com/en/get-skype/",
         "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj364?hl=en-us&gl=US",
         "remarks": "Skype is a versatile communication platform.",
-        "icon": "https://www.skype.com/favicon.ico"
+        "icon": "https://www.skype.com/favicon.ico",
+        "slug": "skype",
+        "publisher": "Skype Technologies",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "015",
@@ -149,7 +191,10 @@
         "directDownloadLink": "https://signal.org/download/windows/",
         "storeLink": null,
         "remarks": "Signal is a secure messaging platform.",
-        "icon": "https://signal.org/assets/images/header/logo.png"
+        "icon": "https://signal.org/assets/images/header/logo.png",
+        "slug": "signal",
+        "publisher": "Signal Messenger",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "016",
@@ -159,7 +204,10 @@
         "directDownloadLink": "https://discord.com/download",
         "storeLink": "https://apps.microsoft.com/detail/xpdc2rh70k22mn?hl=en-US&gl=US",
         "remarks": "Discord is a popular social platform designed for communication.",
-        "icon": "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6257d23c5fb25be7e0b6e220_Open%20Source%20Projects%20_%20Discord-7.svg"
+        "icon": "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6257d23c5fb25be7e0b6e220_Open%20Source%20Projects%20_%20Discord-7.svg",
+        "slug": "discord",
+        "publisher": "Discord Inc.",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "017",
@@ -169,7 +217,10 @@
         "directDownloadLink": "https://www.gingersoftware.com/download/",
         "storeLink": null,
         "remarks": "Ginger is an AI-powered writing assistant.",
-        "icon": "https://www.gingersoftware.com/favicon.ico"
+        "icon": "https://www.gingersoftware.com/favicon.ico",
+        "slug": "ginger",
+        "publisher": "Ginger Software",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "018",
@@ -179,7 +230,10 @@
         "directDownloadLink": "https://www.7-zip.org/download.html",
         "storeLink": null,
         "remarks": "7-Zip is a free, open-source file archiver with a high compression ratio.",
-        "icon": "https://www.7-zip.org/favicon.ico"
+        "icon": "https://www.7-zip.org/favicon.ico",
+        "slug": "7-zip",
+        "publisher": "7-Zip",
+        "lastUpdated": "2024-03-10"
       },
     
       {
@@ -190,7 +244,10 @@
         "directDownloadLink": "https://www.dropbox.com/install",
         "storeLink": "https://apps.microsoft.com/detail/9nk4t08dhq80?hl=en-US&gl=US",
         "remarks": "Dropbox is a cloud storage service that allows users to store, sync, and share files.",
-        "icon": "https://cfl.dropboxstatic.com/static/images/favicon.ico"
+        "icon": "https://cfl.dropboxstatic.com/static/images/favicon.ico",
+        "slug": "dropbox",
+        "publisher": "Dropbox Inc.",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "021",
@@ -200,7 +257,10 @@
         "directDownloadLink": "https://www.google.com/drive/download/",
         "storeLink": null,
         "remarks": "Google Drive is a cloud storage service that allows users to sync and manage files across devices.",
-        "icon": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png"
+        "icon": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png",
+        "slug": "google-drive",
+        "publisher": "Google LLC",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "022",
@@ -210,7 +270,10 @@
         "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-365/onedrive/download",
         "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj1p3?hl=en-us&gl=US",
         "remarks": "OneDrive allows users to access and edit their files from all their devices.",
-        "icon": "https://store-images.s-microsoft.com/image/apps.62525.9007199266242890.65e04bdd-4345-4361-b587-32a76407d265.55045362-f41f-4e18-a44e-2d8611bc1932?h=210"
+        "icon": "https://store-images.s-microsoft.com/image/apps.62525.9007199266242890.65e04bdd-4345-4361-b587-32a76407d265.55045362-f41f-4e18-a44e-2d8611bc1932?h=210",
+        "slug": "onedrive",
+        "publisher": "Microsoft Corporation",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "023",
@@ -220,7 +283,10 @@
         "directDownloadLink": "https://translucenttb.com/download/",
         "storeLink": "https://apps.microsoft.com/detail/9pf4kz2vn4w9?hl=en-us&gl=US",
         "remarks": "TranslucentTB is a lightweight utility that customizes the Windows taskbar by making it translucent or transparent.",
-        "icon": "https://translucenttb.github.io/favicon.ico"
+        "icon": "https://translucenttb.github.io/favicon.ico",
+        "slug": "translucenttb",
+        "publisher": "TranslucentTB",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "024",
@@ -230,7 +296,10 @@
         "directDownloadLink": "https://files.community/download",
         "storeLink": "https://apps.microsoft.com/detail/9NGHP3DX8HDX?hl=en-us&gl=US",
         "remarks": "Files App is a sleek file manager for Windows that enhances file navigation and management.",
-        "icon": "https://files.community/branding/logo-dark.svg"
+        "icon": "https://files.community/branding/logo-dark.svg",
+        "slug": "files-app",
+        "publisher": "Files Community",
+        "lastUpdated": "2024-03-10"
       },
      
     
@@ -242,7 +311,10 @@
         "directDownloadLink": "https://www.spotify.com/us/download/windows/",
         "storeLink": "https://apps.microsoft.com/detail/9ncbcszsjrsb?hl=en-us&gl=US",
         "remarks": "Spotify is a music streaming platform offering millions of songs, podcasts, and playlists.",
-        "icon": "https://store-images.s-microsoft.com/image/apps.10546.13571498826857201.6603a5e2-631f-4f29-9b08-f96589723808.dc893fe0-ecbc-4846-9ac6-b13886604095?h=210"
+        "icon": "https://store-images.s-microsoft.com/image/apps.10546.13571498826857201.6603a5e2-631f-4f29-9b08-f96589723808.dc893fe0-ecbc-4846-9ac6-b13886604095?h=210",
+        "slug": "spotify",
+        "publisher": "Spotify AB",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "028",
@@ -252,7 +324,10 @@
         "directDownloadLink": null,
         "storeLink": "https://apps.microsoft.com/detail/9WZDNCRFJ3TJ?hl=en-us&gl=us",
         "remarks": "Netflix allows users to stream a wide variety of TV shows, movies, and documentaries.",
-        "icon": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+        "icon": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico",
+        "slug": "netflix",
+        "publisher": "Netflix Inc.",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "029",
@@ -262,7 +337,10 @@
         "directDownloadLink": "https://www.videolan.org/vlc/",
         "storeLink": "https://apps.microsoft.com/detail/9WZDNCRFJ3T0?hl=en-GB&gl=NL",
         "remarks": "VLC Media Player is a free and open-source cross-platform multimedia player.",
-        "icon": "https://images.videolan.org/images/logoOrange.png"
+        "icon": "https://images.videolan.org/images/logoOrange.png",
+        "slug": "vlc-media-player",
+        "publisher": "VideoLAN",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "030",
@@ -272,7 +350,10 @@
         "directDownloadLink": "https://www.plex.tv/downloads",
         "storeLink": "https://apps.microsoft.com/detail/xp9cdqw6ml4nqn?hl=en-US&gl=US",
         "remarks": "Plex allows users to organize and stream their personal media across devices.",
-        "icon": "https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg"
+        "icon": "https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg",
+        "slug": "plex",
+        "publisher": "Plex Inc.",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "031",
@@ -282,7 +363,10 @@
         "directDownloadLink": "https://www.audible.com/",
         "storeLink": null,
         "remarks": "Audible discontinued their Windows app, but users can listen via their web browser or mobile app.",
-        "icon": "https://www.audible.com/favicon.ico"
+        "icon": "https://www.audible.com/favicon.ico",
+        "slug": "audible",
+        "publisher": "Audible",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "032",
@@ -292,7 +376,10 @@
         "directDownloadLink": "https://www.apple.com/itunes/download/",
         "storeLink": "https://apps.microsoft.com/detail/9pb2mz1zmb1s?hl=en-us&gl=US",
         "remarks": "iTunes allows users to manage their music, movies, and TV shows, and access Apple Music.",
-        "icon": "https://www.apple.com/favicon.ico"
+        "icon": "https://www.apple.com/favicon.ico",
+        "slug": "itunes",
+        "publisher": "Apple Inc.",
+        "lastUpdated": "2024-03-10"
       },
       {
         "id": "033",
@@ -302,7 +389,10 @@
         "directDownloadLink": "https://kodi.tv/download",
         "storeLink": "https://apps.microsoft.com/detail/9nblggh4t892?hl=en-US&gl=US",
         "remarks": "Kodi is a free and open-source media player and entertainment hub for digital media.",
-        "icon": "https://kodi.tv/images/kodi-logo-with-text.svg"
+        "icon": "https://kodi.tv/images/kodi-logo-with-text.svg",
+        "slug": "kodi",
+        "publisher": "Kodi Foundation",
+        "lastUpdated": "2024-03-10"
       },
     {
     "id": "034",
@@ -312,7 +402,10 @@
     "directDownloadLink": "https://tidal.com/download",
     "storeLink": "https://apps.microsoft.com/detail/9nncb5bs59ph?hl=en-us&gl=US",
     "remarks": "Tidal is a music streaming platform offering high-fidelity sound and exclusive artist content.",
-    "icon": "https://tidal.com/favicon.ico"
+    "icon": "https://tidal.com/favicon.ico",
+    "slug": "tidal",
+    "publisher": "Tidal",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "035",
@@ -322,7 +415,10 @@
     "directDownloadLink": "https://www.audacityteam.org/download/",
     "storeLink": "https://apps.microsoft.com/detail/xp8k0j757hhrdw?hl=en-US&gl=US",
     "remarks": "Audacity is a free, open-source audio editing tool widely used for editing podcasts, music tracks, and other audio recordings.",
-    "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxseQJV573Uwugf0POF9I45CxYkDTe9L9RpBQ0NviXnyGtveCxdSwzcWHn8q6VdXAjJYtSJdpsx8zzt0MgOW6boc-&format=source&h=210"
+    "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxseQJV573Uwugf0POF9I45CxYkDTe9L9RpBQ0NviXnyGtveCxdSwzcWHn8q6VdXAjJYtSJdpsx8zzt0MgOW6boc-&format=source&h=210",
+    "slug": "audacity",
+    "publisher": "Audacity Team",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "036",
@@ -332,7 +428,10 @@
     "directDownloadLink": "https://obsproject.com/download",
     "storeLink": "https://apps.microsoft.com/detail/xpffh613w8v6lv?hl=en-US&gl=US",
     "remarks": "OBS Studio is a free, open-source tool for video recording and live streaming, compatible with ARM64 systems on Windows.",
-    "icon": "https://obsproject.com/assets/images/new_icon_small-r.png"
+    "icon": "https://obsproject.com/assets/images/new_icon_small-r.png",
+    "slug": "obs-studio",
+    "publisher": "OBS Project",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "037",
@@ -342,7 +441,10 @@
     "directDownloadLink": "https://code.visualstudio.com/download",
     "storeLink": "https://apps.microsoft.com/detail/xp9khm4bk9fz7q?hl=en-US&gl=US",
     "remarks": "VSCode,A free, lightweight code editor available natively for ARM64 devices on Windows.",
-    "icon": "https://code.visualstudio.com/assets/images/code-stable.png"
+    "icon": "https://code.visualstudio.com/assets/images/code-stable.png",
+    "slug": "visual-studio-code",
+    "publisher": "Microsoft Corporation",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "038",
@@ -352,7 +454,10 @@
     "directDownloadLink": "https://github.com/atom/atom/releases",
     "storeLink": null,
     "remarks": "Atom is no longer actively maintained and does not natively support ARM64 on Windows.",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png",
+    "slug": "atom",
+    "publisher": "GitHub",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "039",
@@ -362,7 +467,10 @@
     "directDownloadLink": "https://www.sublimetext.com/",
     "storeLink": null,
     "remarks": "Sublime Text supports ARM64 natively for macOS and Linux, but requires emulation on Windows ARM64.",
-    "icon": "https://www.sublimetext.com/images/icon.png"
+    "icon": "https://www.sublimetext.com/images/icon.png",
+    "slug": "sublime-text",
+    "publisher": "Sublime HQ",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "040",
@@ -372,7 +480,10 @@
     "directDownloadLink": "https://www.apachefriends.org/index.html",
     "storeLink": null,
     "remarks": "XAMPP is available natively on Windows, Linux, and macOS but lacks native support for Windows ARM64.",
-    "icon": "https://www.apachefriends.org/images/xampp-logo-ac950edf.svg"
+    "icon": "https://www.apachefriends.org/images/xampp-logo-ac950edf.svg",
+    "slug": "xampp",
+    "publisher": "Apache Friends",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "041",
@@ -382,7 +493,10 @@
     "directDownloadLink": "https://notepad-plus-plus.org/downloads/",
     "storeLink": null,
     "remarks": "Notepad++ supports ARM64 natively as of version 8.",
-    "icon": "https://notepad-plus-plus.org/images/logo.svg"
+    "icon": "https://notepad-plus-plus.org/images/logo.svg",
+    "slug": "notepad-plus-plus",
+    "publisher": "Notepad++",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "042",
@@ -392,7 +506,10 @@
     "directDownloadLink": "https://desktop.github.com/",
     "storeLink": null,
     "remarks": "GitHub Desktop lacks native ARM64 support but can be run via x64 emulation, Beta available for ARM64",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/128px-Github-desktop-logo-symbol.svg.png?20200316183539"
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/128px-Github-desktop-logo-symbol.svg.png?20200316183539",
+    "slug": "github-desktop",
+    "publisher": "GitHub",
+    "lastUpdated": "2024-03-10"
   },
   
   {
@@ -403,7 +520,10 @@
     "directDownloadLink": "https://www.adobe.com/products/photoshop.html",
     "storeLink": "https://apps.microsoft.com/detail/xpfd4t9n395qn6?hl=en-US&gl=US",
     "remarks": "Adobe Photoshop is natively available for ARM64 with some feature limitations on Windows ARM.",
-    "icon": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/photoshop.svg"
+    "icon": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/photoshop.svg",
+    "slug": "adobe-photoshop",
+    "publisher": "Adobe",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "045",
@@ -413,7 +533,10 @@
     "directDownloadLink": "https://www.gimp.org/downloads/",
     "storeLink": "https://apps.microsoft.com/detail/xpdm27w10192q0?hl=en-US&gl=US",
     "remarks": "GIMP is a free, open-source image editor available on multiple platforms, including Windows, with experimental ARM64 support.",
-    "icon": "https://www.gimp.org/images/frontpage/wilber-big.png"
+    "icon": "https://www.gimp.org/images/frontpage/wilber-big.png",
+    "slug": "gimp",
+    "publisher": "GIMP",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "046",
@@ -423,7 +546,10 @@
     "directDownloadLink": "https://inkscape.org/release/",
     "storeLink": "https://apps.microsoft.com/detail/9pd9bhglfc7h?hl=en-us&gl=US",
     "remarks": "Inkscape is a free, open-source vector graphics editor used for creating and editing illustrations, logos, diagrams, and more.",
-    "icon": "https://media.inkscape.org/static/images/inkscape-logo.svg"
+    "icon": "https://media.inkscape.org/static/images/inkscape-logo.svg",
+    "slug": "inkscape",
+    "publisher": "Inkscape",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "047",
@@ -433,7 +559,10 @@
     "directDownloadLink": "https://www.malwarebytes.com/mwb-download/",
     "storeLink": null,
     "remarks": "Malwarebytes is anti-malware software for Microsoft Windows, macOS, ChromeOS, Android, and iOS that finds and removes malware.",
-    "icon": "https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/footer-logo-1.svg"
+    "icon": "https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/footer-logo-1.svg",
+    "slug": "malwarebytes",
+    "publisher": "Malwarebytes",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "048",
@@ -443,7 +572,10 @@
     "directDownloadLink": "https://www.ccleaner.com/ccleaner/download",
     "storeLink": "https://apps.microsoft.com/detail/xpfcwp0sqwxm3v?hl=en-ca&gl=ca",
     "remarks": "CCleaner is a popular tool for cleaning and optimizing Windows systems.",
-    "icon": "https://www.ccleaner.com/favicon.ico"
+    "icon": "https://www.ccleaner.com/favicon.ico",
+    "slug": "ccleaner",
+    "publisher": "CCleaner",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "049",
@@ -453,7 +585,10 @@
     "directDownloadLink": "https://www.avast.com/free-antivirus-download",
     "storeLink": "https://apps.microsoft.com/detail/XPDNZJFNCR1B07?hl=en-US&gl=US",
     "remarks": "Avast Free Antivirus provides real-time protection against malware and viruses.",
-    "icon": "https://www.avast.com/favicon.ico"
+    "icon": "https://www.avast.com/favicon.ico",
+    "slug": "avast-free-antivirus",
+    "publisher": "Avast",
+    "lastUpdated": "2024-03-10"
   },
   
   {
@@ -464,7 +599,10 @@
     "directDownloadLink": "https://www.lastpass.com/download",
     "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj3qk",
     "remarks": "LastPass securely stores and autofills passwords with AES-256 encryption.",
-    "icon": "https://www.lastpass.com/favicon.ico"
+    "icon": "https://www.lastpass.com/favicon.ico",
+    "slug": "lastpass-for-windows-desktop",
+    "publisher": "LastPass",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "052",
@@ -474,7 +612,10 @@
     "directDownloadLink": "https://www.dashlane.com/download",
     "storeLink": null,
     "remarks": "Dashlane securely stores passwords and provides autofill with additional features like password health monitoring.",
-    "icon": "https://store-images.s-microsoft.com/image/apps.44258.78499670-4411-4c7e-866e-5ebf3a36d5df.83f5370b-f507-4e3b-83f9-caea03ca89da.2f591c7b-2315-4d4b-a261-41afa8b527d0?mode=scale&h=100&q=90&w=100"
+    "icon": "https://store-images.s-microsoft.com/image/apps.44258.78499670-4411-4c7e-866e-5ebf3a36d5df.83f5370b-f507-4e3b-83f9-caea03ca89da.2f591c7b-2315-4d4b-a261-41afa8b527d0?mode=scale&h=100&q=90&w=100",
+    "slug": "dashlane",
+    "publisher": "Dashlane",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "053",
@@ -484,7 +625,10 @@
     "directDownloadLink": "https://nordvpn.com/download",
     "storeLink": null,
     "remarks": "NordVPN offers a secure VPN service with multiple servers and encryption for privacy.",
-    "icon": "https://s1.nordcdn.com/nordvpn/media/1.2164.0/images/cms/benefits/multiple-devices/laptop-phone-tablet-protection-fast-multiple-devices-md.webp"
+    "icon": "https://s1.nordcdn.com/nordvpn/media/1.2164.0/images/cms/benefits/multiple-devices/laptop-phone-tablet-protection-fast-multiple-devices-md.webp",
+    "slug": "nordvpn",
+    "publisher": "NordVPN",
+    "lastUpdated": "2024-03-10"
   },
   
   
@@ -496,7 +640,10 @@
     "directDownloadLink": "https://www.adobe.com/in/products/premiere.html",
     "storeLink": null,
     "remarks": "Adobe Premiere Pro is a leading video editing tool with AI features for faster workflows.",
-    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro.svg"
+    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro.svg",
+    "slug": "adobe-premiere-pro",
+    "publisher": "Adobe",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "057",
@@ -506,7 +653,10 @@
     "directDownloadLink": "https://www.blackmagicdesign.com/products/davinciresolve",
     "storeLink": null,
     "remarks": "DaVinci Resolve is a professional video editing software used for color correction, audio post-production, and VFX.",
-    "icon": "https://images.blackmagicdesign.com/images/products/davinciresolve/common/resolve-19-logo.svg?_v=1712289576"
+    "icon": "https://images.blackmagicdesign.com/images/products/davinciresolve/common/resolve-19-logo.svg?_v=1712289576",
+    "slug": "davinci-resolve",
+    "publisher": "Blackmagic Design",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "058",
@@ -516,7 +666,10 @@
     "directDownloadLink": "https://www.adobe.com/products/photoshop-lightroom.html",
     "storeLink": "https://apps.microsoft.com/store/detail/adobe-lightroom/XPFFNX1B8TXC0V?hl=en-us&gl=us",
     "remarks": "Adobe Lightroom is an AI-powered tool for editing, organizing, and sharing photos and videos.",
-    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/lightroom.svg"
+    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/lightroom.svg",
+    "slug": "adobe-lightroom",
+    "publisher": "Adobe",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "059",
@@ -526,7 +679,10 @@
     "directDownloadLink": "https://www.coreldraw.com/en/free-trials/",
     "storeLink": "https://apps.microsoft.com/detail/XPDM28CQSPXTWQ?hl=en-ww&gl=ww",
     "remarks": "CorelDRAW is a powerful vector illustration and graphic design tool used for a wide range of creative projects.",
-    "icon": "https://www.coreldraw.com/static/cdgs/images/coreldraw-wordmark-color.png"
+    "icon": "https://www.coreldraw.com/static/cdgs/images/coreldraw-wordmark-color.png",
+    "slug": "coreldraw",
+    "publisher": "Corel",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "060",
@@ -536,7 +692,10 @@
     "directDownloadLink": "https://www.blender.org/download/",
     "storeLink": "https://apps.microsoft.com/detail/9pp3c07gtvrh?hl=en-us&gl=us",
     "remarks": "Blender is a free and open-source tool for 3D modeling, animation, and rendering.",
-    "icon": "https://www.blender.org/favicon.ico"
+    "icon": "https://www.blender.org/favicon.ico",
+    "slug": "blender",
+    "publisher": "Blender Foundation",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "061",
@@ -546,7 +705,10 @@
     "directDownloadLink": "https://krita.org/en/download/",
     "storeLink": "https://apps.microsoft.com/detail/9n6x57zgrw96?hl=en-us&gl=US",
     "remarks": "Krita is a free and open-source digital painting tool used for illustrations, comics, and animations.",
-    "icon": "https://krita.org/favicon.ico"
+    "icon": "https://krita.org/favicon.ico",
+    "slug": "krita",
+    "publisher": "Krita",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "062",
@@ -556,7 +718,10 @@
     "directDownloadLink": "https://store.steampowered.com/about/",
     "storeLink": null,
     "remarks": "Steam is a popular platform for purchasing, downloading, and playing PC games.",
-    "icon": "https://store.steampowered.com/favicon.ico"
+    "icon": "https://store.steampowered.com/favicon.ico",
+    "slug": "steam",
+    "publisher": "Valve Corporation",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "063",
@@ -566,7 +731,10 @@
     "directDownloadLink": "https://store.epicgames.com/en/download",
     "storeLink": "https://apps.microsoft.com/detail/xp99vr1bpsbqj2?hl=en-US&gl=US",
     "remarks": "Epic Games Launcher is used for downloading, purchasing, and playing PC games like Fortnite and Rocket League.",
-    "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxg5le_71pSmzlLco9xckzgo0BEdZxwKw6McwkrT4GpgCDjU34Cf_N1FycqkOB65pK.4msYj7eYFlnnxlBelebdM-&format=source&h=210"
+    "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxg5le_71pSmzlLco9xckzgo0BEdZxwKw6McwkrT4GpgCDjU34Cf_N1FycqkOB65pK.4msYj7eYFlnnxlBelebdM-&format=source&h=210",
+    "slug": "epic-games-store",
+    "publisher": "Epic Games",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "064",
@@ -576,7 +744,10 @@
     "directDownloadLink": "https://www.razer.com/mena-en/cortex",
     "storeLink": "https://apps.microsoft.com/detail/9pk9w5qv2pkx?hl=en-us&gl=US",
     "remarks": "Razer Cortex optimizes PC performance for gaming by freeing up system resources and boosting FPS.",
-    "icon": "https://www.razer.com/favicon.ico"
+    "icon": "https://www.razer.com/favicon.ico",
+    "slug": "razer-cortex",
+    "publisher": "Razer",
+    "lastUpdated": "2024-03-10"
   },
   
   {
@@ -587,7 +758,10 @@
     "directDownloadLink": "https://www.nvidia.com/en-us/geforce/geforce-experience/",
     "storeLink": null,
     "remarks": "GeForce Experience optimizes game settings, updates drivers, and enables gameplay recording for NVIDIA GPUs.",
-    "icon": "https://www.nvidia.com/favicon.ico"
+    "icon": "https://www.nvidia.com/favicon.ico",
+    "slug": "geforce-experience",
+    "publisher": "NVIDIA",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "067",
@@ -597,7 +771,10 @@
     "directDownloadLink": "https://www.duolingo.com/",
     "storeLink": "https://apps.microsoft.com/detail/9wzdncrcv5xn?hl=en-us&gl=us",
     "remarks": "Duolingo offers free, gamified lessons to help users learn over 40 languages.",
-    "icon": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg"
+    "icon": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg",
+    "slug": "duolingo",
+    "publisher": "Duolingo",
+    "lastUpdated": "2024-03-10"
   },
   
   
@@ -610,7 +787,10 @@
     "directDownloadLink": "https://www.adobe.com/products/photoshop-express.html",
     "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRFJ27N?ocid=pdpshare",
     "remarks": "A simplified version of Photoshop for quick and easy photo edits on mobile and desktop.",
-    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/photoshop-express-64.svg"
+    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/photoshop-express-64.svg",
+    "slug": "adobe-photoshop-express",
+    "publisher": "Adobe",
+    "lastUpdated": "2024-03-10"
   },
   {
     "id": "072",
@@ -620,7 +800,10 @@
     "directDownloadLink": "https://www.irfanview.com/",
     "storeLink": "https://apps.microsoft.com/detail/9nl0r0jnnzm0",
     "remarks": "A lightweight and fast image viewer and editor supporting multiple formats.",
-    "icon": "https://www.irfanview.com/images/logo.png"
+    "icon": "https://www.irfanview.com/images/logo.png",
+    "slug": "irfanview",
+    "publisher": "IrfanView",
+    "lastUpdated": "2024-03-10"
   },
   
   {
@@ -631,7 +814,10 @@
     "directDownloadLink": "https://www.loom.com/download",
     "storeLink": null,
     "remarks": "A versatile screen recording tool that supports capturing screen and webcam with instant sharing.",
-    "icon": "https://cdn.sanity.io/images/pvn35iyy/production/ed4626352add7a8aa7f018a082d42f223df93392-403x278.svg?auto=format&dpr=1"
+    "icon": "https://cdn.sanity.io/images/pvn35iyy/production/ed4626352add7a8aa7f018a082d42f223df93392-403x278.svg?auto=format&dpr=1",
+    "slug": "loom",
+    "publisher": "Loom",
+    "lastUpdated": "2024-03-10"
   },
   
   
@@ -643,7 +829,10 @@
     "directDownloadLink": "https://www.rainmeter.net/",
     "storeLink": null,
     "remarks": "A desktop customization tool that allows users to display skins for system monitoring, widgets, and more.",
-    "icon": "https://www.rainmeter.net/img/logo_nav.png"
+    "icon": "https://www.rainmeter.net/img/logo_nav.png",
+    "slug": "rainmeter",
+    "publisher": "Rainmeter",
+    "lastUpdated": "2024-03-10"
   },
   
   
@@ -655,7 +844,10 @@
     "directDownloadLink": "https://todoist.com/downloads",
     "storeLink": "https://apps.microsoft.com/detail/xp99k37g9cwbdc",
     "remarks": "A powerful task manager that helps users organize their tasks and projects across multiple platforms.",
-    "icon": "https://todoist.com/favicon.ico"
+    "icon": "https://todoist.com/favicon.ico",
+    "slug": "todoist",
+    "publisher": "Todoist",
+    "lastUpdated": "2024-03-10"
   },
     {
       "id": "081",
@@ -665,7 +857,10 @@
       "directDownloadLink": "https://www.mozilla.org/firefox/new/",
       "storeLink": "https://apps.microsoft.com/detail/9nzvdkpmr9rd?mode=mini&cid=firefox-all",
       "remarks": "Mozilla Firefox is a free and open-source web browser known for its speed and privacy features.",
-      "icon": "https://www.mozilla.org/media/protocol/img/logos/firefox/logo.fedb52c912d6.svg"
+      "icon": "https://www.mozilla.org/media/protocol/img/logos/firefox/logo.fedb52c912d6.svg",
+      "slug": "mozilla-firefox",
+      "publisher": "Mozilla Foundation",
+      "lastUpdated": "2024-03-10"
     },
     {
       "id": "082",
@@ -675,7 +870,10 @@
       "directDownloadLink": "https://www.microsoft.com/en-us/edge/download?form=MA13FJ",
       "storeLink": "https://apps.microsoft.com/store/detail/XPFFTQ037JWMHS?ocid=pdpshare",
       "remarks": "Microsoft Edge is a fast and secure browser that helps protect your data and save time and money.",
-      "icon": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/29bfeef37eef4ca3bcf962274c1c7766.png"
+      "icon": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/29bfeef37eef4ca3bcf962274c1c7766.png",
+      "slug": "microsoft-edge",
+      "publisher": "Microsoft Corporation",
+      "lastUpdated": "2024-03-10"
     },
     {
       "id": "083",
@@ -685,7 +883,10 @@
       "directDownloadLink": "https://www.opera.com/download",
       "storeLink": "https://apps.microsoft.com/store/detail/XP8CF6S8G2D5T6?ocid=pdpshare",
       "remarks": "Opera is a fast and secure browser with a built-in ad blocker and VPN.",
-      "icon": "https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-flat-horizontal.3a48a9c34651.svg"
+      "icon": "https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-flat-horizontal.3a48a9c34651.svg",
+      "slug": "opera",
+      "publisher": "Opera",
+      "lastUpdated": "2024-03-10"
     },
     {
       "id": "084",
@@ -695,7 +896,10 @@
       "directDownloadLink": "https://brave.com/download/",
       "storeLink": "https://apps.microsoft.com/store/detail/XP8C9QZMS2PC1T?ocid=pdpshare",
       "remarks": "Brave is a privacy-focused browser that blocks ads and trackers by default.",
-      "icon": "https://brave.com/static-assets/images/brave-logo-sans-text.svg"
+      "icon": "https://brave.com/static-assets/images/brave-logo-sans-text.svg",
+      "slug": "brave-browser",
+      "publisher": "Brave Software",
+      "lastUpdated": "2024-03-10"
     },
     {
       "id": "085",
@@ -705,7 +909,10 @@
       "directDownloadLink": "https://vivaldi.com/download/",
       "storeLink": "https://apps.microsoft.com/store/detail/XP99GVQDX7JPR4?ocid=pdpshare",
       "remarks": "Vivaldi is a highly customizable browser that adapts to you, not the other way around.",
-      "icon": "https://vivaldi.com/wp-content/uploads/2017/08/vivaldi-icon.gif"
+      "icon": "https://vivaldi.com/wp-content/uploads/2017/08/vivaldi-icon.gif",
+      "slug": "vivaldi",
+      "publisher": "Vivaldi Technologies",
+      "lastUpdated": "2024-03-10"
     },
     {
       "id": "086",
@@ -715,18 +922,12 @@
       "directDownloadLink": "https://www.torproject.org/download/",
       "storeLink": null,
       "remarks": "Tor Browser enables anonymous communication by directing internet traffic through a free, worldwide network.",
-      "icon": "https://www.torproject.org/static/images/tor-logo@2x.png?h=16ad42bc"
-    },
-    {
-      "id": "087",
-      "name": "Snagit Screen Capture",
-      "category": "Productivity",
-      "status": "Available via Emulation",
-      "directDownloadLink": "https://www.techsmith.com/store/snagit",
-      "storeLink": null,
-      "remarks": "With Snagit, you can quickly grab screenshots, record your screen, and add annotations to communicate processes and concepts clearly",
-      "icon": "https://www.techsmith.com/blog/wp-content/uploads/2024/09/snagit_logo-short-nopadding_black-2.svg"
+      "icon": "https://www.torproject.org/static/images/tor-logo@2x.png?h=16ad42bc",
+      "slug": "tor-browser",
+      "publisher": "Tor Project",
+      "lastUpdated": "2024-03-10"
     }
+
 
 
 
