@@ -12,10 +12,13 @@ interface App {
   name: string
   category: string
   status: string
-  directDownloadLink: string
+  directDownloadLink: string | null
   storeLink: string | null
   remarks: string
   icon: string
+  slug: string
+  publisher: string
+  lastUpdated: string
 }
 
 export default function CategoryPage({ params }: { params: { category: string } }) {
