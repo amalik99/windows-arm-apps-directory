@@ -59,10 +59,10 @@ export default function Directory() {
         throw new Error('Invalid data structure: "apps" property is missing or not an array')
       }
 
-      const typedApps = data.apps.map(app => ({
+      const typedApps = data.apps.map((app: App) => ({
         ...app,
-        
       })) as App[]
+      
       setApps(typedApps)
       setFilteredApps(typedApps)
       setCategories([...new Set(typedApps.map(app => app.category))])

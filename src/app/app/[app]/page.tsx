@@ -50,10 +50,10 @@ const AppPage = ({ params }: AppPageProps) => {
       }
 
       const decodedSlug = decodeURIComponent(params.app).toLowerCase()
-      const foundApp = data.apps.find((a: App) => a?.slug?.toLowerCase() === decodedSlug)
+      const foundApp = data.apps.find((app: App) => app?.slug?.toLowerCase() === decodedSlug)
       
       console.log('Searching for slug:', decodedSlug)
-      console.log('Available apps:', data.apps.map((a: App) => ({ name: a.name, slug: a.slug })))
+      console.log('Available apps:', data.apps.map((app: App) => ({ name: app.name, slug: app.slug })))
       
       setApp(foundApp || null)
     } catch (error) {
@@ -67,76 +67,87 @@ const AppPage = ({ params }: AppPageProps) => {
   const getStatusIcon = (status: string) => {
     switch (status) {
       case 'Available Natively':
-        return <FaCheckCircle className="text-green-500 w-5 h-5" title="Available Natively" />
-      case 'Available via Emulation':
-        return <FaExclamationTriangle className="text-yellow-500 w-5 h-5" title="Available via Emulation" />
+        return <FaCheckCircle className="text-green-500" title={status} />
       case 'Not Available':
-        return <FaTimesCircle className="text-red-500 w-5 h-5" title="Not Available" />
+        return <FaTimesCircle className="text-red-500" title={status} />
+      case 'In Development':
+        return <FaExclamationTriangle className="text-yellow-500" title={status} />
       default:
-        return <FaQuestionCircle className="text-gray-500 w-5 h-5" title="Unknown" />
+        return <FaQuestionCircle className="text-gray-500" title={status} />
     }
   }
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+      <div className="flex justify-center items-center h-64">
+        <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500"></div>
       </div>
     )
   }
 
   if (!app) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">App Not Found</h1>
-          <Link href="/" className="text-blue-500 hover:text-blue-600">
-            Return to Home
-          </Link>
-        </div>
+      <div className="text-center py-12">
+        <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">App Not Found</h1>
+        <p className="text-gray-600 dark:text-gray-400 mb-6">The requested app could not be found.</p>
+        <Link 
+          href="/"
+          className="inline-block bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors"
+        >
+          Return to Directory
+        </Link>
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-8">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-            <div className="relative w-24 h-24 md:w-32 md:h-32">
+    <div className="max-w-4xl mx-auto px-4 py-8">
+      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
+        <div className="p-6">
+          <div className="flex flex-col md:flex-row md:items-start gap-6">
+            <div className="relative h-32 w-32 flex-shrink-0 mx-auto md:mx-0">
               <Image
                 src={app.icon}
                 alt={app.name}
                 layout="fill"
-                className="rounded-xl"
+                className="rounded-full object-cover"
                 onError={(e: any) => { e.target.src = '/defaultappicon.jpg' }}
               />
             </div>
-            <div className="flex-1">
-              <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mb-4">
-                <h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
-                  {app.name}
-                </h1>
-                <span className="px-3 py-1 text-sm rounded-full bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 w-fit">
-                  {app.category}
-                </span>
+            <div className="flex-1 text-center md:text-left">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <h1 className="text-3xl font-semibold text-gray-900 dark:text-white">{app.name}</h1>
+                <div className="flex items-center justify-center md:justify-start gap-2">
+                  {getStatusIcon(app.status)}
+                  <span className="text-sm text-gray-600 dark:text-gray-400">{app.status}</span>
+                </div>
               </div>
               
-              <div className="flex items-center gap-2 mb-4">
-                {getStatusIcon(app.status)}
-                <span className="text-gray-600 dark:text-gray-300">{app.status}</span>
+              <div className="mt-4 space-y-3 text-gray-600 dark:text-gray-400">
+                <p className="text-lg">{app.remarks}</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  <p className="text-sm">
+                    <span className="font-semibold">Publisher:</span> {app.publisher}
+                  </p>
+                  <p className="text-sm">
+                    <span className="font-semibold">Category:</span> {app.category}
+                  </p>
+                  <p className="text-sm">
+                    <span className="font-semibold">Last Updated:</span> {format(new Date(app.lastUpdated), 'MMMM d, yyyy')}
+                  </p>
+                </div>
               </div>
 
-              <div className="flex flex-wrap gap-3">
+              <div className="mt-6 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
                 {app.directDownloadLink && (
                   <a
                     href={app.directDownloadLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-4 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors"
+                    className="flex items-center justify-center px-6 py-2 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition-colors"
                   >
                     <FaDownload className="mr-2" />
-                    Download
+                    <span>Download</span>
                   </a>
                 )}
                 {app.storeLink && (
@@ -144,41 +155,33 @@ const AppPage = ({ params }: AppPageProps) => {
                     href={app.storeLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-4 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors"
+                    className="flex items-center justify-center px-6 py-2 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition-colors"
                   >
-                    <Image
-                      src="/downloadfromstore.png"
-                      alt="Store"
-                      width={24}
-                      height={24}
-                      className="mr-2"
-                    />
-                    Get from Store
+                    <div className="relative w-6 h-6 mr-2">
+                      <Image
+                        src="/downloadfromstore.png"
+                        alt="Download from Store"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </div>
+                    <span>Get from Store</span>
                   </a>
                 )}
               </div>
             </div>
           </div>
-
-          <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
-            <div className="flex flex-col md:flex-row md:items-center gap-6">
-              <div className="flex-1">
-                <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-                  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">About</h2>
-                  <p className="text-gray-600 dark:text-gray-300 whitespace-pre-wrap">
-                    {app.remarks}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-      {app && (
-        <div className="mt-4 text-sm text-gray-500">
-          Last updated: {format(new Date(app.lastUpdated), 'MMM d, yyyy')}
-        </div>
-      )}
+      <div className="mt-6 text-center">
+        <Link
+          href="/"
+          className="inline-flex items-center text-blue-500 hover:text-blue-600 transition-colors"
+        >
+          <span className="mr-2">←</span>
+          <span>Back to Directory</span>
+        </Link>
+      </div>
     </div>
   )
 }
