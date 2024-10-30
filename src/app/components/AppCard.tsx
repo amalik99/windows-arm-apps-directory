@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { FaDownload, FaCheckCircle, FaTimesCircle, FaQuestionCircle, FaExclamationTriangle } from 'react-icons/fa'
+import { FaDownload, FaCheckCircle, FaTimesCircle, FaQuestionCircle, FaExclamationTriangle, FaStar } from 'react-icons/fa'
 import Image from 'next/image'
 import Link from 'next/link'
 import { format } from 'date-fns'
@@ -60,8 +60,12 @@ const AppCard: React.FC<AppCardProps> = ({
   }
 
   return (
-    <div className={`bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105 
-      ${featured ? 'ring-2 ring-blue-500' : ''}`}>
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105 relative">
+      {featured && (
+        <div className="absolute top-2 right-2">
+          <FaStar className="text-yellow-400 w-5 h-5" title="Popular App" />
+        </div>
+      )}
       <div className="p-6">
         <div className="flex items-center mb-4">
           <div className="w-12 h-12 mr-4 relative">
@@ -82,11 +86,6 @@ const AppCard: React.FC<AppCardProps> = ({
               >
                 {name}
               </Link>
-              {featured && (
-                <span className="px-2 py-0.5 text-xs bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded-full">
-                  Featured
-                </span>
-              )}
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-400">{category}</p>
           </div>

@@ -20,6 +20,7 @@ interface App {
   icon: string
   publisher: string
   lastUpdated: string
+  featured?: boolean
 }
 
 export default function Directory() {
@@ -63,10 +64,16 @@ export default function Directory() {
         ...app,
       })) as App[]
       
-      setApps(typedApps)
-      setFilteredApps(typedApps)
-      setCategories([...new Set(typedApps.map(app => app.category))])
-      setStatuses([...new Set(typedApps.map(app => app.status))])
+      const sortedApps = [...typedApps].sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return 0;
+      });
+      
+      setApps(sortedApps)
+      setFilteredApps(sortedApps)
+      setCategories([...new Set(sortedApps.map(app => app.category))])
+      setStatuses([...new Set(sortedApps.map(app => app.status))])
     } catch (error) {
       console.error('Error fetching apps:', error)
     } finally {
@@ -75,25 +82,41 @@ export default function Directory() {
   }
 
   const handleSearch = (query: string) => {
-    const filtered = apps.filter((app) =>
-      app.name.toLowerCase().includes(query.toLowerCase()) ||
-      app.category.toLowerCase().includes(query.toLowerCase())
-    )
+    const filtered = apps
+      .filter((app) =>
+        app.name.toLowerCase().includes(query.toLowerCase()) ||
+        app.category.toLowerCase().includes(query.toLowerCase())
+      )
+      .sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return 0;
+      });
     setFilteredApps(filtered)
   }
   
 
   const handleCategoryChange = (category: string) => {
-    const filtered = category
+    const filtered = (category
       ? apps.filter((app) => app.category === category)
-      : apps
+      : apps)
+      .sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return 0;
+      });
     setFilteredApps(filtered)
   }
 
   const handleStatusChange = (status: string) => {
-    const filtered = status
+    const filtered = (status
       ? apps.filter((app) => app.status === status)
-      : apps
+      : apps)
+      .sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return 0;
+      });
     setFilteredApps(filtered)
   }
   
