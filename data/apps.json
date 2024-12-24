@@ -980,6 +980,10 @@
   },
   
   
+  
+  
+  
+  
   {
     "id": "056",
     "name": "Adobe Premiere Pro",
@@ -1436,13 +1440,126 @@
           "Cross-platform compatibility",
           "Extensive library management capabilities"
       ]
+    },
+    {
+      "id": "087",
+      "name": "Jamovi",
+      "category": "Productivity",
+      "status": "Not Available",
+      "directDownloadLink": "https://www.jamovi.org/downloads/jamovi-2.6.17.0-win-x64.exe",
+      "storeLink": null,
+      "about": "software for statistical data analysis based on R",
+      "icon": "https://www.jamovi.org/assets/header-logo.svg",
+      "slug": "jamovi",
+      "publisher": "Jamovi Project",
+      "lastUpdated": "2024-03-10",
+      "description": "Jamovi is a free, open-source statistical software that provides a user-friendly interface for data analysis. Built on top of R, it offers powerful statistical capabilities including descriptive statistics, t-tests, ANOVAs, regression, and factor analyses. The software features a spreadsheet-like interface for data entry and manipulation, while providing sophisticated analytical tools accessible through point-and-click menus.",
+      "highlights": [
+          "User-friendly interface for statistical analysis",
+          "Built on R statistical computing platform",
+          "Comprehensive suite of statistical tests",
+          "Real-time results updating"
+      ]
+    },
+    {
+      "id": "088",
+      "name": "MAXQDA",
+      "category": "Productivity",
+      "status": "Not Available",
+      "directDownloadLink": "https://www.maxqda.com/trial",
+      "storeLink": null,
+      "about": "Software for qualitative data analysis widely used in social sciences",
+      "icon": "https://www.maxqda.com/wp/wp-content/themes/max/img/max24/logo-max22.svg",
+      "slug": "maxqda",
+      "publisher": "VERBI Software",
+      "lastUpdated": "2024-03-10",
+      "description": "MAXQDA is a professional software for qualitative and mixed methods data analysis. It enables researchers to analyze various types of data including interviews, surveys, focus groups, videos, and social media data. The software provides powerful coding tools, visualization features, and team collaboration capabilities, making it an essential tool for qualitative researchers in social sciences, market research, and academic research.",
+      "highlights": [
+          "Advanced qualitative data analysis tools",
+          "Support for multiple data formats including text, audio, video",
+          "Powerful coding and visualization features",
+          "Team collaboration capabilities"
+      ]
+    },
+    {
+      "id": "089",
+      "name": "EndNote",
+      "category": "Productivity",
+      "status": "Not Available",
+      "directDownloadLink": "https://endnote.com/en/free-trial/",
+      "storeLink": null,
+      "about": "Database for literature",
+      "icon": "https://endnote.com/wp-content/themes/endnote/src/img/clv-logo.svg",
+      "slug": "endnote",
+      "publisher": "Clarivate Analytics",
+      "lastUpdated": "2024-03-10",
+      "description": "EndNote is a reference management software used to manage bibliographies and references when writing essays and articles. It allows users to collect references from online databases, organize them in a personal library, and automatically create citations and bibliographies in various citation styles. The software integrates with word processors and provides powerful search and organization tools for academic literature.",
+      "highlights": [
+          "Reference management and bibliography creation",
+          "Integration with word processors",
+          "Support for multiple citation styles",
+          "Online database search capabilities"
+      ]
+    },
+    {
+      "id": "090",
+      "name": "Bitdefender",
+      "category": "Security",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.bitdefender.com/downloads/",
+      "storeLink": null,
+      "about": "Advanced antivirus and security solution with real-time protection against malware and cyber threats",
+      "icon": "https://www.bitdefender.com/adobe/dynamicmedia/deliver/dm-aid--ff62d212-3a6d-4993-841c-7458d12cdf2f/bitdefender-blue-logo-png.png?width=1920&quality=85&preferwebp=true",
+      "slug": "bitdefender",
+      "publisher": "Bitdefender",
+      "lastUpdated": "2024-03-10",
+      "description": "Bitdefender is a comprehensive security solution that provides advanced protection against malware, ransomware, and other cyber threats. It features real-time data protection, advanced threat defense, multi-layer ransomware protection, and web attack prevention. The software includes a VPN for secure browsing, password management, and microphone/webcam protection, making it a complete security suite for personal and professional use.",
+      "highlights": [
+          "Real-time protection against malware and ransomware",
+          "Advanced threat detection and prevention",
+          "Built-in VPN for secure browsing",
+          "Multi-layer security features"
+      ]
+    },
+    {
+      "id": "091",
+      "name": "AutoCAD",
+      "category": "Creative",
+      "status": "Not Available",
+      "directDownloadLink": "https://www.autodesk.com/products/autocad/free-trial",
+      "storeLink": null,
+      "about": "Professional computer-aided design (CAD) software for precise 2D and 3D drafting and modeling",
+      "icon": "https://damassets.autodesk.net/content/dam/autodesk/www/products/autocad/fy24/free-trial/images/autocad-2023-white-lockup-610x66.png",
+      "slug": "autocad",
+      "publisher": "Autodesk",
+      "lastUpdated": "2024-03-10",
+      "description": "AutoCAD is an industry-leading computer-aided design (CAD) software used by professionals worldwide for 2D drafting, 3D modeling, and visualization. It provides powerful tools for architectural design, mechanical engineering, and technical documentation. The software features advanced annotation capabilities, customizable tool palettes, and extensive file format support, making it essential for architects, engineers, and design professionals.",
+      "highlights": [
+          "Precise 2D drafting and documentation tools",
+          "Advanced 3D modeling capabilities",
+          "Industry-standard DWG file format support",
+          "Cloud-based collaboration features"
+      ]
+    },
+    {
+      "id": "092",
+      "name": "Care Orchestrator Essence",
+      "category": "Healthcare",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.philips.com/healthcare/resources/landing/care-orchestrator",
+      "storeLink": null,
+      "about": "Healthcare management platform for remote patient monitoring and therapy management",
+      "icon": "https://images.philips.com/is/image/PhilipsConsumer/HC_logo-IMS-en_US",
+      "slug": "care-orchestrator-essence",
+      "publisher": "Philips Healthcare",
+      "lastUpdated": "2024-03-10",
+      "description": "Care Orchestrator Essence is a comprehensive healthcare management platform designed for healthcare providers to remotely monitor patients and manage therapy devices. It provides real-time patient data monitoring, therapy adjustment capabilities, and automated compliance reporting. The platform streamlines clinical workflows, enables data-driven decision making, and helps improve patient care through remote monitoring and management.",
+      "highlights": [
+          "Remote patient monitoring capabilities",
+          "Real-time therapy management",
+          "Automated compliance reporting",
+          "Clinical workflow optimization"
+      ]
     }
-
-
-
-
-
-
   ]
-
 }
