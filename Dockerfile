@@ -17,6 +17,10 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY src/ .
 
+# Set environment variables for build time
+ENV NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-WSNH0FKL0N
+ENV NEXT_PUBLIC_DATA_URL=https://raw.githubusercontent.com/amalik99/windows-arm-apps-directory/refs/heads/main/data/apps.json
+
 # Build the application
 RUN npm run build
 
@@ -27,6 +31,10 @@ WORKDIR /app
 ENV NODE_ENV=production
 # Disable telemetry during runtime.
 ENV NEXT_TELEMETRY_DISABLED=1
+
+# Set environment variables for runtime
+ENV NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-WSNH0FKL0N
+ENV NEXT_PUBLIC_DATA_URL=https://raw.githubusercontent.com/amalik99/windows-arm-apps-directory/refs/heads/main/data/apps.json
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
