@@ -1560,6 +1560,126 @@
           "Automated compliance reporting",
           "Clinical workflow optimization"
       ]
+    },
+    {
+      "id": "093",
+      "name": "PotPlayer",
+      "category": "Media",
+      "status": "Not Available",
+      "directDownloadLink": "https://potplayer.info/download/",
+      "storeLink": "https://apps.microsoft.com/detail/xp8bsbgqw2dks0?hl=en-US&gl=US",
+      "about": "Versatile multimedia player with extensive format support and customization options",
+      "icon": null,
+      "slug": "potplayer",
+      "publisher": "Kakao Corp",
+      "lastUpdated": "2025-01-23",
+      "description": "PotPlayer is a feature-rich multimedia player known for its wide format support and highly customizable interface. It offers advanced playback options including 3D video support, various audio/video codecs, and smooth playback of high-resolution content. The player features built-in codec support, subtitle synchronization, and extensive hotkey customization.",
+      "highlights": [
+          "Extensive multimedia format support",
+          "Highly customizable interface and playback options",
+          "Built-in codec support",
+          "Advanced subtitle management"
+      ]
+    },
+    {
+      "id": "094",
+      "name": "Blip",
+      "category": "Communication",
+      "status": "Not Available",
+      "directDownloadLink": "https://blip.net/download",
+      "storeLink": "https://apps.microsoft.com/detail/9n7jsxc1sjk6?hl=en-US&gl=US",
+      "about": "Modern communication platform for messaging and collaboration",
+      "icon": null,
+      "slug": "blip",
+      "publisher": "Blip",
+      "lastUpdated": "2025-01-23",
+      "description": "Blip is a modern communication platform designed for seamless messaging and team collaboration. It provides real-time messaging capabilities, file sharing, and integration features to help teams stay connected and productive.",
+      "highlights": [
+          "Real-time messaging capabilities",
+          "File sharing and collaboration",
+          "Team communication features",
+          "Cross-platform availability"
+      ]
+    },
+    {
+      "id": "095",
+      "name": "Adobe Acrobat Reader",
+      "category": "Media",
+      "status": "Not Available",
+      "directDownloadLink": "https://get.adobe.com/reader/",
+      "storeLink": "https://apps.microsoft.com/detail/xpdp273c0xhqh2?hl=en-US&gl=US",
+      "about": "Industry-standard PDF viewer and annotation tool",
+      "icon": null,
+      "slug": "adobe-acrobat-reader",
+      "publisher": "Adobe Inc.",
+      "lastUpdated": "2025-01-23",
+      "description": "Adobe Acrobat Reader is the industry-standard PDF viewer that allows users to view, print, sign, and annotate PDF documents. It offers reliable PDF rendering, form filling capabilities, and integration with Adobe Document Cloud for seamless document management across devices.",
+      "highlights": [
+          "Industry-standard PDF viewing and rendering",
+          "Document signing and annotation tools",
+          "Form filling capabilities",
+          "Cloud integration for document management"
+      ]
+    },
+    {
+      "id": "096",
+      "name": "Internet Download Manager",
+      "category": "Utilities",
+      "status": "Not Available",
+      "directDownloadLink": "https://www.internetdownloadmanager.com/",
+      "storeLink": "https://apps.microsoft.com/detail/xpdlmkftxtdhsd?hl=en-US&gl=US",
+      "about": "Powerful download accelerator and manager for faster file downloads",
+      "icon": null,
+      "slug": "internet-download-manager",
+      "publisher": "Tonec Inc.",
+      "lastUpdated": "2025-01-23",
+      "description": "Internet Download Manager (IDM) is a powerful download accelerator that can increase download speeds significantly. It features intelligent dynamic file segmentation, resume capability for broken downloads, and browser integration for seamless download management. IDM supports various protocols and can schedule downloads for optimal bandwidth usage.",
+      "highlights": [
+          "Download acceleration technology",
+          "Resume capability for interrupted downloads",
+          "Browser integration",
+          "Download scheduling and queue management"
+      ]
+    },
+    {
+      "id": "097",
+      "name": "MKVToolNix",
+      "category": "Media",
+      "status": "Not Available",
+      "directDownloadLink": "https://mkvtoolnix.download/",
+      "storeLink": "https://apps.microsoft.com/detail/9ns0q4zm8mw2?hl=en-US&gl=US",
+      "about": "Cross-platform tools for creating, altering, and inspecting MKV files",
+      "icon": null,
+      "slug": "mkvtoolnix",
+      "publisher": "Moritz Bunkus",
+      "lastUpdated": "2025-01-23",
+      "description": "MKVToolNix is a set of tools to create, alter, and inspect Matroska (MKV) files. It provides a graphical interface for merging multiple video, audio, and subtitle tracks into a single MKV container. The toolkit supports various input formats and offers advanced options for track selection, chapter editing, and metadata management.",
+      "highlights": [
+          "MKV file creation and editing",
+          "Multiple track merging support",
+          "Chapter and metadata editing",
+          "Cross-platform compatibility"
+      ]
+    },
+    {
+      "id": "098",
+      "name": "Movavi Screen Recorder",
+      "category": "Media",
+      "status": "Not Available",
+      "directDownloadLink": "https://www.movavi.com/screen-recorder/",
+      "storeLink": "https://apps.microsoft.com/detail/xp8jw0jpnpdn61?hl=en-US&gl=US",
+      "about": "Screen recording software for capturing video, audio, and webcam footage",
+      "icon": null,
+      "slug": "movavi-screen-recorder",
+      "publisher": "Movavi Software Limited",
+      "lastUpdated": "2025-01-23",
+      "description": "Movavi Screen Recorder is a comprehensive screen recording solution for capturing video from your desktop, webcam, or both simultaneously. It offers features like scheduled recording, drawing tools during capture, and export to various formats. The software is suitable for creating tutorials, recording webinars, or capturing gameplay.",
+      "highlights": [
+          "Full-screen and area capture options",
+          "Webcam overlay recording",
+          "Drawing tools during capture",
+          "Multiple export format support"
+      ]
     }
   ]
 }
