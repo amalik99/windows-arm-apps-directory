@@ -1,1318 +1,1298 @@
 {
   "apps": [
-
-      {
-        "id": "001",
-        "name": "Microsoft Office 365",
-        "category": "Productivity",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-365/get-started-with-office-365",
-        "storeLink": "https://apps.microsoft.com/detail/9wzdncrd29v9?hl=en-us&gl=US",
-        "about": "Microsoft Office 365 offers powerful productivity tools like Word, Excel, PowerPoint.",
-        "icon": "https://www.microsoft.com/favicon.ico",
-        "slug": "microsoft-office-365",
-        "publisher": "Microsoft Corporation",
-        "lastUpdated": "2024-03-10",
-        "description": "Microsoft Office 365 is a comprehensive suite of productivity applications that includes popular tools like Word, Excel, PowerPoint, Outlook, and more. Designed to improve productivity for individuals and teams, Office 365 integrates with cloud services, allowing seamless collaboration and access to files from any device.",
-        "highlights": [
-            "Comprehensive productivity suite including Word, Excel, and PowerPoint.",
-            "Cloud-based collaboration features enabling real-time file sharing.",
-            "Cross-platform accessibility on desktops, tablets, and mobile devices."
-        ],
-        "featured": true
-    },
-      {
-        "id": "002",
-        "name": "Slack",
-        "category": "Communication",
-        "status": "Available Natively",
-        "directDownloadLink": "https://slack.com/downloads/windows",
-        "storeLink": "https://apps.microsoft.com/detail/9wzdncrdk3wp?hl=en-us&gl=US",
-        "about": "Slack is a collaboration tool for teams, providing messaging, file sharing, and more.",
-        "icon": "https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png",
-        "slug": "slack",
-        "publisher": "Slack Technologies",
-        "lastUpdated": "2024-03-10",
-        "description": "Slack is a comprehensive business communication platform that combines instant messaging, file sharing, and integration capabilities. It organizes conversations into channels, supports direct messaging, and enables seamless collaboration through its robust search functionality and extensive app integration ecosystem. The platform offers both real-time and asynchronous communication options, making it ideal for both remote and office-based teams.",
-        "highlights": [
-            "Organized communication through channels and direct messages",
-            "Powerful search functionality across messages and files",
-            "Extensive integration capabilities with other business tools",
-            "Rich media sharing and collaboration features"
-        ],
-        "featured": true
-      },
-      {
-        "id": "003",
-        "name": "Zoom",
-        "category": "Communication",
-        "status": "Available Natively",
-        "directDownloadLink": "https://zoom.us/download",
-        "storeLink": "https://apps.microsoft.com/detail/xp99j3kp4xz4vv?hl=en-US&gl=US",
-        "about": "Zoom is a popular video conferencing platform for hosting virtual meetings.",
-        "icon": "https://us01st-cf.zoom.us/homepage/publish/static-image/zoom-logo.svg",
-        "slug": "zoom",
-        "publisher": "Zoom Video Communications",
-        "lastUpdated": "2024-03-10",
-        "description": "Zoom is a leading video conferencing platform that enables high-quality virtual meetings, webinars, and collaborative sessions. It offers features like screen sharing, virtual backgrounds, meeting recording, and breakout rooms. The platform supports both scheduled and instant meetings, with options for password protection and waiting rooms to enhance security. Its robust performance and user-friendly interface make it suitable for business meetings, educational sessions, and social gatherings.",
-        "highlights": [
-            "High-quality video and audio conferencing capabilities",
-            "Advanced meeting features including breakout rooms and virtual backgrounds",
-            "Comprehensive security options with end-to-end encryption",
-            "Screen sharing and collaborative annotation tools"
-        ],
-        "featured": true
-      },
-      {
-        "id": "004",
-        "name": "Microsoft OneNote",
-        "category": "Productivity",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.onenote.com/download",
-        "storeLink": "https://apps.microsoft.com/detail/xpffzhvgqwwlhb?hl=en-US&gl=US",
-        "about": "OneNote is a digital notebook for capturing and organizing notes and media.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg/180px-Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg.png",
-        "slug": "microsoft-onenote",
-        "publisher": "Microsoft Corporation",
-        "lastUpdated": "2024-03-10",
-        "description": "Microsoft OneNote is a versatile digital note-taking application that enables users to capture, organize, and share ideas across devices. It features a flexible canvas where users can type, write, draw, and insert various types of content including images, audio, and video. The app supports multiple notebooks with sections and pages, making it ideal for both personal and professional organization. Its integration with other Microsoft 365 apps enhances productivity and collaboration capabilities.",
-        "highlights": [
-            "Flexible digital canvas supporting multiple content types",
-            "Hierarchical organization with notebooks, sections, and pages",
-            "Cross-device synchronization and sharing capabilities",
-            "Seamless integration with Microsoft 365 suite"
-        ]
-      },
-      {
-        "id": "005",
-        "name": "Evernote",
-        "category": "Productivity",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://evernote.com/download",
-        "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRFJ3MB",
-        "about": "Evernote is a versatile note-taking app designed for capturing, organizing, and syncing notes.",
-        "icon": "https://evernote.com/_next/image?url=%2Fimages%2Ficons%2Fprojects.webp&w=64&q=75",
-        "slug": "evernote",
-        "publisher": "Evernote Corporation",
-        "lastUpdated": "2024-03-10",
-        "description": "Evernote is a sophisticated note-taking and organization platform that helps users capture, organize, and share information across devices. It features powerful text recognition in images (OCR), web clipper functionality, and document scanning capabilities. The platform allows users to create rich notes with text, images, audio, PDFs, and web content, while offering robust search functionality to find information quickly. Its tagging system and notebook structure provide flexible organization options for personal and professional use.",
-        "highlights": [
-            "Advanced OCR and document scanning capabilities",
-            "Powerful web clipper for saving online content",
-            "Sophisticated organization with notebooks and tags",
-            "Cross-platform synchronization and sharing features"
-        ]
-      },
-      {
-        "id": "006",
-        "name": "Bitwarden",
-        "category": "Security",
-        "status": "Available Natively",
-        "directDownloadLink": "https://bitwarden.com/download",
-        "storeLink": "https://apps.microsoft.com/detail/9pjsdv0vpk04?hl=en-us&gl=US",
-        "about": "Bitwarden is an open-source, highly secure password manager.",
-        "icon": "https://static-00.iconduck.com/assets.00/bitwarden-v2-icon-512x512-cstnj11p.png",
-        "slug": "bitwarden",
-        "publisher": "Bitwarden",
-        "lastUpdated": "2024-03-10",
-        "description": "Bitwarden is a robust, open-source password management solution that helps users securely store, share, and manage their passwords and sensitive information. It employs end-to-end encryption to protect user data and offers features like password generation, secure notes, and identity information storage. The platform supports unlimited password storage, secure sharing between users, and comprehensive browser integration for automatic form filling. Its open-source nature ensures transparency and community-driven security improvements.",
-        "highlights": [
-            "End-to-end encryption for maximum security",
-            "Open-source codebase with regular security audits",
-            "Cross-platform synchronization and backup",
-            "Secure password sharing and organization features"
-        ]
-      },
-      {
-        "id": "007",
-        "name": "Google Chrome",
-        "category": "Web Browser",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.google.com/chrome/",
-        "storeLink": null,
-        "about": "Google Chrome is a fast, secure, and widely used web browser.",
-        "icon": "https://www.google.com/images/icons/product/chrome-48.png",
-        "slug": "google-chrome",
-        "publisher": "Google LLC",
-        "lastUpdated": "2024-03-10",
-        "description": "Google Chrome is a powerful, user-friendly web browser that offers fast performance and seamless integration with Google services. It features a clean interface, robust security protections, and extensive customization through thousands of extensions. The browser includes built-in translation capabilities, password management, and synchronization across devices. Its developer tools and sandbox security model make it both powerful for developers and secure for everyday users.",
-        "highlights": [
-            "Fast and efficient browsing performance",
-            "Extensive library of extensions and themes",
-            "Seamless integration with Google services",
-            "Advanced developer tools and security features"
-        ],
-        "featured": true
-      },
-      {
-        "id": "008",
-        "name": "Microsoft Teams",
-        "category": "Communication",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-teams/download-app",
-        "storeLink": "https://apps.microsoft.com/store/detail/microsoft-teams/XPFFFQTYF17TCR?hl=en-us&gl=us",
-        "about": "Microsoft Teams is a versatile collaboration platform.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/512px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png",
-        "slug": "microsoft-teams",
-        "publisher": "Microsoft Corporation",
-        "lastUpdated": "2024-03-10",
-        "description": "Microsoft Teams is a comprehensive collaboration platform that combines chat, video meetings, file storage, and application integration. It offers seamless integration with Microsoft 365 apps, allowing teams to work directly with documents in real-time. The platform includes features like channels for organized discussions, direct messaging, screen sharing, and meeting recordings. Its extensive third-party app integration capabilities and customizable workflows make it a versatile hub for remote and hybrid work environments.",
-        "highlights": [
-            "Integrated chat, video, and file sharing capabilities",
-            "Seamless Microsoft 365 apps integration",
-            "Extensive third-party app ecosystem",
-            "Advanced meeting features including recordings and transcription"
-        ],
-        "featured": true
-      },
-      {
-        "id": "009",
-        "name": "WhatsApp Desktop",
-        "category": "Communication",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.whatsapp.com/download",
-        "storeLink": "https://apps.microsoft.com/detail/9nksqgp7f2nh?hl=en-US&gl=US",
-        "about": "WhatsApp Desktop is a free messaging app offering text, voice, and video communication.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-        "slug": "whatsapp-desktop",
-        "publisher": "WhatsApp Inc.",
-        "lastUpdated": "2024-03-10",
-        "description": "WhatsApp Desktop is a native Windows application that brings WhatsApp's messaging capabilities to the desktop environment. It offers seamless synchronization with mobile devices, supporting text, voice, and video communications. The app provides features like file sharing, voice messages, and end-to-end encryption for secure communications. Users can easily manage their conversations, share media, and participate in group chats while enjoying the convenience of a full keyboard and larger screen.",
-        "highlights": [
-            "End-to-end encrypted messaging and calls",
-            "Seamless mobile-desktop synchronization",
-            "Rich media sharing capabilities",
-            "Support for voice and video calls"
-        ],
-        "featured": true
-      },
-      {
-        "id": "010",
-        "name": "Asana",
-        "category": "Productivity",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://asana.com/download",
-        "storeLink": null,
-        "about": "Asana is a work management tool designed to help teams track their work.",
-        "icon": "https://cdn.iconscout.com/icon/free/png-512/free-asana-technology-logo-social-media-logo-logo-download-svg-png-gif-flat-icon-logos-technology-logo-vol-1-pack-asana-logo-icon-2944703.png?f=webp&w=512",
-        "slug": "asana",
-        "publisher": "Asana Inc.",
-        "lastUpdated": "2024-03-10",
-        "description": "Asana is a sophisticated project management and team collaboration tool that helps organizations track, organize, and manage their work. It offers multiple project views including lists, boards, timelines, and calendars, allowing teams to visualize work in their preferred format. The platform includes features for task assignment, deadline tracking, project dependencies, and custom fields. Its automation capabilities and extensive integration options help streamline workflows and improve team productivity.",
-        "highlights": [
-            "Multiple project visualization options",
-            "Advanced task and dependency management",
-            "Workflow automation capabilities",
-            "Comprehensive reporting and tracking features"
-        ],
-        "featured": false
-      },
-      {
-        "id": "011",
-        "name": "Trello",
-        "category": "Productivity",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://trello.com/platforms",
-        "storeLink": "https://apps.microsoft.com/detail/9nblggh4xxvw",
-        "about": "Trello is a task management and collaboration tool.",
-        "icon": "https://cdn.iconscout.com/icon/free/png-256/trello-7-569395.png",
-        "slug": "trello",
-        "publisher": "Trello Inc.",
-        "lastUpdated": "2024-03-10",
-        "description": "Trello is an intuitive project management tool based on the Kanban methodology, offering a visual way to organize tasks and projects. It uses boards, lists, and cards to help teams track work progress and collaborate effectively. The platform includes features like custom fields, power-ups for extended functionality, and automation through Butler. Its flexible nature makes it suitable for both personal task management and team project coordination.",
-        "highlights": [
-            "Visual Kanban-style organization",
-            "Customizable workflows and board layouts",
-            "Powerful automation capabilities",
-            "Extensive integration options through Power-Ups"
-        ]
-      },
-      {
-        "id": "012",
-        "name": "Gmail",
-        "category": "Communication",
-        "status": "Not Available",
-        "directDownloadLink": null,
-        "storeLink": null,
-        "about": "Gmail does not have an official native app for Windows, use web browser instead.",
-        "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
-        "slug": "gmail",
-        "publisher": "Google LLC",
-        "lastUpdated": "2024-03-10",
-        "description": "While Gmail doesn't offer a native Windows app, it provides a powerful web-based email service accessible through browsers. It features advanced spam filtering, smart compose suggestions, and integrated chat and video calling through Google Meet. The service includes robust search capabilities, customizable inbox organization, and seamless integration with other Google Workspace apps. Users can access their email offline and benefit from automatic filtering and categorization of messages.",
-        "highlights": [
-            "Advanced email organization and filtering",
-            "Integrated Google Workspace features",
-            "Smart compose and reply suggestions",
-            "Powerful search capabilities"
-        ]
-      },
-      {
-        "id": "013",
-        "name": "Thunderbird",
-        "category": "Communication",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://www.thunderbird.net/en-US/download/",
-        "storeLink": "https://apps.microsoft.com/detail/mozilla-thunderbird-email/9PM5VM1S3VMQ?hl=en-US&gl=US",
-        "about": "Thunderbird is a free, open-source email client.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Thunderbird_Logo%2C_2018.svg/512px-Thunderbird_Logo%2C_2018.svg.png",
-        "slug": "thunderbird",
-        "publisher": "Mozilla Foundation",
-        "lastUpdated": "2024-03-10",
-        "description": "Mozilla Thunderbird is a feature-rich, open-source email client that provides comprehensive email management capabilities. It supports multiple email accounts, RSS feeds, newsgroups, and chat protocols. The application offers advanced features like message filtering, spam detection, and end-to-end encryption through add-ons. Its customizable interface and extensive add-on ecosystem allow users to tailor the email experience to their needs.",
-        "highlights": [
-            "Support for multiple email protocols and accounts",
-            "Advanced message filtering and organization",
-            "Extensive add-on ecosystem",
-            "Built-in security features and encryption options"
-        ]
-      },
-      {
-        "id": "014",
-        "name": "Skype",
-        "category": "Communication",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://www.skype.com/en/get-skype/",
-        "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj364?hl=en-us&gl=US",
-        "about": "Skype is a versatile communication platform that enables voice calls, video chats, and instant messaging across devices. ",
-        "icon": "https://signal.org/assets/images/header/logo.png",
-        "slug": "skype",
-        "publisher": "Skype Technologies",
-        "lastUpdated": "2024-03-10",
-        "description": "Skype is a versatile communication platform that enables voice calls, video chats, and instant messaging across devices. It offers features like screen sharing, call recording, and live subtitles during calls. The platform supports group video calls with up to 50 participants, file sharing, and SMS messaging. Its integration with Microsoft services and cross-platform availability makes it a reliable choice for both personal and professional communication.",
-        "highlights": [
-            "High-quality voice and video calling",
-            "Group video conferencing capabilities",
-            "Real-time translation and subtitles",
-            "Integrated file sharing and messaging"
-        ]
-      },
-      {
-        "id": "015",
-        "name": "Signal",
-        "category": "Communication",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://signal.org/download/windows/",
-        "storeLink": null,
-        "about": "Signal is a secure messaging platform.",
-        "icon": "https://signal.org/assets/images/header/logo.png",
-        "slug": "signal",
-        "publisher": "Signal Messenger",
-        "lastUpdated": "2024-03-10",
-        "description": "Signal is a privacy-focused messaging application that prioritizes security and user privacy through end-to-end encryption. It offers features like disappearing messages, secure voice and video calls, and encrypted group chats. The platform is open-source and operates as a non-profit, ensuring transparency and user trust. Signal provides robust privacy features while maintaining a user-friendly interface comparable to mainstream messaging apps.",
-        "highlights": [
-            "End-to-end encryption for all communications",
-            "Self-destructing messages and media",
-            "Secure voice and video calling",
-            "Open-source development and regular security audits"
-        ]
-      },
-      {
-        "id": "016",
-        "name": "Discord",
-        "category": "Communication",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://discord.com/download",
-        "storeLink": "https://apps.microsoft.com/detail/xpdc2rh70k22mn?hl=en-US&gl=US",
-        "about": "Discord is a popular social platform designed for communication.",
-        "icon": "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6257d23c5fb25be7e0b6e220_Open%20Source%20Projects%20_%20Discord-7.svg",
-        "slug": "discord",
-        "publisher": "Discord Inc.",
-        "lastUpdated": "2024-03-10",
-        "description": "Discord is a comprehensive communication platform originally designed for gamers but now widely used by various communities. It offers voice channels, text chat, video calls, and screen sharing capabilities. The platform supports rich media sharing, custom emojis, and extensive bot integration for automated tasks. Its server-based organization system allows communities to create structured spaces with different channels and roles for members.",
-        "highlights": [
-            "Real-time voice, video, and text communication",
-            "Customizable server organization and roles",
-            "Rich bot ecosystem and integrations",
-            "Low-latency screen sharing and streaming"
-        ]
-      },
-      {
-        "id": "017",
-        "name": "Ginger",
-        "category": "Productivity",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://www.gingersoftware.com/download/",
-        "storeLink": null,
-        "about": "Ginger is an AI-powered writing assistant.",
-        "icon": "https://www.gingersoftware.com/favicon.ico",
-        "slug": "ginger",
-        "publisher": "Ginger Software",
-        "lastUpdated": "2024-03-10",
-        "description": "Ginger is an advanced writing assistant that uses artificial intelligence to help users improve their writing. It offers grammar checking, spell checking, and sentence rephrasing capabilities. The platform includes features like contextual corrections, synonyms suggestions, and translation support. Its browser extension and desktop app provide writing assistance across various applications and platforms.",
-        "highlights": [
-            "AI-powered grammar and spell checking",
-            "Contextual writing suggestions",
-            "Multiple language support and translation",
-            "Cross-platform writing assistance"
-        ]
-      },
-      {
-        "id": "018",
-        "name": "7-Zip",
-        "category": "Utilities",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://www.7-zip.org/download.html",
-        "storeLink": null,
-        "about": "7-Zip is a free, open-source file archiver with a high compression ratio.",
-        "icon": "https://www.7-zip.org/favicon.ico",
-        "slug": "7-zip",
-        "publisher": "7-Zip",
-        "lastUpdated": "2024-03-10",
-        "description": "7-Zip is a powerful file archiver utility known for its high compression ratio and support for multiple archive formats. It offers strong AES-256 encryption for archives, ability to create self-extracting archives, and command line interface for automation. The application supports a wide range of compression formats including its own 7z format, which provides better compression than traditional ZIP files.",
-        "highlights": [
-            "High compression ratios with 7z format",
-            "Support for multiple archive formats",
-            "Strong encryption capabilities",
-            "Command line interface for automation"
-        ]
-      },
-    
-      {
-        "id": "020",
-        "name": "Dropbox",
-        "category": "Utilities",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.dropbox.com/install",
-        "storeLink": "https://apps.microsoft.com/detail/9nk4t08dhq80?hl=en-US&gl=US",
-        "about": "Dropbox is a cloud storage service that allows users to store, sync, and share files.",
-        "icon": "https://cfl.dropboxstatic.com/static/images/favicon.ico",
-        "slug": "dropbox",
-        "publisher": "Dropbox Inc.",
-        "lastUpdated": "2024-03-10",
-        "description": "Dropbox is a leading cloud storage and file synchronization service that enables seamless file access across devices. It offers features like automatic camera uploads, file version history, and selective sync options. The platform includes collaborative tools such as Dropbox Paper for document creation and real-time editing. Its smart sync feature helps users save space by storing files in the cloud while maintaining quick access through the desktop interface.",
-        "highlights": [
-            "Automatic file synchronization across devices",
-            "Version history and file recovery",
-            "Smart sync for optimized storage",
-            "Collaborative document editing tools"
-        ],
-        "featured": true
-      },
-      {
-        "id": "021",
-        "name": "Google Drive",
-        "category": "Utilities",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://www.google.com/drive/download/",
-        "storeLink": null,
-        "about": "Google Drive is a cloud storage service that allows users to sync and manage files across devices.",
-        "icon": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png",
-        "slug": "google-drive",
-        "publisher": "Google LLC",
-        "lastUpdated": "2024-03-10",
-        "description": "Google Drive is a comprehensive cloud storage and file management platform integrated with Google Workspace. It provides real-time collaboration on documents, spreadsheets, and presentations through Google Docs, Sheets, and Slides. The service includes powerful search capabilities, OCR for scanned documents, and extensive sharing options. Its AI-powered features help users find files quickly and suggest relevant content based on usage patterns.",
-        "highlights": [
-            "Integrated Google Workspace applications",
-            "Real-time collaboration capabilities",
-            "AI-powered file organization and search",
-            "Extensive file sharing and permission controls"
-        ],
-        "featured": true
-      },
-      {
-        "id": "022",
-        "name": "OneDrive",
-        "category": "Utilities",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-365/onedrive/download",
-        "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj1p3?hl=en-us&gl=US",
-        "about": "OneDrive allows users to access and edit their files from all their devices.",
-        "icon": "https://store-images.s-microsoft.com/image/apps.62525.9007199266242890.65e04bdd-4345-4361-b587-32a76407d265.55045362-f41f-4e18-a44e-2d8611bc1932?h=210",
-        "slug": "onedrive",
-        "publisher": "Microsoft Corporation",
-        "lastUpdated": "2024-03-10",
-        "description": "OneDrive is Microsoft's cloud storage solution deeply integrated with Windows and Microsoft 365. It offers features like Files On-Demand to save local storage space, automatic photo backup, and Personal Vault for sensitive files. The service provides seamless integration with Microsoft Office apps for real-time collaboration and includes AI-powered features for photo organization and search. Its built-in sharing capabilities support both personal and business collaboration needs.",
-        "highlights": [
-            "Deep Windows and Microsoft 365 integration",
-            "Files On-Demand storage optimization",
-            "Personal Vault security features",
-            "Automatic photo and device backup"
-        ]
-      },
-      {
-        "id": "023",
-        "name": "TranslucentTB",
-        "category": "Personalization",
-        "status": "Available Natively",
-        "directDownloadLink": "https://translucenttb.com/download/",
-        "storeLink": "https://apps.microsoft.com/detail/9pf4kz2vn4w9?hl=en-us&gl=US",
-        "about": "TranslucentTB is a lightweight utility that customizes the Windows taskbar by making it translucent or transparent.",
-        "icon": "https://translucenttb.github.io/favicon.ico",
-        "slug": "translucenttb",
-        "publisher": "TranslucentTB",
-        "lastUpdated": "2024-03-10",
-        "description": "TranslucentTB is a lightweight utility that enhances the Windows taskbar's appearance with customizable transparency effects. It allows users to set different transparency levels for various taskbar states and supports dynamic adjustments based on window maximization. The app includes features like accent color customization and support for multiple monitors. Its minimal resource usage and smooth integration with Windows make it an ideal choice for desktop customization.",
-        "highlights": [
-            "Customizable taskbar transparency",
-            "Dynamic state-based appearance",
-            "Multi-monitor support",
-            "Low system resource usage"
-        ]
-      },
-      {
-        "id": "024",
-        "name": "Files App",
-        "category": "Utilities",
-        "status": "Available Natively",
-        "directDownloadLink": "https://files.community/download",
-        "storeLink": "https://apps.microsoft.com/detail/9NGHP3DX8HDX?hl=en-us&gl=US",
-        "about": "Files App is a sleek file manager for Windows that enhances file navigation and management.",
-        "icon": "https://files.community/branding/logo-dark.svg",
-        "slug": "files-app",
-        "publisher": "Files Community",
-        "lastUpdated": "2024-03-10",
-        "description": "Files App is a modern file explorer alternative for Windows that offers enhanced functionality and a more intuitive interface. It features tabs for better file management, customizable themes, and advanced preview capabilities for various file types. The app includes features like tags for organization, column layouts, and dual-pane view. Its integration with cloud storage services and support for extensions makes it a powerful replacement for the default Windows File Explorer.",
-        "highlights": [
-            "Modern, customizable interface with tabs",
-            "Advanced file preview capabilities",
-            "Tag-based organization system",
-            "Cloud storage integration"
-        ]
-      },
-    
-      {
-        "id": "027",
-        "name": "Spotify",
-        "category": "Media",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.spotify.com/us/download/windows/",
-        "storeLink": "https://apps.microsoft.com/detail/9ncbcszsjrsb?hl=en-us&gl=US",
-        "about": "Spotify is a music streaming platform offering millions of songs, podcasts, and playlists.",
-        "icon": "https://store-images.s-microsoft.com/image/apps.10546.13571498826857201.6603a5e2-631f-4f29-9b08-f96589723808.dc893fe0-ecbc-4846-9ac6-b13886604095?h=210",
-        "slug": "spotify",
-        "publisher": "Spotify AB",
-        "lastUpdated": "2024-03-10",
-        "description": "Spotify is a comprehensive music streaming platform offering access to millions of songs, podcasts, and audiobooks. It features personalized playlists, collaborative listening features, and cross-device playback synchronization. The platform includes social features for sharing music, discovering new content through algorithmic recommendations, and creating custom playlists. Its offline mode allows users to download content for listening without an internet connection.",
-        "highlights": [
-            "Extensive music and podcast library",
-            "Personalized recommendations and playlists",
-            "Cross-device playback sync",
-            "Offline content download capability"
-        ],
-        "featured": true
-      },
-      {
-        "id": "028",
-        "name": "Netflix",
-        "category": "Media",
-        "status": "Available Natively",
-        "directDownloadLink": null,
-        "storeLink": "https://apps.microsoft.com/detail/9WZDNCRFJ3TJ?hl=en-us&gl=us",
-        "about": "Netflix allows users to stream a wide variety of TV shows, movies, and documentaries.",
-        "icon": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico",
-        "slug": "netflix",
-        "publisher": "Netflix Inc.",
-        "lastUpdated": "2024-03-10",
-        "description": "Netflix is a premium streaming service offering a vast library of movies, TV shows, documentaries, and original content. It provides personalized recommendations, multiple user profiles, and parental controls for family viewing. The platform supports HD and 4K streaming with compatible devices and includes features like automatic next episode play and skip intro. Its download capability allows offline viewing of selected content.",
-        "highlights": [
-            "Extensive streaming library with original content",
-            "Personalized profiles and recommendations",
-            "HD and 4K streaming support",
-            "Offline viewing capabilities"
-        ],
-        "featured": true
-      },
-      {
-        "id": "029",
-        "name": "VLC Media Player",
-        "category": "Media",
-        "status": "Available Natively",
-        "directDownloadLink": "https://www.videolan.org/vlc/",
-        "storeLink": "https://apps.microsoft.com/detail/9WZDNCRFJ3T0?hl=en-GB&gl=NL",
-        "about": "VLC Media Player is a free and open-source cross-platform multimedia player.",
-        "icon": "https://images.videolan.org/images/logoOrange.png",
-        "slug": "vlc-media-player",
-        "publisher": "VideoLAN",
-        "lastUpdated": "2024-03-10",
-        "description": "VLC Media Player is a versatile, open-source multimedia player capable of playing virtually any media format without additional codecs. It supports streaming, media conversion, and advanced playback controls including subtitle synchronization and audio/video filters. The player includes features like network streaming, media library management, and extensive customization options. Its lightweight nature and comprehensive format support make it an essential media tool.",
-        "highlights": [
-            "Universal format compatibility",
-            "Streaming and media conversion capabilities",
-            "Advanced playback controls and filters",
-            "Network streaming support"
-        ]
-      },
-      {
-        "id": "030",
-        "name": "Plex",
-        "category": "Media",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://www.plex.tv/downloads",
-        "storeLink": "https://apps.microsoft.com/detail/xp9cdqw6ml4nqn?hl=en-US&gl=US",
-        "about": "Plex allows users to organize and stream their personal media collections across devices.",
-        "icon": "https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg",
-        "slug": "plex",
-        "publisher": "Plex Inc.",
-        "lastUpdated": "2024-03-10",
-        "description": "Plex is a comprehensive media server solution that organizes and streams personal media collections across devices. It automatically fetches metadata for movies, TV shows, and music, creating a Netflix-like experience for personal content. The platform includes features like live TV integration, photo backup, and sharing capabilities with friends and family. Its transcoding abilities ensure optimal playback across different devices and network conditions.",
-        "highlights": [
-            "Automated media organization and metadata",
-            "Cross-device streaming capabilities",
-            "Live TV and DVR functionality",
-            "Real-time media transcoding"
-        ]
-      },
-      {
-        "id": "031",
-        "name": "Audible",
-        "category": "Media",
-        "status": "Not Available",
-        "directDownloadLink": "https://www.audible.com/",
-        "storeLink": null,
-        "about": "Audible discontinued their Windows app, but users can listen via their web browser or mobile app.",
-        "icon": "https://www.audible.com/favicon.ico",
-        "slug": "audible",
-        "publisher": "Audible",
-        "lastUpdated": "2024-03-10",
-        "description": "Audible is a digital audio platform that offers a vast library of audiobooks, podcasts, and other audio content. It provides personalized recommendations, offline listening capabilities, and integration with other devices. Users can purchase audiobooks, subscribe to podcasts, and access a wide range of audio content through the platform. Its user-friendly interface and seamless integration with other devices make it a convenient platform for audiobook enthusiasts.",
-        "highlights": [
-            "Extensive library of audiobooks, podcasts, and other audio content",
-            "Personalized recommendations and offline listening",
-            "Integration with other devices",
-            "User-friendly interface"
-        ]
-      },
-      {
-        "id": "032",
-        "name": "iTunes",
-        "category": "Media",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://www.apple.com/itunes/download/",
-        "storeLink": "https://apps.microsoft.com/detail/9pb2mz1zmb1s?hl=en-us&gl=US",
-        "about": "iTunes allows users to manage their music, movies, and TV shows, and access Apple Music.",
-        "icon": "https://www.apple.com/favicon.ico",
-        "slug": "itunes",
-        "publisher": "Apple Inc.",
-        "lastUpdated": "2024-03-10",
-        "description": "iTunes is a digital media player and management software developed by Apple Inc. It allows users to manage their music, movies, and TV shows, and access Apple Music. The software includes features like playlists, Genius recommendations, and integration with other Apple devices. Its user-friendly interface and extensive library management capabilities make it a popular choice for music enthusiasts and media managers.",
-        "highlights": [
-            "Digital media player and management software",
-            "Music, movies, and TV shows management",
-            "Apple Music access",
-            "Integration with other Apple devices"
-        ]
-      },
-      {
-        "id": "033",
-        "name": "Kodi",
-        "category": "Media",
-        "status": "Available via Emulation",
-        "directDownloadLink": "https://kodi.tv/download",
-        "storeLink": "https://apps.microsoft.com/detail/9nblggh4t892?hl=en-US&gl=US",
-        "about": "Kodi is a free and open-source media player and entertainment hub for digital media.",
-        "icon": "https://kodi.tv/images/kodi-logo-with-text.svg",
-        "slug": "kodi",
-        "publisher": "Kodi Foundation",
-        "lastUpdated": "2024-03-10",
-        "description": "Kodi is a free and open-source media player and entertainment hub for digital media. It supports a wide range of media formats and provides features like media library management, streaming, and integration with other devices. Users can install add-ons and extensions to enhance its functionality and customize the interface. Its user-friendly interface and extensive library management capabilities make it a popular choice for media enthusiasts.",
-        "highlights": [
-            "Free and open-source media player and entertainment hub",
-            "Supports a wide range of media formats",
-            "Media library management, streaming, and integration with other devices",
-            "User-friendly interface and extensive library management capabilities"
-        ]
-      },
     {
-    "id": "034",
-    "name": "Tidal",
-    "category": "Media",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://tidal.com/download",
-    "storeLink": "https://apps.microsoft.com/detail/9nncb5bs59ph?hl=en-us&gl=US",
-    "about": "Tidal is a music streaming platform offering high-fidelity sound and exclusive artist content.",
-    "icon": "https://tidal.com/favicon.ico",
-    "slug": "tidal",
-    "publisher": "Tidal",
-    "lastUpdated": "2024-03-10",
-    "description": "Tidal is a music streaming platform offering high-fidelity sound and exclusive artist content. It provides personalized playlists, curated content, and exclusive access to new releases. The platform includes features like high-quality audio, curated playlists, and exclusive artist content. Its user-friendly interface and seamless integration with other devices make it a popular choice for music enthusiasts.",
-    "highlights": [
+      "id": "001",
+      "name": "Microsoft Office 365",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-365/get-started-with-office-365",
+      "storeLink": "https://apps.microsoft.com/detail/9wzdncrd29v9?hl=en-us&gl=US",
+      "about": "Microsoft Office 365 offers powerful productivity tools like Word, Excel, PowerPoint.",
+      "icon": "https://www.microsoft.com/favicon.ico",
+      "slug": "microsoft-office-365",
+      "publisher": "Microsoft Corporation",
+      "lastUpdated": "2024-03-10",
+      "description": "Microsoft Office 365 is a comprehensive suite of productivity applications that includes popular tools like Word, Excel, PowerPoint, Outlook, and more. Designed to improve productivity for individuals and teams, Office 365 integrates with cloud services, allowing seamless collaboration and access to files from any device.",
+      "highlights": [
+        "Comprehensive productivity suite including Word, Excel, and PowerPoint.",
+        "Cloud-based collaboration features enabling real-time file sharing.",
+        "Cross-platform accessibility on desktops, tablets, and mobile devices."
+      ],
+      "featured": true
+    },
+    {
+      "id": "002",
+      "name": "Slack",
+      "category": "Communication",
+      "status": "Available Natively",
+      "directDownloadLink": "https://slack.com/downloads/windows",
+      "storeLink": "https://apps.microsoft.com/detail/9wzdncrdk3wp?hl=en-us&gl=US",
+      "about": "Slack is a collaboration tool for teams, providing messaging, file sharing, and more.",
+      "icon": "https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png",
+      "slug": "slack",
+      "publisher": "Slack Technologies",
+      "lastUpdated": "2024-03-10",
+      "description": "Slack is a comprehensive business communication platform that combines instant messaging, file sharing, and integration capabilities. It organizes conversations into channels, supports direct messaging, and enables seamless collaboration through its robust search functionality and extensive app integration ecosystem. The platform offers both real-time and asynchronous communication options, making it ideal for both remote and office-based teams.",
+      "highlights": [
+        "Organized communication through channels and direct messages",
+        "Powerful search functionality across messages and files",
+        "Extensive integration capabilities with other business tools",
+        "Rich media sharing and collaboration features"
+      ],
+      "featured": true
+    },
+    {
+      "id": "003",
+      "name": "Zoom",
+      "category": "Communication",
+      "status": "Available Natively",
+      "directDownloadLink": "https://zoom.us/download",
+      "storeLink": "https://apps.microsoft.com/detail/xp99j3kp4xz4vv?hl=en-US&gl=US",
+      "about": "Zoom is a popular video conferencing platform for hosting virtual meetings.",
+      "icon": "https://us01st-cf.zoom.us/homepage/publish/static-image/zoom-logo.svg",
+      "slug": "zoom",
+      "publisher": "Zoom Video Communications",
+      "lastUpdated": "2024-03-10",
+      "description": "Zoom is a leading video conferencing platform that enables high-quality virtual meetings, webinars, and collaborative sessions. It offers features like screen sharing, virtual backgrounds, meeting recording, and breakout rooms. The platform supports both scheduled and instant meetings, with options for password protection and waiting rooms to enhance security. Its robust performance and user-friendly interface make it suitable for business meetings, educational sessions, and social gatherings.",
+      "highlights": [
+        "High-quality video and audio conferencing capabilities",
+        "Advanced meeting features including breakout rooms and virtual backgrounds",
+        "Comprehensive security options with end-to-end encryption",
+        "Screen sharing and collaborative annotation tools"
+      ],
+      "featured": true
+    },
+    {
+      "id": "004",
+      "name": "Microsoft OneNote",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.onenote.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/xpffzhvgqwwlhb?hl=en-US&gl=US",
+      "about": "OneNote is a digital notebook for capturing and organizing notes and media.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg/180px-Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg.png",
+      "slug": "microsoft-onenote",
+      "publisher": "Microsoft Corporation",
+      "lastUpdated": "2024-03-10",
+      "description": "Microsoft OneNote is a versatile digital note-taking application that enables users to capture, organize, and share ideas across devices. It features a flexible canvas where users can type, write, draw, and insert various types of content including images, audio, and video. The app supports multiple notebooks with sections and pages, making it ideal for both personal and professional organization. Its integration with other Microsoft 365 apps enhances productivity and collaboration capabilities.",
+      "highlights": [
+        "Flexible digital canvas supporting multiple content types",
+        "Hierarchical organization with notebooks, sections, and pages",
+        "Cross-device synchronization and sharing capabilities",
+        "Seamless integration with Microsoft 365 suite"
+      ]
+    },
+    {
+      "id": "005",
+      "name": "Evernote",
+      "category": "Productivity",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://evernote.com/download",
+      "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRFJ3MB",
+      "about": "Evernote is a versatile note-taking app designed for capturing, organizing, and syncing notes.",
+      "icon": "https://evernote.com/_next/image?url=%2Fimages%2Ficons%2Fprojects.webp&w=64&q=75",
+      "slug": "evernote",
+      "publisher": "Evernote Corporation",
+      "lastUpdated": "2024-03-10",
+      "description": "Evernote is a sophisticated note-taking and organization platform that helps users capture, organize, and share information across devices. It features powerful text recognition in images (OCR), web clipper functionality, and document scanning capabilities. The platform allows users to create rich notes with text, images, audio, PDFs, and web content, while offering robust search functionality to find information quickly. Its tagging system and notebook structure provide flexible organization options for personal and professional use.",
+      "highlights": [
+        "Advanced OCR and document scanning capabilities",
+        "Powerful web clipper for saving online content",
+        "Sophisticated organization with notebooks and tags",
+        "Cross-platform synchronization and sharing features"
+      ]
+    },
+    {
+      "id": "006",
+      "name": "Bitwarden",
+      "category": "Security",
+      "status": "Available Natively",
+      "directDownloadLink": "https://bitwarden.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/9pjsdv0vpk04?hl=en-us&gl=US",
+      "about": "Bitwarden is an open-source, highly secure password manager.",
+      "icon": "https://static-00.iconduck.com/assets.00/bitwarden-v2-icon-512x512-cstnj11p.png",
+      "slug": "bitwarden",
+      "publisher": "Bitwarden",
+      "lastUpdated": "2024-03-10",
+      "description": "Bitwarden is a robust, open-source password management solution that helps users securely store, share, and manage their passwords and sensitive information. It employs end-to-end encryption to protect user data and offers features like password generation, secure notes, and identity information storage. The platform supports unlimited password storage, secure sharing between users, and comprehensive browser integration for automatic form filling. Its open-source nature ensures transparency and community-driven security improvements.",
+      "highlights": [
+        "End-to-end encryption for maximum security",
+        "Open-source codebase with regular security audits",
+        "Cross-platform synchronization and backup",
+        "Secure password sharing and organization features"
+      ]
+    },
+    {
+      "id": "007",
+      "name": "Google Chrome",
+      "category": "Web Browser",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.google.com/chrome/",
+      "storeLink": null,
+      "about": "Google Chrome is a fast, secure, and widely used web browser.",
+      "icon": "https://www.google.com/images/icons/product/chrome-48.png",
+      "slug": "google-chrome",
+      "publisher": "Google LLC",
+      "lastUpdated": "2024-03-10",
+      "description": "Google Chrome is a powerful, user-friendly web browser that offers fast performance and seamless integration with Google services. It features a clean interface, robust security protections, and extensive customization through thousands of extensions. The browser includes built-in translation capabilities, password management, and synchronization across devices. Its developer tools and sandbox security model make it both powerful for developers and secure for everyday users.",
+      "highlights": [
+        "Fast and efficient browsing performance",
+        "Extensive library of extensions and themes",
+        "Seamless integration with Google services",
+        "Advanced developer tools and security features"
+      ],
+      "featured": true
+    },
+    {
+      "id": "008",
+      "name": "Microsoft Teams",
+      "category": "Communication",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-teams/download-app",
+      "storeLink": "https://apps.microsoft.com/store/detail/microsoft-teams/XPFFFQTYF17TCR?hl=en-us&gl=us",
+      "about": "Microsoft Teams is a versatile collaboration platform.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/512px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png",
+      "slug": "microsoft-teams",
+      "publisher": "Microsoft Corporation",
+      "lastUpdated": "2024-03-10",
+      "description": "Microsoft Teams is a comprehensive collaboration platform that combines chat, video meetings, file storage, and application integration. It offers seamless integration with Microsoft 365 apps, allowing teams to work directly with documents in real-time. The platform includes features like channels for organized discussions, direct messaging, screen sharing, and meeting recordings. Its extensive third-party app integration capabilities and customizable workflows make it a versatile hub for remote and hybrid work environments.",
+      "highlights": [
+        "Integrated chat, video, and file sharing capabilities",
+        "Seamless Microsoft 365 apps integration",
+        "Extensive third-party app ecosystem",
+        "Advanced meeting features including recordings and transcription"
+      ],
+      "featured": true
+    },
+    {
+      "id": "009",
+      "name": "WhatsApp Desktop",
+      "category": "Communication",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.whatsapp.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/9nksqgp7f2nh?hl=en-US&gl=US",
+      "about": "WhatsApp Desktop is a free messaging app offering text, voice, and video communication.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+      "slug": "whatsapp-desktop",
+      "publisher": "WhatsApp Inc.",
+      "lastUpdated": "2024-03-10",
+      "description": "WhatsApp Desktop is a native Windows application that brings WhatsApp's messaging capabilities to the desktop environment. It offers seamless synchronization with mobile devices, supporting text, voice, and video communications. The app provides features like file sharing, voice messages, and end-to-end encryption for secure communications. Users can easily manage their conversations, share media, and participate in group chats while enjoying the convenience of a full keyboard and larger screen.",
+      "highlights": [
+        "End-to-end encrypted messaging and calls",
+        "Seamless mobile-desktop synchronization",
+        "Rich media sharing capabilities",
+        "Support for voice and video calls"
+      ],
+      "featured": true
+    },
+    {
+      "id": "010",
+      "name": "Asana",
+      "category": "Productivity",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://asana.com/download",
+      "storeLink": null,
+      "about": "Asana is a work management tool designed to help teams track their work.",
+      "icon": "https://cdn.iconscout.com/icon/free/png-512/free-asana-technology-logo-social-media-logo-logo-download-svg-png-gif-flat-icon-logos-technology-logo-vol-1-pack-asana-logo-icon-2944703.png?f=webp&w=512",
+      "slug": "asana",
+      "publisher": "Asana Inc.",
+      "lastUpdated": "2024-03-10",
+      "description": "Asana is a sophisticated project management and team collaboration tool that helps organizations track, organize, and manage their work. It offers multiple project views including lists, boards, timelines, and calendars, allowing teams to visualize work in their preferred format. The platform includes features for task assignment, deadline tracking, project dependencies, and custom fields. Its automation capabilities and extensive integration options help streamline workflows and improve team productivity.",
+      "highlights": [
+        "Multiple project visualization options",
+        "Advanced task and dependency management",
+        "Workflow automation capabilities",
+        "Comprehensive reporting and tracking features"
+      ],
+      "featured": false
+    },
+    {
+      "id": "011",
+      "name": "Trello",
+      "category": "Productivity",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://trello.com/platforms",
+      "storeLink": "https://apps.microsoft.com/detail/9nblggh4xxvw",
+      "about": "Trello is a task management and collaboration tool.",
+      "icon": "https://cdn.iconscout.com/icon/free/png-256/trello-7-569395.png",
+      "slug": "trello",
+      "publisher": "Trello Inc.",
+      "lastUpdated": "2024-03-10",
+      "description": "Trello is an intuitive project management tool based on the Kanban methodology, offering a visual way to organize tasks and projects. It uses boards, lists, and cards to help teams track work progress and collaborate effectively. The platform includes features like custom fields, power-ups for extended functionality, and automation through Butler. Its flexible nature makes it suitable for both personal task management and team project coordination.",
+      "highlights": [
+        "Visual Kanban-style organization",
+        "Customizable workflows and board layouts",
+        "Powerful automation capabilities",
+        "Extensive integration options through Power-Ups"
+      ]
+    },
+    {
+      "id": "012",
+      "name": "Gmail",
+      "category": "Communication",
+      "status": "Not Available",
+      "directDownloadLink": null,
+      "storeLink": null,
+      "about": "Gmail does not have an official native app for Windows, use web browser instead.",
+      "icon": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
+      "slug": "gmail",
+      "publisher": "Google LLC",
+      "lastUpdated": "2024-03-10",
+      "description": "While Gmail doesn't offer a native Windows app, it provides a powerful web-based email service accessible through browsers. It features advanced spam filtering, smart compose suggestions, and integrated chat and video calling through Google Meet. The service includes robust search capabilities, customizable inbox organization, and seamless integration with other Google Workspace apps. Users can access their email offline and benefit from automatic filtering and categorization of messages.",
+      "highlights": [
+        "Advanced email organization and filtering",
+        "Integrated Google Workspace features",
+        "Smart compose and reply suggestions",
+        "Powerful search capabilities"
+      ]
+    },
+    {
+      "id": "013",
+      "name": "Thunderbird",
+      "category": "Communication",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.thunderbird.net/en-US/download/",
+      "storeLink": "https://apps.microsoft.com/detail/mozilla-thunderbird-email/9PM5VM1S3VMQ?hl=en-US&gl=US",
+      "about": "Thunderbird is a free, open-source email client.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Thunderbird_Logo%2C_2018.svg/512px-Thunderbird_Logo%2C_2018.svg.png",
+      "slug": "thunderbird",
+      "publisher": "Mozilla Foundation",
+      "lastUpdated": "2024-03-10",
+      "description": "Mozilla Thunderbird is a feature-rich, open-source email client that provides comprehensive email management capabilities. It supports multiple email accounts, RSS feeds, newsgroups, and chat protocols. The application offers advanced features like message filtering, spam detection, and end-to-end encryption through add-ons. Its customizable interface and extensive add-on ecosystem allow users to tailor the email experience to their needs.",
+      "highlights": [
+        "Support for multiple email protocols and accounts",
+        "Advanced message filtering and organization",
+        "Extensive add-on ecosystem",
+        "Built-in security features and encryption options"
+      ]
+    },
+    {
+      "id": "014",
+      "name": "Skype",
+      "category": "Communication",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.skype.com/en/get-skype/",
+      "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj364?hl=en-us&gl=US",
+      "about": "Skype is a versatile communication platform that enables voice calls, video chats, and instant messaging across devices. ",
+      "icon": "https://signal.org/assets/images/header/logo.png",
+      "slug": "skype",
+      "publisher": "Skype Technologies",
+      "lastUpdated": "2024-03-10",
+      "description": "Skype is a versatile communication platform that enables voice calls, video chats, and instant messaging across devices. It offers features like screen sharing, call recording, and live subtitles during calls. The platform supports group video calls with up to 50 participants, file sharing, and SMS messaging. Its integration with Microsoft services and cross-platform availability makes it a reliable choice for both personal and professional communication.",
+      "highlights": [
+        "High-quality voice and video calling",
+        "Group video conferencing capabilities",
+        "Real-time translation and subtitles",
+        "Integrated file sharing and messaging"
+      ]
+    },
+    {
+      "id": "015",
+      "name": "Signal",
+      "category": "Communication",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://signal.org/download/windows/",
+      "storeLink": null,
+      "about": "Signal is a secure messaging platform.",
+      "icon": "https://signal.org/assets/images/header/logo.png",
+      "slug": "signal",
+      "publisher": "Signal Messenger",
+      "lastUpdated": "2024-03-10",
+      "description": "Signal is a privacy-focused messaging application that prioritizes security and user privacy through end-to-end encryption. It offers features like disappearing messages, secure voice and video calls, and encrypted group chats. The platform is open-source and operates as a non-profit, ensuring transparency and user trust. Signal provides robust privacy features while maintaining a user-friendly interface comparable to mainstream messaging apps.",
+      "highlights": [
+        "End-to-end encryption for all communications",
+        "Self-destructing messages and media",
+        "Secure voice and video calling",
+        "Open-source development and regular security audits"
+      ]
+    },
+    {
+      "id": "016",
+      "name": "Discord",
+      "category": "Communication",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://discord.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/xpdc2rh70k22mn?hl=en-US&gl=US",
+      "about": "Discord is a popular social platform designed for communication.",
+      "icon": "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6257d23c5fb25be7e0b6e220_Open%20Source%20Projects%20_%20Discord-7.svg",
+      "slug": "discord",
+      "publisher": "Discord Inc.",
+      "lastUpdated": "2024-03-10",
+      "description": "Discord is a comprehensive communication platform originally designed for gamers but now widely used by various communities. It offers voice channels, text chat, video calls, and screen sharing capabilities. The platform supports rich media sharing, custom emojis, and extensive bot integration for automated tasks. Its server-based organization system allows communities to create structured spaces with different channels and roles for members.",
+      "highlights": [
+        "Real-time voice, video, and text communication",
+        "Customizable server organization and roles",
+        "Rich bot ecosystem and integrations",
+        "Low-latency screen sharing and streaming"
+      ]
+    },
+    {
+      "id": "017",
+      "name": "Ginger",
+      "category": "Productivity",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.gingersoftware.com/download/",
+      "storeLink": null,
+      "about": "Ginger is an AI-powered writing assistant.",
+      "icon": "https://www.gingersoftware.com/favicon.ico",
+      "slug": "ginger",
+      "publisher": "Ginger Software",
+      "lastUpdated": "2024-03-10",
+      "description": "Ginger is an advanced writing assistant that uses artificial intelligence to help users improve their writing. It offers grammar checking, spell checking, and sentence rephrasing capabilities. The platform includes features like contextual corrections, synonyms suggestions, and translation support. Its browser extension and desktop app provide writing assistance across various applications and platforms.",
+      "highlights": [
+        "AI-powered grammar and spell checking",
+        "Contextual writing suggestions",
+        "Multiple language support and translation",
+        "Cross-platform writing assistance"
+      ]
+    },
+    {
+      "id": "018",
+      "name": "7-Zip",
+      "category": "Utilities",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.7-zip.org/download.html",
+      "storeLink": null,
+      "about": "7-Zip is a free, open-source file archiver with a high compression ratio.",
+      "icon": "https://www.7-zip.org/favicon.ico",
+      "slug": "7-zip",
+      "publisher": "7-Zip",
+      "lastUpdated": "2024-03-10",
+      "description": "7-Zip is a powerful file archiver utility known for its high compression ratio and support for multiple archive formats. It offers strong AES-256 encryption for archives, ability to create self-extracting archives, and command line interface for automation. The application supports a wide range of compression formats including its own 7z format, which provides better compression than traditional ZIP files.",
+      "highlights": [
+        "High compression ratios with 7z format",
+        "Support for multiple archive formats",
+        "Strong encryption capabilities",
+        "Command line interface for automation"
+      ]
+    },
+    {
+      "id": "020",
+      "name": "Dropbox",
+      "category": "Utilities",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.dropbox.com/install",
+      "storeLink": "https://apps.microsoft.com/detail/9nk4t08dhq80?hl=en-US&gl=US",
+      "about": "Dropbox is a cloud storage service that allows users to store, sync, and share files.",
+      "icon": "https://cfl.dropboxstatic.com/static/images/favicon.ico",
+      "slug": "dropbox",
+      "publisher": "Dropbox Inc.",
+      "lastUpdated": "2024-03-10",
+      "description": "Dropbox is a leading cloud storage and file synchronization service that enables seamless file access across devices. It offers features like automatic camera uploads, file version history, and selective sync options. The platform includes collaborative tools such as Dropbox Paper for document creation and real-time editing. Its smart sync feature helps users save space by storing files in the cloud while maintaining quick access through the desktop interface.",
+      "highlights": [
+        "Automatic file synchronization across devices",
+        "Version history and file recovery",
+        "Smart sync for optimized storage",
+        "Collaborative document editing tools"
+      ],
+      "featured": true
+    },
+    {
+      "id": "021",
+      "name": "Google Drive",
+      "category": "Utilities",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.google.com/drive/download/",
+      "storeLink": null,
+      "about": "Google Drive is a cloud storage service that allows users to sync and manage files across devices.",
+      "icon": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png",
+      "slug": "google-drive",
+      "publisher": "Google LLC",
+      "lastUpdated": "2024-03-10",
+      "description": "Google Drive is a comprehensive cloud storage and file management platform integrated with Google Workspace. It provides real-time collaboration on documents, spreadsheets, and presentations through Google Docs, Sheets, and Slides. The service includes powerful search capabilities, OCR for scanned documents, and extensive sharing options. Its AI-powered features help users find files quickly and suggest relevant content based on usage patterns.",
+      "highlights": [
+        "Integrated Google Workspace applications",
+        "Real-time collaboration capabilities",
+        "AI-powered file organization and search",
+        "Extensive file sharing and permission controls"
+      ],
+      "featured": true
+    },
+    {
+      "id": "022",
+      "name": "OneDrive",
+      "category": "Utilities",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.microsoft.com/en-us/microsoft-365/onedrive/download",
+      "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj1p3?hl=en-us&gl=US",
+      "about": "OneDrive allows users to access and edit their files from all their devices.",
+      "icon": "https://store-images.s-microsoft.com/image/apps.62525.9007199266242890.65e04bdd-4345-4361-b587-32a76407d265.55045362-f41f-4e18-a44e-2d8611bc1932?h=210",
+      "slug": "onedrive",
+      "publisher": "Microsoft Corporation",
+      "lastUpdated": "2024-03-10",
+      "description": "OneDrive is Microsoft's cloud storage solution deeply integrated with Windows and Microsoft 365. It offers features like Files On-Demand to save local storage space, automatic photo backup, and Personal Vault for sensitive files. The service provides seamless integration with Microsoft Office apps for real-time collaboration and includes AI-powered features for photo organization and search. Its built-in sharing capabilities support both personal and business collaboration needs.",
+      "highlights": [
+        "Deep Windows and Microsoft 365 integration",
+        "Files On-Demand storage optimization",
+        "Personal Vault security features",
+        "Automatic photo and device backup"
+      ]
+    },
+    {
+      "id": "023",
+      "name": "TranslucentTB",
+      "category": "Personalization",
+      "status": "Available Natively",
+      "directDownloadLink": "https://translucenttb.com/download/",
+      "storeLink": "https://apps.microsoft.com/detail/9pf4kz2vn4w9?hl=en-us&gl=US",
+      "about": "TranslucentTB is a lightweight utility that customizes the Windows taskbar by making it translucent or transparent.",
+      "icon": "https://translucenttb.github.io/favicon.ico",
+      "slug": "translucenttb",
+      "publisher": "TranslucentTB",
+      "lastUpdated": "2024-03-10",
+      "description": "TranslucentTB is a lightweight utility that enhances the Windows taskbar's appearance with customizable transparency effects. It allows users to set different transparency levels for various taskbar states and supports dynamic adjustments based on window maximization. The app includes features like accent color customization and support for multiple monitors. Its minimal resource usage and smooth integration with Windows make it an ideal choice for desktop customization.",
+      "highlights": [
+        "Customizable taskbar transparency",
+        "Dynamic state-based appearance",
+        "Multi-monitor support",
+        "Low system resource usage"
+      ]
+    },
+    {
+      "id": "024",
+      "name": "Files App",
+      "category": "Utilities",
+      "status": "Available Natively",
+      "directDownloadLink": "https://files.community/download",
+      "storeLink": "https://apps.microsoft.com/detail/9NGHP3DX8HDX?hl=en-us&gl=US",
+      "about": "Files App is a sleek file manager for Windows that enhances file navigation and management.",
+      "icon": "https://files.community/branding/logo-dark.svg",
+      "slug": "files-app",
+      "publisher": "Files Community",
+      "lastUpdated": "2024-03-10",
+      "description": "Files App is a modern file explorer alternative for Windows that offers enhanced functionality and a more intuitive interface. It features tabs for better file management, customizable themes, and advanced preview capabilities for various file types. The app includes features like tags for organization, column layouts, and dual-pane view. Its integration with cloud storage services and support for extensions makes it a powerful replacement for the default Windows File Explorer.",
+      "highlights": [
+        "Modern, customizable interface with tabs",
+        "Advanced file preview capabilities",
+        "Tag-based organization system",
+        "Cloud storage integration"
+      ]
+    },
+    {
+      "id": "027",
+      "name": "Spotify",
+      "category": "Media",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.spotify.com/us/download/windows/",
+      "storeLink": "https://apps.microsoft.com/detail/9ncbcszsjrsb?hl=en-us&gl=US",
+      "about": "Spotify supports Windows 10/11 64-bit, but does not explicitly publish a native ARM64 Windows desktop build.",
+      "icon": "https://store-images.s-microsoft.com/image/apps.10546.13571498826857201.6603a5e2-631f-4f29-9b08-f96589723808.dc893fe0-ecbc-4846-9ac6-b13886604095?h=210",
+      "slug": "spotify",
+      "publisher": "Spotify AB",
+      "lastUpdated": "2026-02-10",
+      "description": "Spotify is a music and podcast streaming service with desktop and mobile apps. Spotify officially supports Windows 10/11 64-bit, while explicit ARM64-native desktop packaging details are not published in support docs.",
+      "highlights": [
+        "Large catalog of music and podcasts",
+        "Personalized recommendations and playlists",
+        "Offline playback for Premium users",
+        "Works on Windows on Arm via emulation"
+      ],
+      "featured": true
+    },
+    {
+      "id": "028",
+      "name": "Netflix",
+      "category": "Media",
+      "status": "Available Natively",
+      "directDownloadLink": null,
+      "storeLink": "https://apps.microsoft.com/detail/9WZDNCRFJ3TJ?hl=en-us&gl=us",
+      "about": "Netflix allows users to stream a wide variety of TV shows, movies, and documentaries.",
+      "icon": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico",
+      "slug": "netflix",
+      "publisher": "Netflix Inc.",
+      "lastUpdated": "2024-03-10",
+      "description": "Netflix is a premium streaming service offering a vast library of movies, TV shows, documentaries, and original content. It provides personalized recommendations, multiple user profiles, and parental controls for family viewing. The platform supports HD and 4K streaming with compatible devices and includes features like automatic next episode play and skip intro. Its download capability allows offline viewing of selected content.",
+      "highlights": [
+        "Extensive streaming library with original content",
+        "Personalized profiles and recommendations",
+        "HD and 4K streaming support",
+        "Offline viewing capabilities"
+      ],
+      "featured": true
+    },
+    {
+      "id": "029",
+      "name": "VLC Media Player",
+      "category": "Media",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.videolan.org/vlc/",
+      "storeLink": "https://apps.microsoft.com/detail/9WZDNCRFJ3T0?hl=en-GB&gl=NL",
+      "about": "VLC Media Player is a free and open-source cross-platform multimedia player.",
+      "icon": "https://images.videolan.org/images/logoOrange.png",
+      "slug": "vlc-media-player",
+      "publisher": "VideoLAN",
+      "lastUpdated": "2024-03-10",
+      "description": "VLC Media Player is a versatile, open-source multimedia player capable of playing virtually any media format without additional codecs. It supports streaming, media conversion, and advanced playback controls including subtitle synchronization and audio/video filters. The player includes features like network streaming, media library management, and extensive customization options. Its lightweight nature and comprehensive format support make it an essential media tool.",
+      "highlights": [
+        "Universal format compatibility",
+        "Streaming and media conversion capabilities",
+        "Advanced playback controls and filters",
+        "Network streaming support"
+      ]
+    },
+    {
+      "id": "030",
+      "name": "Plex",
+      "category": "Media",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.plex.tv/downloads",
+      "storeLink": "https://apps.microsoft.com/detail/xp9cdqw6ml4nqn?hl=en-US&gl=US",
+      "about": "Plex allows users to organize and stream their personal media collections across devices.",
+      "icon": "https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg",
+      "slug": "plex",
+      "publisher": "Plex Inc.",
+      "lastUpdated": "2024-03-10",
+      "description": "Plex is a comprehensive media server solution that organizes and streams personal media collections across devices. It automatically fetches metadata for movies, TV shows, and music, creating a Netflix-like experience for personal content. The platform includes features like live TV integration, photo backup, and sharing capabilities with friends and family. Its transcoding abilities ensure optimal playback across different devices and network conditions.",
+      "highlights": [
+        "Automated media organization and metadata",
+        "Cross-device streaming capabilities",
+        "Live TV and DVR functionality",
+        "Real-time media transcoding"
+      ]
+    },
+    {
+      "id": "031",
+      "name": "Audible",
+      "category": "Media",
+      "status": "Not Available",
+      "directDownloadLink": "https://www.audible.com/",
+      "storeLink": null,
+      "about": "Audible discontinued their Windows app, but users can listen via their web browser or mobile app.",
+      "icon": "https://www.audible.com/favicon.ico",
+      "slug": "audible",
+      "publisher": "Audible",
+      "lastUpdated": "2024-03-10",
+      "description": "Audible is a digital audio platform that offers a vast library of audiobooks, podcasts, and other audio content. It provides personalized recommendations, offline listening capabilities, and integration with other devices. Users can purchase audiobooks, subscribe to podcasts, and access a wide range of audio content through the platform. Its user-friendly interface and seamless integration with other devices make it a convenient platform for audiobook enthusiasts.",
+      "highlights": [
+        "Extensive library of audiobooks, podcasts, and other audio content",
+        "Personalized recommendations and offline listening",
+        "Integration with other devices",
+        "User-friendly interface"
+      ]
+    },
+    {
+      "id": "032",
+      "name": "iTunes",
+      "category": "Media",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.apple.com/itunes/download/",
+      "storeLink": "https://apps.microsoft.com/detail/9pb2mz1zmb1s?hl=en-us&gl=US",
+      "about": "iTunes allows users to manage their music, movies, and TV shows, and access Apple Music.",
+      "icon": "https://www.apple.com/favicon.ico",
+      "slug": "itunes",
+      "publisher": "Apple Inc.",
+      "lastUpdated": "2024-03-10",
+      "description": "iTunes is a digital media player and management software developed by Apple Inc. It allows users to manage their music, movies, and TV shows, and access Apple Music. The software includes features like playlists, Genius recommendations, and integration with other Apple devices. Its user-friendly interface and extensive library management capabilities make it a popular choice for music enthusiasts and media managers.",
+      "highlights": [
+        "Digital media player and management software",
+        "Music, movies, and TV shows management",
+        "Apple Music access",
+        "Integration with other Apple devices"
+      ]
+    },
+    {
+      "id": "033",
+      "name": "Kodi",
+      "category": "Media",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://kodi.tv/download",
+      "storeLink": "https://apps.microsoft.com/detail/9nblggh4t892?hl=en-US&gl=US",
+      "about": "Kodi is a free and open-source media player and entertainment hub for digital media.",
+      "icon": "https://kodi.tv/images/kodi-logo-with-text.svg",
+      "slug": "kodi",
+      "publisher": "Kodi Foundation",
+      "lastUpdated": "2024-03-10",
+      "description": "Kodi is a free and open-source media player and entertainment hub for digital media. It supports a wide range of media formats and provides features like media library management, streaming, and integration with other devices. Users can install add-ons and extensions to enhance its functionality and customize the interface. Its user-friendly interface and extensive library management capabilities make it a popular choice for media enthusiasts.",
+      "highlights": [
+        "Free and open-source media player and entertainment hub",
+        "Supports a wide range of media formats",
+        "Media library management, streaming, and integration with other devices",
+        "User-friendly interface and extensive library management capabilities"
+      ]
+    },
+    {
+      "id": "034",
+      "name": "Tidal",
+      "category": "Media",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://tidal.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/9nncb5bs59ph?hl=en-us&gl=US",
+      "about": "Tidal is a music streaming platform offering high-fidelity sound and exclusive artist content.",
+      "icon": "https://tidal.com/favicon.ico",
+      "slug": "tidal",
+      "publisher": "Tidal",
+      "lastUpdated": "2024-03-10",
+      "description": "Tidal is a music streaming platform offering high-fidelity sound and exclusive artist content. It provides personalized playlists, curated content, and exclusive access to new releases. The platform includes features like high-quality audio, curated playlists, and exclusive artist content. Its user-friendly interface and seamless integration with other devices make it a popular choice for music enthusiasts.",
+      "highlights": [
         "High-fidelity sound and exclusive artist content",
         "Personalized playlists and curated content",
         "Exclusive access to new releases",
         "User-friendly interface and seamless integration with other devices"
-    ]
-  },
-  {
-    "id": "035",
-    "name": "Audacity",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.audacityteam.org/download/",
-    "storeLink": "https://apps.microsoft.com/detail/xp8k0j757hhrdw?hl=en-US&gl=US",
-    "about": "Audacity is a free, open-source audio editing tool widely used for editing podcasts, music tracks, and other audio recordings.",
-    "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxseQJV573Uwugf0POF9I45CxYkDTe9L9RpBQ0NviXnyGtveCxdSwzcWHn8q6VdXAjJYtSJdpsx8zzt0MgOW6boc-&format=source&h=210",
-    "slug": "audacity",
-    "publisher": "Audacity Team",
-    "lastUpdated": "2024-03-10",
-    "description": "Audacity is a free, open-source audio editing tool widely used for editing podcasts, music tracks, and other audio recordings. It provides features like waveform editing, frequency analysis, and audio effects processing. The software includes a user-friendly interface and supports a wide range of audio formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for audio enthusiasts and professionals.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "035",
+      "name": "Audacity",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.audacityteam.org/download/",
+      "storeLink": "https://apps.microsoft.com/detail/xp8k0j757hhrdw?hl=en-US&gl=US",
+      "about": "Audacity is a free, open-source audio editing tool widely used for editing podcasts, music tracks, and other audio recordings.",
+      "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxseQJV573Uwugf0POF9I45CxYkDTe9L9RpBQ0NviXnyGtveCxdSwzcWHn8q6VdXAjJYtSJdpsx8zzt0MgOW6boc-&format=source&h=210",
+      "slug": "audacity",
+      "publisher": "Audacity Team",
+      "lastUpdated": "2024-03-10",
+      "description": "Audacity is a free, open-source audio editing tool widely used for editing podcasts, music tracks, and other audio recordings. It provides features like waveform editing, frequency analysis, and audio effects processing. The software includes a user-friendly interface and supports a wide range of audio formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for audio enthusiasts and professionals.",
+      "highlights": [
         "Waveform editing, frequency analysis, and audio effects processing",
         "Wide range of audio formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "036",
-    "name": "OBS Studio",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://obsproject.com/download",
-    "storeLink": "https://apps.microsoft.com/detail/xpffh613w8v6lv?hl=en-US&gl=US",
-    "about": "OBS Studio is a free, open-source tool for video recording and live streaming, compatible with ARM64 systems on Windows.",
-    "icon": "https://obsproject.com/assets/images/new_icon_small-r.png",
-    "slug": "obs-studio",
-    "publisher": "OBS Project",
-    "lastUpdated": "2024-03-10",
-    "description": "OBS Studio is a free, open-source tool for video recording and live streaming, compatible with ARM64 systems on Windows. It provides features like scene switching, audio mixing, and streaming to multiple platforms. The software includes a user-friendly interface and supports a wide range of streaming platforms. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for content creators and streamers.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "036",
+      "name": "OBS Studio",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://obsproject.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/xpffh613w8v6lv?hl=en-US&gl=US",
+      "about": "OBS Studio is a free, open-source tool for video recording and live streaming, compatible with ARM64 systems on Windows.",
+      "icon": "https://obsproject.com/assets/images/new_icon_small-r.png",
+      "slug": "obs-studio",
+      "publisher": "OBS Project",
+      "lastUpdated": "2024-03-10",
+      "description": "OBS Studio is a free, open-source tool for video recording and live streaming, compatible with ARM64 systems on Windows. It provides features like scene switching, audio mixing, and streaming to multiple platforms. The software includes a user-friendly interface and supports a wide range of streaming platforms. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for content creators and streamers.",
+      "highlights": [
         "Scene switching, audio mixing, and streaming to multiple platforms",
         "Wide range of streaming platforms support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "037",
-    "name": "Visual Studio Code",
-    "category": "Development",
-    "status": "Available Natively",
-    "directDownloadLink": "https://code.visualstudio.com/download",
-    "storeLink": "https://apps.microsoft.com/detail/xp9khm4bk9fz7q?hl=en-US&gl=US",
-    "about": "VSCode,A free, lightweight code editor available natively for ARM64 devices on Windows.",
-    "icon": "https://code.visualstudio.com/assets/images/code-stable.png",
-    "slug": "visual-studio-code",
-    "publisher": "Microsoft Corporation",
-    "lastUpdated": "2024-03-10",
-    "description": "Visual Studio Code is a free, lightweight code editor available natively for ARM64 devices on Windows. It provides features like syntax highlighting, code completion, and debugging capabilities. The software includes a user-friendly interface and supports a wide range of programming languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for developers.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "037",
+      "name": "Visual Studio Code",
+      "category": "Development",
+      "status": "Available Natively",
+      "directDownloadLink": "https://code.visualstudio.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/xp9khm4bk9fz7q?hl=en-US&gl=US",
+      "about": "VSCode,A free, lightweight code editor available natively for ARM64 devices on Windows.",
+      "icon": "https://code.visualstudio.com/assets/images/code-stable.png",
+      "slug": "visual-studio-code",
+      "publisher": "Microsoft Corporation",
+      "lastUpdated": "2024-03-10",
+      "description": "Visual Studio Code is a free, lightweight code editor available natively for ARM64 devices on Windows. It provides features like syntax highlighting, code completion, and debugging capabilities. The software includes a user-friendly interface and supports a wide range of programming languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for developers.",
+      "highlights": [
         "Syntax highlighting, code completion, and debugging capabilities",
         "Wide range of programming languages support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ],
-    "featured": true
-  },
-  {
-    "id": "038",
-    "name": "Atom",
-    "category": "Development",
-    "status": "Not Available",
-    "directDownloadLink": "https://github.com/atom/atom/releases",
-    "storeLink": null,
-    "about": "Atom is no longer actively maintained and does not natively support ARM64 on Windows.",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png",
-    "slug": "atom",
-    "publisher": "GitHub",
-    "lastUpdated": "2024-03-10",
-    "description": "Atom is a free and open-source text editor developed by GitHub. It provides features like syntax highlighting, code completion, and debugging capabilities. The software includes a user-friendly interface and supports a wide range of programming languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for developers.",
-    "highlights": [
+      ],
+      "featured": true
+    },
+    {
+      "id": "038",
+      "name": "Atom",
+      "category": "Development",
+      "status": "Not Available",
+      "directDownloadLink": "https://github.com/atom/atom/releases",
+      "storeLink": null,
+      "about": "Atom is no longer actively maintained and does not natively support ARM64 on Windows.",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png",
+      "slug": "atom",
+      "publisher": "GitHub",
+      "lastUpdated": "2024-03-10",
+      "description": "Atom is a free and open-source text editor developed by GitHub. It provides features like syntax highlighting, code completion, and debugging capabilities. The software includes a user-friendly interface and supports a wide range of programming languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for developers.",
+      "highlights": [
         "Syntax highlighting, code completion, and debugging capabilities",
         "Wide range of programming languages support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "039",
-    "name": "Sublime Text",
-    "category": "Development",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.sublimetext.com/",
-    "storeLink": null,
-    "about": "Sublime Text supports ARM64 natively for macOS and Linux, but requires emulation on Windows ARM64.",
-    "icon": "https://www.sublimetext.com/images/icon.png",
-    "slug": "sublime-text",
-    "publisher": "Sublime HQ",
-    "lastUpdated": "2024-03-10",
-    "description": "Sublime Text is a free and open-source text editor developed by Sublime HQ. It provides features like syntax highlighting, code completion, and debugging capabilities. The software includes a user-friendly interface and supports a wide range of programming languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for developers.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "039",
+      "name": "Sublime Text",
+      "category": "Development",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.sublimetext.com/",
+      "storeLink": null,
+      "about": "Sublime Text supports ARM64 natively for macOS and Linux, but requires emulation on Windows ARM64.",
+      "icon": "https://www.sublimetext.com/images/icon.png",
+      "slug": "sublime-text",
+      "publisher": "Sublime HQ",
+      "lastUpdated": "2024-03-10",
+      "description": "Sublime Text is a free and open-source text editor developed by Sublime HQ. It provides features like syntax highlighting, code completion, and debugging capabilities. The software includes a user-friendly interface and supports a wide range of programming languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for developers.",
+      "highlights": [
         "Syntax highlighting, code completion, and debugging capabilities",
         "Wide range of programming languages support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "040",
-    "name": "XAMPP",
-    "category": "Development",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.apachefriends.org/index.html",
-    "storeLink": null,
-    "about": "XAMPP is available natively on Windows, Linux, and macOS but lacks native support for Windows ARM64.",
-    "icon": "https://www.apachefriends.org/images/xampp-logo-ac950edf.svg",
-    "slug": "xampp",
-    "publisher": "Apache Friends",
-    "lastUpdated": "2024-03-10",
-    "description": "XAMPP is a free and open-source cross-platform web server solution stack package developed by Apache Friends. It includes Apache HTTP Server, MariaDB, and PHP. The software is available natively on Windows, Linux, and macOS but lacks native support for Windows ARM64. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for web developers.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "040",
+      "name": "XAMPP",
+      "category": "Development",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.apachefriends.org/index.html",
+      "storeLink": null,
+      "about": "XAMPP is available natively on Windows, Linux, and macOS but lacks native support for Windows ARM64.",
+      "icon": "https://www.apachefriends.org/images/xampp-logo-ac950edf.svg",
+      "slug": "xampp",
+      "publisher": "Apache Friends",
+      "lastUpdated": "2024-03-10",
+      "description": "XAMPP is a free and open-source cross-platform web server solution stack package developed by Apache Friends. It includes Apache HTTP Server, MariaDB, and PHP. The software is available natively on Windows, Linux, and macOS but lacks native support for Windows ARM64. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for web developers.",
+      "highlights": [
         "Apache HTTP Server, MariaDB, and PHP",
         "Cross-platform compatibility",
         "Extensive library management capabilities",
         "No native support for Windows ARM64"
-    ]
-  },
-  {
-    "id": "041",
-    "name": "Notepad++",
-    "category": "Development",
-    "status": "Available Natively",
-    "directDownloadLink": "https://notepad-plus-plus.org/downloads/",
-    "storeLink": null,
-    "about": "Notepad++ supports ARM64 natively as of version 8.",
-    "icon": "https://notepad-plus-plus.org/images/logo.svg",
-    "slug": "notepad-plus-plus",
-    "publisher": "Notepad++",
-    "lastUpdated": "2024-03-10",
-    "description": "Notepad++ is a free and open-source text editor developed by Notepad++. It provides features like syntax highlighting, code completion, and debugging capabilities. The software includes a user-friendly interface and supports a wide range of programming languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for developers.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "041",
+      "name": "Notepad++",
+      "category": "Development",
+      "status": "Available Natively",
+      "directDownloadLink": "https://notepad-plus-plus.org/downloads/",
+      "storeLink": null,
+      "about": "Notepad++ supports ARM64 natively as of version 8.",
+      "icon": "https://notepad-plus-plus.org/images/logo.svg",
+      "slug": "notepad-plus-plus",
+      "publisher": "Notepad++",
+      "lastUpdated": "2024-03-10",
+      "description": "Notepad++ is a free and open-source text editor developed by Notepad++. It provides features like syntax highlighting, code completion, and debugging capabilities. The software includes a user-friendly interface and supports a wide range of programming languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for developers.",
+      "highlights": [
         "Syntax highlighting, code completion, and debugging capabilities",
         "Wide range of programming languages support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "042",
-    "name": "GitHub Desktop",
-    "category": "Development",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://desktop.github.com/",
-    "storeLink": null,
-    "about": "GitHub Desktop lacks native ARM64 support but can be run via x64 emulation, Beta available for ARM64",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/128px-Github-desktop-logo-symbol.svg.png?20200316183539",
-    "slug": "github-desktop",
-    "publisher": "GitHub",
-    "lastUpdated": "2024-03-10",
-    "description": "GitHub Desktop is a free and open-source Git client developed by GitHub. It provides features like code editing, commit history, and repository management. The software includes a user-friendly interface and supports a wide range of programming languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for developers.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "042",
+      "name": "GitHub Desktop",
+      "category": "Development",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://desktop.github.com/",
+      "storeLink": null,
+      "about": "GitHub Desktop lacks native ARM64 support but can be run via x64 emulation, Beta available for ARM64",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/128px-Github-desktop-logo-symbol.svg.png?20200316183539",
+      "slug": "github-desktop",
+      "publisher": "GitHub",
+      "lastUpdated": "2024-03-10",
+      "description": "GitHub Desktop is a free and open-source Git client developed by GitHub. It provides features like code editing, commit history, and repository management. The software includes a user-friendly interface and supports a wide range of programming languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for developers.",
+      "highlights": [
         "Code editing, commit history, and repository management",
         "Wide range of programming languages support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  
-  {
-    "id": "044",
-    "name": "Adobe Photoshop",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.adobe.com/products/photoshop.html",
-    "storeLink": "https://apps.microsoft.com/detail/xpfd4t9n395qn6?hl=en-US&gl=US",
-    "about": "Adobe Photoshop is natively available for ARM64 with some feature limitations on Windows ARM.",
-    "icon": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/photoshop.svg",
-    "slug": "adobe-photoshop",
-    "publisher": "Adobe",
-    "lastUpdated": "2024-03-10",
-    "description": "Adobe Photoshop is a leading image editing software developed by Adobe Inc. It provides features like image editing, color correction, and graphic design. The software includes a user-friendly interface and supports a wide range of image formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for graphic designers and photographers.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "044",
+      "name": "Adobe Photoshop",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.adobe.com/products/photoshop.html",
+      "storeLink": "https://apps.microsoft.com/detail/xpfd4t9n395qn6?hl=en-US&gl=US",
+      "about": "Adobe Photoshop is natively available for ARM64 with some feature limitations on Windows ARM.",
+      "icon": "https://www.adobe.com/content/dam/shared/images/product-icons/svg/photoshop.svg",
+      "slug": "adobe-photoshop",
+      "publisher": "Adobe",
+      "lastUpdated": "2024-03-10",
+      "description": "Adobe Photoshop is a leading image editing software developed by Adobe Inc. It provides features like image editing, color correction, and graphic design. The software includes a user-friendly interface and supports a wide range of image formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for graphic designers and photographers.",
+      "highlights": [
         "Image editing, color correction, and graphic design",
         "Wide range of image formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ],
-    "featured": true
-  },
-  {
-    "id": "045",
-    "name": "GIMP",
-    "category": "Creative",
-    "status": "Available Natively",
-    "directDownloadLink": "https://www.gimp.org/downloads/",
-    "storeLink": "https://apps.microsoft.com/detail/xpdm27w10192q0?hl=en-US&gl=US",
-    "about": "GIMP is a free, open-source image editor available on multiple platforms, including Windows, with experimental ARM64 support.",
-    "icon": "https://www.gimp.org/images/frontpage/wilber-big.png",
-    "slug": "gimp",
-    "publisher": "GIMP",
-    "lastUpdated": "2024-03-10",
-    "description": "GIMP is a free, open-source image editor available on multiple platforms, including Windows, with experimental ARM64 support. It provides features like image editing, color correction, and graphic design. The software includes a user-friendly interface and supports a wide range of image formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for graphic designers and photographers.",
-    "highlights": [
+      ],
+      "featured": true
+    },
+    {
+      "id": "045",
+      "name": "GIMP",
+      "category": "Creative",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.gimp.org/downloads/",
+      "storeLink": "https://apps.microsoft.com/detail/xpdm27w10192q0?hl=en-US&gl=US",
+      "about": "GIMP is a free, open-source image editor available on multiple platforms, including Windows, with experimental ARM64 support.",
+      "icon": "https://www.gimp.org/images/frontpage/wilber-big.png",
+      "slug": "gimp",
+      "publisher": "GIMP",
+      "lastUpdated": "2024-03-10",
+      "description": "GIMP is a free, open-source image editor available on multiple platforms, including Windows, with experimental ARM64 support. It provides features like image editing, color correction, and graphic design. The software includes a user-friendly interface and supports a wide range of image formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for graphic designers and photographers.",
+      "highlights": [
         "Image editing, color correction, and graphic design",
         "Wide range of image formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ],
-    "featured": true
-  },
-  {
-    "id": "046",
-    "name": "Inkscape",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://inkscape.org/release/",
-    "storeLink": "https://apps.microsoft.com/detail/9pd9bhglfc7h?hl=en-us&gl=US",
-    "about": "Inkscape is a free, open-source vector graphics editor used for creating and editing illustrations, logos, diagrams, and more.",
-    "icon": "https://media.inkscape.org/static/images/inkscape-logo.svg",
-    "slug": "inkscape",
-    "publisher": "Inkscape",
-    "lastUpdated": "2024-03-10",
-    "description": "Inkscape is a free, open-source vector graphics editor used for creating and editing illustrations, logos, diagrams, and more. It provides features like vector drawing, text editing, and path manipulation. The software includes a user-friendly interface and supports a wide range of vector graphics formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for graphic designers and illustrators.",
-    "highlights": [
+      ],
+      "featured": true
+    },
+    {
+      "id": "046",
+      "name": "Inkscape",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://inkscape.org/release/",
+      "storeLink": "https://apps.microsoft.com/detail/9pd9bhglfc7h?hl=en-us&gl=US",
+      "about": "Inkscape is a free, open-source vector graphics editor used for creating and editing illustrations, logos, diagrams, and more.",
+      "icon": "https://media.inkscape.org/static/images/inkscape-logo.svg",
+      "slug": "inkscape",
+      "publisher": "Inkscape",
+      "lastUpdated": "2024-03-10",
+      "description": "Inkscape is a free, open-source vector graphics editor used for creating and editing illustrations, logos, diagrams, and more. It provides features like vector drawing, text editing, and path manipulation. The software includes a user-friendly interface and supports a wide range of vector graphics formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for graphic designers and illustrators.",
+      "highlights": [
         "Vector drawing, text editing, and path manipulation",
         "Wide range of vector graphics formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "047",
-    "name": "Malwarebytes",
-    "category": "Security",
-    "status": "Unknown",
-    "directDownloadLink": "https://www.malwarebytes.com/mwb-download/",
-    "storeLink": null,
-    "about": "Malwarebytes is anti-malware software for Microsoft Windows, macOS, ChromeOS, Android, and iOS that finds and removes malware.",
-    "icon": "https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/footer-logo-1.svg",
-    "slug": "malwarebytes",
-    "publisher": "Malwarebytes",
-    "lastUpdated": "2024-03-10",
-    "description": "Malwarebytes is a popular anti-malware software for Microsoft Windows, macOS, ChromeOS, Android, and iOS. It provides real-time protection against malware and viruses. The software includes a user-friendly interface and supports a wide range of devices. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for security professionals and home users.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "047",
+      "name": "Malwarebytes",
+      "category": "Security",
+      "status": "Unknown",
+      "directDownloadLink": "https://www.malwarebytes.com/mwb-download/",
+      "storeLink": null,
+      "about": "Malwarebytes is anti-malware software for Microsoft Windows, macOS, ChromeOS, Android, and iOS that finds and removes malware.",
+      "icon": "https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/footer-logo-1.svg",
+      "slug": "malwarebytes",
+      "publisher": "Malwarebytes",
+      "lastUpdated": "2024-03-10",
+      "description": "Malwarebytes is a popular anti-malware software for Microsoft Windows, macOS, ChromeOS, Android, and iOS. It provides real-time protection against malware and viruses. The software includes a user-friendly interface and supports a wide range of devices. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for security professionals and home users.",
+      "highlights": [
         "Real-time protection against malware and viruses",
         "Wide range of devices support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "048",
-    "name": "CCleaner",
-    "category": "Utilities",
-    "status": "Available Natively",
-    "directDownloadLink": "https://www.ccleaner.com/ccleaner/download",
-    "storeLink": "https://apps.microsoft.com/detail/xpfcwp0sqwxm3v?hl=en-ca&gl=ca",
-    "about": "CCleaner is a popular tool for cleaning and optimizing Windows systems.",
-    "icon": "https://www.ccleaner.com/favicon.ico",
-    "slug": "ccleaner",
-    "publisher": "CCleaner",
-    "lastUpdated": "2024-03-10",
-    "description": "CCleaner is a popular tool for cleaning and optimizing Windows systems. It provides features like disk cleanup, registry cleaning, and privacy protection. The software includes a user-friendly interface and supports a wide range of Windows versions. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for system maintenance and privacy protection.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "048",
+      "name": "CCleaner",
+      "category": "Utilities",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.ccleaner.com/ccleaner/download",
+      "storeLink": "https://apps.microsoft.com/detail/xpfcwp0sqwxm3v?hl=en-ca&gl=ca",
+      "about": "CCleaner is a popular tool for cleaning and optimizing Windows systems.",
+      "icon": "https://www.ccleaner.com/favicon.ico",
+      "slug": "ccleaner",
+      "publisher": "CCleaner",
+      "lastUpdated": "2024-03-10",
+      "description": "CCleaner is a popular tool for cleaning and optimizing Windows systems. It provides features like disk cleanup, registry cleaning, and privacy protection. The software includes a user-friendly interface and supports a wide range of Windows versions. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for system maintenance and privacy protection.",
+      "highlights": [
         "Disk cleanup, registry cleaning, and privacy protection",
         "Wide range of Windows versions support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "049",
-    "name": "Avast Free Antivirus",
-    "category": "Security",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.avast.com/free-antivirus-download",
-    "storeLink": "https://apps.microsoft.com/detail/XPDNZJFNCR1B07?hl=en-US&gl=US",
-    "about": "Avast Free Antivirus provides real-time protection against malware and viruses.",
-    "icon": "https://www.avast.com/favicon.ico",
-    "slug": "avast-free-antivirus",
-    "publisher": "Avast",
-    "lastUpdated": "2024-03-10",
-    "description": "Avast Free Antivirus is a free antivirus software developed by Avast. It provides real-time protection against malware and viruses. The software includes a user-friendly interface and supports a wide range of devices. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for home users and security professionals.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "049",
+      "name": "Avast Free Antivirus",
+      "category": "Security",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.avast.com/free-antivirus-download",
+      "storeLink": "https://apps.microsoft.com/detail/XPDNZJFNCR1B07?hl=en-US&gl=US",
+      "about": "Avast Free Antivirus provides real-time protection against malware and viruses.",
+      "icon": "https://www.avast.com/favicon.ico",
+      "slug": "avast-free-antivirus",
+      "publisher": "Avast",
+      "lastUpdated": "2024-03-10",
+      "description": "Avast Free Antivirus is a free antivirus software developed by Avast. It provides real-time protection against malware and viruses. The software includes a user-friendly interface and supports a wide range of devices. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for home users and security professionals.",
+      "highlights": [
         "Real-time protection against malware and viruses",
         "Wide range of devices support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  
-  {
-    "id": "051",
-    "name": "LastPass for Windows Desktop",
-    "category": "Security",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.lastpass.com/download",
-    "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj3qk",
-    "about": "LastPass securely stores and autofills passwords with AES-256 encryption.",
-    "icon": "https://www.lastpass.com/favicon.ico",
-    "slug": "lastpass-for-windows-desktop",
-    "publisher": "LastPass",
-    "lastUpdated": "2024-03-10",
-    "description": "LastPass is a password manager that provides secure password storage and management. It uses AES-256 encryption to protect passwords and supports a wide range of devices. The software includes a user-friendly interface and supports a wide range of operating systems. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for security professionals and home users.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "051",
+      "name": "LastPass for Windows Desktop",
+      "category": "Security",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.lastpass.com/download",
+      "storeLink": "https://apps.microsoft.com/detail/9wzdncrfj3qk",
+      "about": "LastPass securely stores and autofills passwords with AES-256 encryption.",
+      "icon": "https://www.lastpass.com/favicon.ico",
+      "slug": "lastpass-for-windows-desktop",
+      "publisher": "LastPass",
+      "lastUpdated": "2024-03-10",
+      "description": "LastPass is a password manager that provides secure password storage and management. It uses AES-256 encryption to protect passwords and supports a wide range of devices. The software includes a user-friendly interface and supports a wide range of operating systems. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for security professionals and home users.",
+      "highlights": [
         "Secure password storage and management",
         "AES-256 encryption",
         "Wide range of devices support",
         "Cross-platform compatibility"
-    ]
-  },
-  {
-    "id": "052",
-    "name": "Dashlane",
-    "category": "Security",
-    "status": "Available Natively",
-    "directDownloadLink": "https://www.dashlane.com/download",
-    "storeLink": null,
-    "about": "Dashlane securely stores passwords and provides autofill with additional features like password health monitoring.",
-    "icon": "https://store-images.s-microsoft.com/image/apps.44258.78499670-4411-4c7e-866e-5ebf3a36d5df.83f5370b-f507-4e3b-83f9-caea03ca89da.2f591c7b-2315-4d4b-a261-41afa8b527d0?mode=scale&h=100&q=90&w=100",
-    "slug": "dashlane",
-    "publisher": "Dashlane",
-    "lastUpdated": "2024-03-10",
-    "description": "Dashlane is a password manager that provides secure password storage and management. It uses AES-256 encryption to protect passwords and supports a wide range of devices. The software includes a user-friendly interface and supports a wide range of operating systems. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for security professionals and home users.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "052",
+      "name": "Dashlane",
+      "category": "Security",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.dashlane.com/download",
+      "storeLink": null,
+      "about": "Dashlane securely stores passwords and provides autofill with additional features like password health monitoring.",
+      "icon": "https://store-images.s-microsoft.com/image/apps.44258.78499670-4411-4c7e-866e-5ebf3a36d5df.83f5370b-f507-4e3b-83f9-caea03ca89da.2f591c7b-2315-4d4b-a261-41afa8b527d0?mode=scale&h=100&q=90&w=100",
+      "slug": "dashlane",
+      "publisher": "Dashlane",
+      "lastUpdated": "2024-03-10",
+      "description": "Dashlane is a password manager that provides secure password storage and management. It uses AES-256 encryption to protect passwords and supports a wide range of devices. The software includes a user-friendly interface and supports a wide range of operating systems. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for security professionals and home users.",
+      "highlights": [
         "Secure password storage and management",
         "AES-256 encryption",
         "Wide range of devices support",
         "Cross-platform compatibility"
-    ]
-  },
-  {
-    "id": "053",
-    "name": "NordVPN",
-    "category": "Security",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://nordvpn.com/download",
-    "storeLink": null,
-    "about": "NordVPN offers a secure VPN service with multiple servers and encryption for privacy.",
-    "icon": "https://s1.nordcdn.com/nordvpn/media/1.2164.0/images/cms/benefits/multiple-devices/laptop-phone-tablet-protection-fast-multiple-devices-md.webp",
-    "slug": "nordvpn",
-    "publisher": "NordVPN",
-    "lastUpdated": "2024-03-10",
-    "description": "NordVPN is a secure VPN service that provides multiple servers and encryption for privacy. It supports a wide range of devices and operating systems. The software includes a user-friendly interface and supports a wide range of VPN protocols. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for security professionals and home users.",
-    "highlights": [
-        "Multiple servers and encryption for privacy",
-        "Wide range of devices support",
-        "Cross-platform compatibility",
-        "Extensive library management capabilities"
-    ]
-  },
-  
-  
-  
-  
-  
-  
-  {
-    "id": "056",
-    "name": "Adobe Premiere Pro",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.adobe.com/in/products/premiere.html",
-    "storeLink": null,
-    "about": "Adobe Premiere Pro is a leading video editing tool with AI features for faster workflows.",
-    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro.svg",
-    "slug": "adobe-premiere-pro",
-    "publisher": "Adobe",
-    "lastUpdated": "2024-03-10",
-    "description": "Adobe Premiere Pro is a leading video editing tool with AI features for faster workflows. It provides features like video editing, color correction, and audio post-production. The software includes a user-friendly interface and supports a wide range of video formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for video editors and professionals.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "053",
+      "name": "NordVPN",
+      "category": "Security",
+      "status": "Available Natively",
+      "directDownloadLink": "https://nordvpn.com/download",
+      "storeLink": null,
+      "about": "NordVPN provides a native Windows ARM app and later aligned ARM feature parity with x64.",
+      "icon": "https://s1.nordcdn.com/nordvpn/media/1.2164.0/images/cms/benefits/multiple-devices/laptop-phone-tablet-protection-fast-multiple-devices-md.webp",
+      "slug": "nordvpn",
+      "publisher": "NordVPN",
+      "lastUpdated": "2026-02-10",
+      "description": "NordVPN is a VPN service for private and secure internet access. NordVPN announced a native Windows ARM app and later aligned ARM functionality with the x64 app.",
+      "highlights": [
+        "Native Windows ARM app support",
+        "Encrypted traffic and IP masking",
+        "Large server network",
+        "Feature parity updates for ARM devices"
+      ]
+    },
+    {
+      "id": "056",
+      "name": "Adobe Premiere Pro",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.adobe.com/in/products/premiere.html",
+      "storeLink": null,
+      "about": "Adobe Premiere Pro is a leading video editing tool with AI features for faster workflows.",
+      "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro.svg",
+      "slug": "adobe-premiere-pro",
+      "publisher": "Adobe",
+      "lastUpdated": "2024-03-10",
+      "description": "Adobe Premiere Pro is a leading video editing tool with AI features for faster workflows. It provides features like video editing, color correction, and audio post-production. The software includes a user-friendly interface and supports a wide range of video formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for video editors and professionals.",
+      "highlights": [
         "Video editing, color correction, and audio post-production",
         "Wide range of video formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "057",
-    "name": "DaVinci Resolve",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.blackmagicdesign.com/products/davinciresolve",
-    "storeLink": null,
-    "about": "DaVinci Resolve is a professional video editing software used for color correction, audio post-production, and VFX.",
-    "icon": "https://images.blackmagicdesign.com/images/products/davinciresolve/common/resolve-19-logo.svg?_v=1712289576",
-    "slug": "davinci-resolve",
-    "publisher": "Blackmagic Design",
-    "lastUpdated": "2024-03-10",
-    "description": "DaVinci Resolve is a professional video editing software used for color correction, audio post-production, and VFX. It provides features like video editing, color correction, and audio post-production. The software includes a user-friendly interface and supports a wide range of video formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for video editors and professionals.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "057",
+      "name": "DaVinci Resolve",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "storeLink": null,
+      "about": "DaVinci Resolve is a professional video editing software used for color correction, audio post-production, and VFX.",
+      "icon": "https://images.blackmagicdesign.com/images/products/davinciresolve/common/resolve-19-logo.svg?_v=1712289576",
+      "slug": "davinci-resolve",
+      "publisher": "Blackmagic Design",
+      "lastUpdated": "2024-03-10",
+      "description": "DaVinci Resolve is a professional video editing software used for color correction, audio post-production, and VFX. It provides features like video editing, color correction, and audio post-production. The software includes a user-friendly interface and supports a wide range of video formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for video editors and professionals.",
+      "highlights": [
         "Video editing, color correction, and audio post-production",
         "Wide range of video formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "058",
-    "name": "Adobe Lightroom",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.adobe.com/products/photoshop-lightroom.html",
-    "storeLink": "https://apps.microsoft.com/store/detail/adobe-lightroom/XPFFNX1B8TXC0V?hl=en-us&gl=us",
-    "about": "Adobe Lightroom is an AI-powered tool for editing, organizing, and sharing photos and videos.",
-    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/lightroom.svg",
-    "slug": "adobe-lightroom",
-    "publisher": "Adobe",
-    "lastUpdated": "2024-03-10",
-    "description": "Adobe Lightroom is an AI-powered tool for editing, organizing, and sharing photos and videos. It provides features like image editing, color correction, and photo organization. The software includes a user-friendly interface and supports a wide range of image formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for photographers and photo editors.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "058",
+      "name": "Adobe Lightroom",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.adobe.com/products/photoshop-lightroom.html",
+      "storeLink": "https://apps.microsoft.com/store/detail/adobe-lightroom/XPFFNX1B8TXC0V?hl=en-us&gl=us",
+      "about": "Adobe Lightroom is an AI-powered tool for editing, organizing, and sharing photos and videos.",
+      "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/lightroom.svg",
+      "slug": "adobe-lightroom",
+      "publisher": "Adobe",
+      "lastUpdated": "2024-03-10",
+      "description": "Adobe Lightroom is an AI-powered tool for editing, organizing, and sharing photos and videos. It provides features like image editing, color correction, and photo organization. The software includes a user-friendly interface and supports a wide range of image formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for photographers and photo editors.",
+      "highlights": [
         "Image editing, color correction, and photo organization",
         "Wide range of image formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "059",
-    "name": "CorelDRAW",
-    "category": "Creative",
-    "status": "Available Natively",
-    "directDownloadLink": "https://www.coreldraw.com/en/free-trials/",
-    "storeLink": "https://apps.microsoft.com/detail/XPDM28CQSPXTWQ?hl=en-ww&gl=ww",
-    "about": "CorelDRAW is a powerful vector illustration and graphic design tool used for a wide range of creative projects.",
-    "icon": "https://www.coreldraw.com/static/cdgs/images/coreldraw-wordmark-color.png",
-    "slug": "coreldraw",
-    "publisher": "Corel",
-    "lastUpdated": "2024-03-10",
-    "description": "CorelDRAW is a powerful vector illustration and graphic design tool used for a wide range of creative projects. It provides features like vector drawing, text editing, and path manipulation. The software includes a user-friendly interface and supports a wide range of vector graphics formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for graphic designers and illustrators.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "059",
+      "name": "CorelDRAW",
+      "category": "Creative",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.coreldraw.com/en/free-trials/",
+      "storeLink": "https://apps.microsoft.com/detail/XPDM28CQSPXTWQ?hl=en-ww&gl=ww",
+      "about": "CorelDRAW is a powerful vector illustration and graphic design tool used for a wide range of creative projects.",
+      "icon": "https://www.coreldraw.com/static/cdgs/images/coreldraw-wordmark-color.png",
+      "slug": "coreldraw",
+      "publisher": "Corel",
+      "lastUpdated": "2024-03-10",
+      "description": "CorelDRAW is a powerful vector illustration and graphic design tool used for a wide range of creative projects. It provides features like vector drawing, text editing, and path manipulation. The software includes a user-friendly interface and supports a wide range of vector graphics formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for graphic designers and illustrators.",
+      "highlights": [
         "Vector drawing, text editing, and path manipulation",
         "Wide range of vector graphics formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "060",
-    "name": "Blender",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.blender.org/download/",
-    "storeLink": "https://apps.microsoft.com/detail/9pp3c07gtvrh?hl=en-us&gl=us",
-    "about": "Blender is a free and open-source tool for 3D modeling, animation, and rendering.",
-    "icon": "https://www.blender.org/favicon.ico",
-    "slug": "blender",
-    "publisher": "Blender Foundation",
-    "lastUpdated": "2024-03-10",
-    "description": "Blender is a free and open-source tool for 3D modeling, animation, and rendering. It provides features like 3D modeling, animation, and rendering. The software includes a user-friendly interface and supports a wide range of 3D formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for 3D artists and animators.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "060",
+      "name": "Blender",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.blender.org/download/",
+      "storeLink": "https://apps.microsoft.com/detail/9pp3c07gtvrh?hl=en-us&gl=us",
+      "about": "Blender is a free and open-source tool for 3D modeling, animation, and rendering.",
+      "icon": "https://www.blender.org/favicon.ico",
+      "slug": "blender",
+      "publisher": "Blender Foundation",
+      "lastUpdated": "2024-03-10",
+      "description": "Blender is a free and open-source tool for 3D modeling, animation, and rendering. It provides features like 3D modeling, animation, and rendering. The software includes a user-friendly interface and supports a wide range of 3D formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for 3D artists and animators.",
+      "highlights": [
         "3D modeling, animation, and rendering",
         "Wide range of 3D formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "061",
-    "name": "Krita",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://krita.org/en/download/",
-    "storeLink": "https://apps.microsoft.com/detail/9n6x57zgrw96?hl=en-us&gl=US",
-    "about": "Krita is a free and open-source digital painting tool used for illustrations, comics, and animations.",
-    "icon": "https://krita.org/favicon.ico",
-    "slug": "krita",
-    "publisher": "Krita",
-    "lastUpdated": "2024-03-10",
-    "description": "Krita is a free and open-source digital painting tool used for illustrations, comics, and animations. It provides features like digital painting, color correction, and drawing tools. The software includes a user-friendly interface and supports a wide range of digital painting formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for digital artists and illustrators.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "061",
+      "name": "Krita",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://krita.org/en/download/",
+      "storeLink": "https://apps.microsoft.com/detail/9n6x57zgrw96?hl=en-us&gl=US",
+      "about": "Krita is a free and open-source digital painting tool used for illustrations, comics, and animations.",
+      "icon": "https://krita.org/favicon.ico",
+      "slug": "krita",
+      "publisher": "Krita",
+      "lastUpdated": "2024-03-10",
+      "description": "Krita is a free and open-source digital painting tool used for illustrations, comics, and animations. It provides features like digital painting, color correction, and drawing tools. The software includes a user-friendly interface and supports a wide range of digital painting formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for digital artists and illustrators.",
+      "highlights": [
         "Digital painting, color correction, and drawing tools",
         "Wide range of digital painting formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "062",
-    "name": "Steam",
-    "category": "Gaming",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://store.steampowered.com/about/",
-    "storeLink": null,
-    "about": "Steam is a popular platform for purchasing, downloading, and playing PC games.",
-    "icon": "https://store.steampowered.com/favicon.ico",
-    "slug": "steam",
-    "publisher": "Valve Corporation",
-    "lastUpdated": "2024-03-10",
-    "description": "Steam is a popular platform for purchasing, downloading, and playing PC games. It provides features like game discovery, community features, and game management tools. The software includes a user-friendly interface and supports a wide range of games. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for gamers and game developers.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "062",
+      "name": "Steam",
+      "category": "Gaming",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://store.steampowered.com/about/",
+      "storeLink": null,
+      "about": "Steam supports 64-bit Windows but does not publish a native Windows ARM64 client.",
+      "icon": "https://store.steampowered.com/favicon.ico",
+      "slug": "steam",
+      "publisher": "Valve Corporation",
+      "lastUpdated": "2026-02-10",
+      "description": "Steam is Valve's digital distribution platform for PC gaming. Official support covers modern 64-bit Windows versions, while a native Windows ARM64 desktop client is not officially published.",
+      "highlights": [
+        "Largest PC game distribution platform",
+        "Automatic updates and cloud saves",
+        "Community features and game workshops",
+        "Runs on Windows on Arm through emulation"
+      ]
+    },
+    {
+      "id": "063",
+      "name": "Epic Games Store",
+      "category": "Gaming",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://store.epicgames.com/en/download",
+      "storeLink": "https://apps.microsoft.com/detail/xp99vr1bpsbqj2?hl=en-US&gl=US",
+      "about": "Epic Games Launcher is used for downloading, purchasing, and playing PC games like Fortnite and Rocket League.",
+      "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxg5le_71pSmzlLco9xckzgo0BEdZxwKw6McwkrT4GpgCDjU34Cf_N1FycqkOB65pK.4msYj7eYFlnnxlBelebdM-&format=source&h=210",
+      "slug": "epic-games-store",
+      "publisher": "Epic Games",
+      "lastUpdated": "2024-03-10",
+      "description": "Epic Games Launcher is used for downloading, purchasing, and playing PC games like Fortnite and Rocket League. It provides features like game discovery, community features, and game management tools. The software includes a user-friendly interface and supports a wide range of games. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for gamers and game developers.",
+      "highlights": [
         "Game discovery, community features, and game management tools",
         "Wide range of games support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "063",
-    "name": "Epic Games Store",
-    "category": "Gaming",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://store.epicgames.com/en/download",
-    "storeLink": "https://apps.microsoft.com/detail/xp99vr1bpsbqj2?hl=en-US&gl=US",
-    "about": "Epic Games Launcher is used for downloading, purchasing, and playing PC games like Fortnite and Rocket League.",
-    "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxg5le_71pSmzlLco9xckzgo0BEdZxwKw6McwkrT4GpgCDjU34Cf_N1FycqkOB65pK.4msYj7eYFlnnxlBelebdM-&format=source&h=210",
-    "slug": "epic-games-store",
-    "publisher": "Epic Games",
-    "lastUpdated": "2024-03-10",
-    "description": "Epic Games Launcher is used for downloading, purchasing, and playing PC games like Fortnite and Rocket League. It provides features like game discovery, community features, and game management tools. The software includes a user-friendly interface and supports a wide range of games. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for gamers and game developers.",
-    "highlights": [
-        "Game discovery, community features, and game management tools",
-        "Wide range of games support",
-        "Cross-platform compatibility",
-        "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "064",
-    "name": "Razer Cortex",
-    "category": "Gaming",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.razer.com/mena-en/cortex",
-    "storeLink": "https://apps.microsoft.com/detail/9pk9w5qv2pkx?hl=en-us&gl=US",
-    "about": "Razer Cortex optimizes PC performance for gaming by freeing up system resources and boosting FPS.",
-    "icon": "https://www.razer.com/favicon.ico",
-    "slug": "razer-cortex",
-    "publisher": "Razer",
-    "lastUpdated": "2024-03-10",
-    "description": "Razer Cortex optimizes PC performance for gaming by freeing up system resources and boosting FPS. It provides features like system optimization, game optimization, and FPS boosting. The software includes a user-friendly interface and supports a wide range of gaming platforms. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for gamers and system administrators.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "064",
+      "name": "Razer Cortex",
+      "category": "Gaming",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.razer.com/mena-en/cortex",
+      "storeLink": "https://apps.microsoft.com/detail/9pk9w5qv2pkx?hl=en-us&gl=US",
+      "about": "Razer Cortex optimizes PC performance for gaming by freeing up system resources and boosting FPS.",
+      "icon": "https://www.razer.com/favicon.ico",
+      "slug": "razer-cortex",
+      "publisher": "Razer",
+      "lastUpdated": "2024-03-10",
+      "description": "Razer Cortex optimizes PC performance for gaming by freeing up system resources and boosting FPS. It provides features like system optimization, game optimization, and FPS boosting. The software includes a user-friendly interface and supports a wide range of gaming platforms. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for gamers and system administrators.",
+      "highlights": [
         "System optimization, game optimization, and FPS boosting",
         "Wide range of gaming platforms support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  
-  {
-    "id": "066",
-    "name": "GeForce Experience",
-    "category": "Gaming",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.nvidia.com/en-us/geforce/geforce-experience/",
-    "storeLink": null,
-    "about": "GeForce Experience optimizes game settings, updates drivers, and enables gameplay recording for NVIDIA GPUs.",
-    "icon": "https://www.nvidia.com/favicon.ico",
-    "slug": "geforce-experience",
-    "publisher": "NVIDIA",
-    "lastUpdated": "2024-03-10",
-    "description": "GeForce Experience optimizes game settings, updates drivers, and enables gameplay recording for NVIDIA GPUs. It provides features like game optimization, driver updates, and gameplay recording. The software includes a user-friendly interface and supports a wide range of gaming platforms. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for gamers and system administrators.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "066",
+      "name": "GeForce Experience",
+      "category": "Gaming",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.nvidia.com/en-us/geforce/geforce-experience/",
+      "storeLink": null,
+      "about": "GeForce Experience optimizes game settings, updates drivers, and enables gameplay recording for NVIDIA GPUs.",
+      "icon": "https://www.nvidia.com/favicon.ico",
+      "slug": "geforce-experience",
+      "publisher": "NVIDIA",
+      "lastUpdated": "2024-03-10",
+      "description": "GeForce Experience optimizes game settings, updates drivers, and enables gameplay recording for NVIDIA GPUs. It provides features like game optimization, driver updates, and gameplay recording. The software includes a user-friendly interface and supports a wide range of gaming platforms. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for gamers and system administrators.",
+      "highlights": [
         "Game optimization, driver updates, and gameplay recording",
         "Wide range of gaming platforms support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "067",
-    "name": "Duolingo",
-    "category": "Education",
-    "status": "Available Natively",
-    "directDownloadLink": "https://www.duolingo.com/",
-    "storeLink": "https://apps.microsoft.com/detail/9wzdncrcv5xn?hl=en-us&gl=us",
-    "about": "Duolingo offers free, gamified lessons to help users learn over 40 languages.",
-    "icon": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg",
-    "slug": "duolingo",
-    "publisher": "Duolingo",
-    "lastUpdated": "2024-03-10",
-    "description": "Duolingo is a free, gamified language learning app that helps users learn over 40 languages. It provides features like personalized lessons, progress tracking, and interactive exercises. The software includes a user-friendly interface and supports a wide range of languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for language learners and educators.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "067",
+      "name": "Duolingo",
+      "category": "Education",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.duolingo.com/",
+      "storeLink": "https://apps.microsoft.com/detail/9wzdncrcv5xn?hl=en-us&gl=us",
+      "about": "Duolingo offers free, gamified lessons to help users learn over 40 languages.",
+      "icon": "https://d35aaqx5ub95lt.cloudfront.net/images/splash/f92d5f2f7d56636846861c458c0d0b6c.svg",
+      "slug": "duolingo",
+      "publisher": "Duolingo",
+      "lastUpdated": "2024-03-10",
+      "description": "Duolingo is a free, gamified language learning app that helps users learn over 40 languages. It provides features like personalized lessons, progress tracking, and interactive exercises. The software includes a user-friendly interface and supports a wide range of languages. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for language learners and educators.",
+      "highlights": [
         "Personalized lessons, progress tracking, and interactive exercises",
         "Wide range of languages support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  
-  
-  
-  {
-    "id": "071",
-    "name": "Adobe Photoshop Express",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.adobe.com/products/photoshop-express.html",
-    "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRFJ27N?ocid=pdpshare",
-    "about": "A simplified version of Photoshop for quick and easy photo edits on mobile and desktop.",
-    "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/photoshop-express-64.svg",
-    "slug": "adobe-photoshop-express",
-    "publisher": "Adobe",
-    "lastUpdated": "2024-03-10",
-    "description": "Adobe Photoshop Express is a simplified version of Photoshop for quick and easy photo edits on mobile and desktop. It provides features like image editing, color correction, and photo organization. The software includes a user-friendly interface and supports a wide range of image formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for photographers and photo editors.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "071",
+      "name": "Adobe Photoshop Express",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.adobe.com/products/photoshop-express.html",
+      "storeLink": "https://www.microsoft.com/store/productId/9WZDNCRFJ27N?ocid=pdpshare",
+      "about": "A simplified version of Photoshop for quick and easy photo edits on mobile and desktop.",
+      "icon": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/photoshop-express-64.svg",
+      "slug": "adobe-photoshop-express",
+      "publisher": "Adobe",
+      "lastUpdated": "2024-03-10",
+      "description": "Adobe Photoshop Express is a simplified version of Photoshop for quick and easy photo edits on mobile and desktop. It provides features like image editing, color correction, and photo organization. The software includes a user-friendly interface and supports a wide range of image formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for photographers and photo editors.",
+      "highlights": [
         "Image editing, color correction, and photo organization",
         "Wide range of image formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  {
-    "id": "072",
-    "name": "IrfanView",
-    "category": "Utilities",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.irfanview.com/",
-    "storeLink": "https://apps.microsoft.com/detail/9nl0r0jnnzm0",
-    "about": "A lightweight and fast image viewer and editor supporting multiple formats.",
-    "icon": "https://www.irfanview.com/images/logo.png",
-    "slug": "irfanview",
-    "publisher": "IrfanView",
-    "lastUpdated": "2024-03-10",
-    "description": "IrfanView is a lightweight and fast image viewer and editor supporting multiple formats. It provides features like image viewing, editing, and conversion. The software includes a user-friendly interface and supports a wide range of image formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for image enthusiasts and professionals.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "072",
+      "name": "IrfanView",
+      "category": "Utilities",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.irfanview.com/",
+      "storeLink": "https://apps.microsoft.com/detail/9nl0r0jnnzm0",
+      "about": "A lightweight and fast image viewer and editor supporting multiple formats.",
+      "icon": "https://www.irfanview.com/images/logo.png",
+      "slug": "irfanview",
+      "publisher": "IrfanView",
+      "lastUpdated": "2024-03-10",
+      "description": "IrfanView is a lightweight and fast image viewer and editor supporting multiple formats. It provides features like image viewing, editing, and conversion. The software includes a user-friendly interface and supports a wide range of image formats. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for image enthusiasts and professionals.",
+      "highlights": [
         "Image viewing, editing, and conversion",
         "Wide range of image formats support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  
-  {
-    "id": "074",
-    "name": "Loom",
-    "category": "Creative",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.loom.com/download",
-    "storeLink": null,
-    "about": "A versatile screen recording tool that supports capturing screen and webcam with instant sharing.",
-    "icon": "https://cdn.sanity.io/images/pvn35iyy/production/ed4626352add7a8aa7f018a082d42f223df93392-403x278.svg?auto=format&dpr=1",
-    "slug": "loom",
-    "publisher": "Loom",
-    "lastUpdated": "2024-03-10",
-    "description": "Loom is a versatile screen recording tool that supports capturing screen and webcam with instant sharing. It provides features like screen recording, webcam recording, and instant sharing. The software includes a user-friendly interface and supports a wide range of devices. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for content creators and streamers.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "074",
+      "name": "Loom",
+      "category": "Creative",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.loom.com/download",
+      "storeLink": null,
+      "about": "A versatile screen recording tool that supports capturing screen and webcam with instant sharing.",
+      "icon": "https://cdn.sanity.io/images/pvn35iyy/production/ed4626352add7a8aa7f018a082d42f223df93392-403x278.svg?auto=format&dpr=1",
+      "slug": "loom",
+      "publisher": "Loom",
+      "lastUpdated": "2024-03-10",
+      "description": "Loom is a versatile screen recording tool that supports capturing screen and webcam with instant sharing. It provides features like screen recording, webcam recording, and instant sharing. The software includes a user-friendly interface and supports a wide range of devices. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for content creators and streamers.",
+      "highlights": [
         "Screen recording, webcam recording, and instant sharing",
         "Wide range of devices support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  
-  
-  {
-    "id": "078",
-    "name": "Rainmeter",
-    "category": "Personalization",
-    "status": "Available via Emulation",
-    "directDownloadLink": "https://www.rainmeter.net/",
-    "storeLink": null,
-    "about": "A desktop customization tool that allows users to display skins for system monitoring, widgets, and more.",
-    "icon": "https://www.rainmeter.net/img/logo_nav.png",
-    "slug": "rainmeter",
-    "publisher": "Rainmeter",
-    "lastUpdated": "2024-03-10",
-    "description": "Rainmeter is a desktop customization tool that allows users to display skins for system monitoring, widgets, and more. It provides features like system monitoring, widget customization, and skin management. The software includes a user-friendly interface and supports a wide range of system monitoring tools. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for system administrators and users.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "078",
+      "name": "Rainmeter",
+      "category": "Personalization",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.rainmeter.net/",
+      "storeLink": null,
+      "about": "A desktop customization tool that allows users to display skins for system monitoring, widgets, and more.",
+      "icon": "https://www.rainmeter.net/img/logo_nav.png",
+      "slug": "rainmeter",
+      "publisher": "Rainmeter",
+      "lastUpdated": "2024-03-10",
+      "description": "Rainmeter is a desktop customization tool that allows users to display skins for system monitoring, widgets, and more. It provides features like system monitoring, widget customization, and skin management. The software includes a user-friendly interface and supports a wide range of system monitoring tools. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for system administrators and users.",
+      "highlights": [
         "System monitoring, widget customization, and skin management",
         "Wide range of system monitoring tools support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
-  
-  
-  {
-    "id": "080",
-    "name": "Todoist",
-    "category": "Productivity",
-    "status": "Available Natively",
-    "directDownloadLink": "https://todoist.com/downloads",
-    "storeLink": "https://apps.microsoft.com/detail/xp99k37g9cwbdc",
-    "about": "A powerful task manager that helps users organize their tasks and projects across multiple platforms.",
-    "icon": "https://todoist.com/favicon.ico",
-    "slug": "todoist",
-    "publisher": "Todoist",
-    "lastUpdated": "2024-03-10",
-    "description": "Todoist is a powerful task manager that helps users organize their tasks and projects across multiple platforms. It provides features like task management, project management, and collaboration tools. The software includes a user-friendly interface and supports a wide range of platforms. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for productivity enthusiasts and professionals.",
-    "highlights": [
+      ]
+    },
+    {
+      "id": "080",
+      "name": "Todoist",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://todoist.com/downloads",
+      "storeLink": "https://apps.microsoft.com/detail/xp99k37g9cwbdc",
+      "about": "A powerful task manager that helps users organize their tasks and projects across multiple platforms.",
+      "icon": "https://todoist.com/favicon.ico",
+      "slug": "todoist",
+      "publisher": "Todoist",
+      "lastUpdated": "2024-03-10",
+      "description": "Todoist is a powerful task manager that helps users organize their tasks and projects across multiple platforms. It provides features like task management, project management, and collaboration tools. The software includes a user-friendly interface and supports a wide range of platforms. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for productivity enthusiasts and professionals.",
+      "highlights": [
         "Task management, project management, and collaboration tools",
         "Wide range of platforms support",
         "Cross-platform compatibility",
         "Extensive library management capabilities"
-    ]
-  },
+      ]
+    },
     {
       "id": "081",
       "name": "Mozilla Firefox",
@@ -1327,11 +1307,11 @@
       "lastUpdated": "2024-03-10",
       "description": "Mozilla Firefox is a free and open-source web browser known for its speed and privacy features. It provides features like fast browsing performance, privacy protection, and extensive customization options. The software includes a user-friendly interface and supports a wide range of extensions. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for users who value speed and privacy.",
       "highlights": [
-          "Fast browsing performance",
-          "Privacy protection",
-          "Extensive customization options",
-          "Cross-platform compatibility",
-          "Extensive library management capabilities"
+        "Fast browsing performance",
+        "Privacy protection",
+        "Extensive customization options",
+        "Cross-platform compatibility",
+        "Extensive library management capabilities"
       ],
       "featured": true
     },
@@ -1349,11 +1329,11 @@
       "lastUpdated": "2024-03-10",
       "description": "Microsoft Edge is a fast and secure browser that helps protect your data and save time and money. It provides features like fast browsing performance, privacy protection, and integration with Microsoft services. The software includes a user-friendly interface and supports a wide range of extensions. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for users who value speed and security.",
       "highlights": [
-          "Fast browsing performance",
-          "Privacy protection",
-          "Integration with Microsoft services",
-          "Cross-platform compatibility",
-          "Extensive library management capabilities"
+        "Fast browsing performance",
+        "Privacy protection",
+        "Integration with Microsoft services",
+        "Cross-platform compatibility",
+        "Extensive library management capabilities"
       ],
       "featured": true
     },
@@ -1364,18 +1344,17 @@
       "status": "Available Natively",
       "directDownloadLink": "https://www.opera.com/download",
       "storeLink": "https://apps.microsoft.com/store/detail/XP8CF6S8G2D5T6?ocid=pdpshare",
-      "about": "Opera is a fast and secure browser with a built-in ad blocker and VPN.",
+      "about": "Opera provides an ARM-optimized native Windows on Arm build.",
       "icon": "https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-flat-horizontal.3a48a9c34651.svg",
       "slug": "opera",
       "publisher": "Opera",
-      "lastUpdated": "2024-03-10",
-      "description": "Opera is a fast and secure browser with a built-in ad blocker and VPN. It provides features like fast browsing performance, ad blocking, and VPN capabilities. The software includes a user-friendly interface and supports a wide range of extensions. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for users who value speed and security.",
+      "lastUpdated": "2026-02-10",
+      "description": "Opera is a Chromium-based web browser with built-in productivity and privacy features. Opera confirmed a native Windows on Arm build for improved performance on Snapdragon-powered devices.",
       "highlights": [
-          "Fast browsing performance",
-          "Ad blocking",
-          "VPN capabilities",
-          "Cross-platform compatibility",
-          "Extensive library management capabilities"
+        "Official native Windows on Arm support",
+        "Built-in ad blocking and privacy controls",
+        "Sidebar integrations and productivity features",
+        "Cross-device sync with Opera account"
       ]
     },
     {
@@ -1385,18 +1364,17 @@
       "status": "Available Natively",
       "directDownloadLink": "https://brave.com/download/",
       "storeLink": "https://apps.microsoft.com/store/detail/XP8C9QZMS2PC1T?ocid=pdpshare",
-      "about": "Brave is a privacy-focused browser that blocks ads and trackers by default.",
+      "about": "Brave provides a fully native ARM64 build for Windows.",
       "icon": "https://brave.com/static-assets/images/brave-logo-sans-text.svg",
       "slug": "brave-browser",
       "publisher": "Brave Software",
-      "lastUpdated": "2024-03-10",
-      "description": "Brave is a privacy-focused browser that blocks ads and trackers by default. It provides features like ad blocking, tracker blocking, and privacy protection. The software includes a user-friendly interface and supports a wide range of extensions. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for users who value privacy and ad-free browsing.",
+      "lastUpdated": "2026-02-10",
+      "description": "Brave is a Chromium-based browser focused on privacy and speed. Brave officially released native ARM64 support for Windows and lists ARM64 CPU support in system requirements.",
       "highlights": [
-          "Ad blocking",
-          "Tracker blocking",
-          "Privacy protection",
-          "Cross-platform compatibility",
-          "Extensive library management capabilities"
+        "Official ARM64-native Windows support",
+        "Built-in ad and tracker blocking",
+        "Chromium compatibility and extension support",
+        "Privacy-focused default settings"
       ]
     },
     {
@@ -1413,11 +1391,11 @@
       "lastUpdated": "2024-03-10",
       "description": "Vivaldi is a highly customizable browser that adapts to you, not the other way around. It provides features like ad blocking, tracker blocking, and privacy protection. The software includes a user-friendly interface and supports a wide range of extensions. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for users who value privacy and ad-free browsing.",
       "highlights": [
-          "Ad blocking",
-          "Tracker blocking",
-          "Privacy protection",
-          "Cross-platform compatibility",
-          "Extensive library management capabilities"
+        "Ad blocking",
+        "Tracker blocking",
+        "Privacy protection",
+        "Cross-platform compatibility",
+        "Extensive library management capabilities"
       ]
     },
     {
@@ -1427,18 +1405,17 @@
       "status": "Available via Emulation",
       "directDownloadLink": "https://www.torproject.org/download/",
       "storeLink": null,
-      "about": "Tor Browser enables anonymous communication by directing internet traffic through a free, worldwide network.",
+      "about": "Tor Browser supports Windows 10/11 but does not explicitly document a native Windows ARM64 build.",
       "icon": "https://www.torproject.org/static/images/tor-logo@2x.png?h=16ad42bc",
       "slug": "tor-browser",
       "publisher": "Tor Project",
-      "lastUpdated": "2024-03-10",
-      "description": "Tor Browser enables anonymous communication by directing internet traffic through a free, worldwide network. It provides features like ad blocking, tracker blocking, and privacy protection. The software includes a user-friendly interface and supports a wide range of extensions. Its cross-platform compatibility and extensive library management capabilities make it a popular choice for users who value privacy and ad-free browsing.",
+      "lastUpdated": "2026-02-10",
+      "description": "Tor Browser is a privacy-focused browser that routes traffic through the Tor network. Official Windows support documentation covers 32-bit and 64-bit Windows without an explicit ARM64-native Windows package listing.",
       "highlights": [
-          "Ad blocking",
-          "Tracker blocking",
-          "Privacy protection",
-          "Cross-platform compatibility",
-          "Extensive library management capabilities"
+        "Tor-network-based privacy routing",
+        "Anti-tracking and anti-fingerprinting defaults",
+        "Cross-platform availability",
+        "Runs on Windows on Arm via emulation"
       ]
     },
     {
@@ -1455,10 +1432,10 @@
       "lastUpdated": "2024-03-10",
       "description": "Jamovi is a free, open-source statistical software that provides a user-friendly interface for data analysis. Built on top of R, it offers powerful statistical capabilities including descriptive statistics, t-tests, ANOVAs, regression, and factor analyses. The software features a spreadsheet-like interface for data entry and manipulation, while providing sophisticated analytical tools accessible through point-and-click menus.",
       "highlights": [
-          "User-friendly interface for statistical analysis",
-          "Built on R statistical computing platform",
-          "Comprehensive suite of statistical tests",
-          "Real-time results updating"
+        "User-friendly interface for statistical analysis",
+        "Built on R statistical computing platform",
+        "Comprehensive suite of statistical tests",
+        "Real-time results updating"
       ]
     },
     {
@@ -1475,10 +1452,10 @@
       "lastUpdated": "2024-03-10",
       "description": "MAXQDA is a professional software for qualitative and mixed methods data analysis. It enables researchers to analyze various types of data including interviews, surveys, focus groups, videos, and social media data. The software provides powerful coding tools, visualization features, and team collaboration capabilities, making it an essential tool for qualitative researchers in social sciences, market research, and academic research.",
       "highlights": [
-          "Advanced qualitative data analysis tools",
-          "Support for multiple data formats including text, audio, video",
-          "Powerful coding and visualization features",
-          "Team collaboration capabilities"
+        "Advanced qualitative data analysis tools",
+        "Support for multiple data formats including text, audio, video",
+        "Powerful coding and visualization features",
+        "Team collaboration capabilities"
       ]
     },
     {
@@ -1495,10 +1472,10 @@
       "lastUpdated": "2024-03-10",
       "description": "EndNote is a reference management software used to manage bibliographies and references when writing essays and articles. It allows users to collect references from online databases, organize them in a personal library, and automatically create citations and bibliographies in various citation styles. The software integrates with word processors and provides powerful search and organization tools for academic literature.",
       "highlights": [
-          "Reference management and bibliography creation",
-          "Integration with word processors",
-          "Support for multiple citation styles",
-          "Online database search capabilities"
+        "Reference management and bibliography creation",
+        "Integration with word processors",
+        "Support for multiple citation styles",
+        "Online database search capabilities"
       ]
     },
     {
@@ -1515,10 +1492,10 @@
       "lastUpdated": "2024-03-10",
       "description": "Bitdefender is a comprehensive security solution that provides advanced protection against malware, ransomware, and other cyber threats. It features real-time data protection, advanced threat defense, multi-layer ransomware protection, and web attack prevention. The software includes a VPN for secure browsing, password management, and microphone/webcam protection, making it a complete security suite for personal and professional use.",
       "highlights": [
-          "Real-time protection against malware and ransomware",
-          "Advanced threat detection and prevention",
-          "Built-in VPN for secure browsing",
-          "Multi-layer security features"
+        "Real-time protection against malware and ransomware",
+        "Advanced threat detection and prevention",
+        "Built-in VPN for secure browsing",
+        "Multi-layer security features"
       ]
     },
     {
@@ -1535,10 +1512,10 @@
       "lastUpdated": "2024-03-10",
       "description": "AutoCAD is an industry-leading computer-aided design (CAD) software used by professionals worldwide for 2D drafting, 3D modeling, and visualization. It provides powerful tools for architectural design, mechanical engineering, and technical documentation. The software features advanced annotation capabilities, customizable tool palettes, and extensive file format support, making it essential for architects, engineers, and design professionals.",
       "highlights": [
-          "Precise 2D drafting and documentation tools",
-          "Advanced 3D modeling capabilities",
-          "Industry-standard DWG file format support",
-          "Cloud-based collaboration features"
+        "Precise 2D drafting and documentation tools",
+        "Advanced 3D modeling capabilities",
+        "Industry-standard DWG file format support",
+        "Cloud-based collaboration features"
       ]
     },
     {
@@ -1555,11 +1532,331 @@
       "lastUpdated": "2024-03-10",
       "description": "Care Orchestrator Essence is a comprehensive healthcare management platform designed for healthcare providers to remotely monitor patients and manage therapy devices. It provides real-time patient data monitoring, therapy adjustment capabilities, and automated compliance reporting. The platform streamlines clinical workflows, enables data-driven decision making, and helps improve patient care through remote monitoring and management.",
       "highlights": [
-          "Remote patient monitoring capabilities",
-          "Real-time therapy management",
-          "Automated compliance reporting",
-          "Clinical workflow optimization"
+        "Remote patient monitoring capabilities",
+        "Real-time therapy management",
+        "Automated compliance reporting",
+        "Clinical workflow optimization"
       ]
+    },
+    {
+      "id": "093",
+      "name": "Zen Browser",
+      "category": "Web Browser",
+      "status": "Available Natively",
+      "directDownloadLink": "https://zen-browser.app/download",
+      "storeLink": null,
+      "about": "Zen Browser publishes Windows ARM64 release artifacts.",
+      "icon": "https://zen-browser.app/favicon.ico",
+      "slug": "zen-browser",
+      "publisher": "Zen Browser Team",
+      "description": "Zen Browser is a Firefox-based browser focused on productivity and customizability. Its release artifacts include Windows ARM64 builds, indicating native support on Windows on Arm.",
+      "highlights": [
+        "Windows ARM64 release artifacts published",
+        "Firefox-based browsing engine",
+        "Workspace-oriented UI design",
+        "Open-source project"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "094",
+      "name": "Adobe Creative Cloud",
+      "category": "Creative",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.adobe.com/creativecloud/desktop-app.html",
+      "storeLink": null,
+      "about": "Creative Cloud desktop app supports ARM processors; individual Adobe apps vary between native and emulation.",
+      "icon": "https://www.adobe.com/favicon.ico",
+      "slug": "adobe-creative-cloud",
+      "publisher": "Adobe Inc.",
+      "description": "Adobe Creative Cloud is Adobe's desktop hub for managing creative apps and updates. Adobe documentation shows ARM-capable desktop app support and a mixed native/emulated status across individual apps on Copilot+ PCs.",
+      "highlights": [
+        "Creative Cloud desktop app supports ARM processors",
+        "Centralized app install/update workflow",
+        "Mixed native and emulated app support by product",
+        "Official Copilot+ compatibility guidance published"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "095",
+      "name": "iCloud for Windows",
+      "category": "Productivity",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://support.apple.com/en-us/103232",
+      "storeLink": "https://apps.microsoft.com/detail/9PKTQ5699M62",
+      "about": "Apple distributes iCloud for Windows via Microsoft Store; ARM64-native packaging is not explicitly documented.",
+      "icon": "https://www.apple.com/favicon.ico",
+      "slug": "icloud-for-windows",
+      "publisher": "Apple Inc.",
+      "description": "iCloud for Windows syncs photos, files, passwords, and other Apple services to a Windows PC. Apple distributes the app through Microsoft Store but does not explicitly publish ARM64-native packaging details.",
+      "highlights": [
+        "Official iCloud integration on Windows",
+        "Microsoft Store distribution",
+        "Photos, Drive, and password sync",
+        "Usable on Windows on Arm via emulation path"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "096",
+      "name": "RedisInsight",
+      "category": "Development",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://redis.io/insight/",
+      "storeLink": null,
+      "about": "RedisInsight Windows support is documented, but ARM64-native Windows packaging is not explicitly documented.",
+      "icon": "https://redis.io/favicon.ico",
+      "slug": "redisinsight",
+      "publisher": "Redis Ltd.",
+      "description": "RedisInsight is a GUI for Redis database exploration, monitoring, and query analysis. Official docs provide Windows installation paths without explicit ARM64-native Windows build documentation.",
+      "highlights": [
+        "Redis GUI and diagnostics tools",
+        "Query and key-space exploration",
+        "Performance and memory analysis",
+        "Runs on Windows on Arm via emulation"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "097",
+      "name": "k6",
+      "category": "Development",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://grafana.com/docs/k6/latest/set-up/install-k6/",
+      "storeLink": null,
+      "about": "k6 offers Windows installers and release binaries; ARM64-native Windows packaging is not explicitly documented in install docs.",
+      "icon": "https://grafana.com/static/assets/img/fav32.png",
+      "slug": "k6",
+      "publisher": "Grafana Labs",
+      "description": "k6 is an open-source load testing tool used for performance and API testing. Official installation docs include Windows installer paths and GitHub release binaries, but ARM64-native Windows packaging is not explicitly listed.",
+      "highlights": [
+        "Scripting-first load testing tool",
+        "CI/CD friendly CLI workflow",
+        "Official Windows installation paths",
+        "Runs on Windows on Arm via emulation"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "098",
+      "name": "SQL Server Management Studio",
+      "category": "Development",
+      "status": "Available Natively",
+      "directDownloadLink": "https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms",
+      "storeLink": null,
+      "about": "SSMS 22 officially supports Arm64 operating systems.",
+      "icon": "https://learn.microsoft.com/favicon.ico",
+      "slug": "sql-server-management-studio",
+      "publisher": "Microsoft Corporation",
+      "description": "SQL Server Management Studio (SSMS) is Microsoft's primary graphical management tool for SQL Server and Azure SQL. Microsoft documentation for SSMS 22 explicitly includes Arm64 operating system support.",
+      "highlights": [
+        "Official Arm64 OS support in SSMS 22",
+        "Comprehensive SQL Server administration UI",
+        "Azure SQL and SQL Server compatibility",
+        "Integrated query editing and diagnostics"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "099",
+      "name": "SQL Server 2022",
+      "category": "Development",
+      "status": "Not Available",
+      "directDownloadLink": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+      "storeLink": null,
+      "about": "SQL Server 2022 installation is supported on x64 processors only.",
+      "icon": "https://www.microsoft.com/favicon.ico",
+      "slug": "sql-server-2022",
+      "publisher": "Microsoft Corporation",
+      "description": "SQL Server 2022 is Microsoft's enterprise relational database platform. Official hardware requirements specify x64 processors only for installation, which excludes native Windows ARM64 host support.",
+      "highlights": [
+        "Enterprise SQL database engine",
+        "Official requirement: x64 processors only",
+        "Broad Windows Server support matrix",
+        "No native ARM64 host installation support"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "100",
+      "name": "Turso CLI",
+      "category": "Development",
+      "status": "Not Available",
+      "directDownloadLink": "https://docs.turso.tech/cli/installation",
+      "storeLink": null,
+      "about": "On Windows, Turso CLI documentation requires using WSL for installation.",
+      "icon": "https://turso.tech/favicon.ico",
+      "slug": "turso-cli",
+      "publisher": "Turso",
+      "description": "Turso CLI is a command-line tool for managing Turso databases and deployments. Official Windows installation guidance requires WSL, indicating no direct native Windows desktop installation path.",
+      "highlights": [
+        "Database management CLI for Turso",
+        "Official Windows path requires WSL",
+        "Shell-first workflow",
+        "No native Windows installer path documented"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "101",
+      "name": "Obsidian",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://obsidian.md/download",
+      "storeLink": null,
+      "about": "Obsidian distributes a universal Windows installer that includes ARM64.",
+      "icon": "https://obsidian.md/favicon.ico",
+      "slug": "obsidian",
+      "publisher": "Obsidian",
+      "description": "Obsidian is a local-first knowledge base and note-taking app built around Markdown files. Obsidian's Windows installer is distributed as a universal package including ARM64 support.",
+      "highlights": [
+        "Universal Windows installer includes ARM64",
+        "Local-first Markdown knowledge base",
+        "Rich plugin ecosystem",
+        "Cross-platform sync options"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "102",
+      "name": "R",
+      "category": "Development",
+      "status": "Available Natively",
+      "directDownloadLink": "https://cran.r-project.org/bin/windows/base/",
+      "storeLink": null,
+      "about": "R provides experimental native support for 64-bit ARM Windows (aarch64).",
+      "icon": "https://www.r-project.org/favicon-32x32.png",
+      "slug": "r-language",
+      "publisher": "R Project",
+      "description": "R is a language and environment for statistical computing and graphics. The R project published native support for 64-bit ARM Windows beginning with the R 4.4 line (experimental support).",
+      "highlights": [
+        "Native 64-bit ARM Windows support (experimental)",
+        "Large ecosystem for statistics and data science",
+        "Open-source language and runtime",
+        "CRAN package ecosystem"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "103",
+      "name": "RStudio",
+      "category": "Development",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://posit.co/download/rstudio-desktop/",
+      "storeLink": null,
+      "about": "Posit tracks Windows ARM builds as an open request; no official native Windows ARM build is currently published.",
+      "icon": "https://posit.co/wp-content/themes/Posit/assets/images/favicon.ico",
+      "slug": "rstudio",
+      "publisher": "Posit PBC",
+      "description": "RStudio is a popular IDE for R development. Posit tracks Windows ARM support as an open feature request, so current Windows ARM usage relies on x64 emulation.",
+      "highlights": [
+        "Full-featured R IDE",
+        "Open ARM build request for Windows",
+        "Used widely in data science workflows",
+        "Runs on Windows on Arm via emulation"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "104",
+      "name": "Notion",
+      "category": "Productivity",
+      "status": "Available Natively",
+      "directDownloadLink": "https://www.notion.com/desktop/windows",
+      "storeLink": null,
+      "about": "Notion offers separate Windows downloads for x64 and Arm/Arm64.",
+      "icon": "https://www.notion.so/images/favicon.ico",
+      "slug": "notion",
+      "publisher": "Notion Labs, Inc.",
+      "description": "Notion is a workspace app for notes, wikis, docs, and task management. Official desktop downloads include a dedicated Windows Arm/Arm64 package.",
+      "highlights": [
+        "Dedicated Windows Arm/Arm64 download",
+        "Notes, docs, databases, and project tracking",
+        "Cross-platform sync and collaboration",
+        "Strong template ecosystem"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "105",
+      "name": "Intel Unison",
+      "category": "Communication",
+      "status": "Not Available",
+      "directDownloadLink": "https://unison.intel.com/",
+      "storeLink": null,
+      "about": "Intel Unison reached end of support on January 1, 2026.",
+      "icon": "https://www.intel.com/favicon.ico",
+      "slug": "intel-unison",
+      "publisher": "Intel Corporation",
+      "description": "Intel Unison connected phones and tablets with Windows PCs for messaging, file transfer, and calls. Intel has ended support for the product as of January 1, 2026.",
+      "highlights": [
+        "Phone-to-PC integration features",
+        "Officially end-of-support as of 2026-01-01",
+        "Migration guidance for Lenovo Aura users",
+        "No actively supported general app going forward"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "106",
+      "name": "Parsec",
+      "category": "Utilities",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://parsec.app/downloads",
+      "storeLink": null,
+      "about": "Parsec supports modern 64-bit Windows; ARM64-native build details are not explicitly documented.",
+      "icon": "https://parsec.app/favicon.ico",
+      "slug": "parsec",
+      "publisher": "Parsec Cloud, Inc.",
+      "description": "Parsec is a low-latency remote desktop and game streaming tool. Official docs support modern 64-bit Windows usage while ARM64-native packaging details are not explicitly documented.",
+      "highlights": [
+        "Low-latency remote desktop sessions",
+        "Host and client support on Windows",
+        "Desktop and gaming-focused streaming",
+        "Runs on Windows on Arm via emulation"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "107",
+      "name": "qBittorrent",
+      "category": "Utilities",
+      "status": "Available via Emulation",
+      "directDownloadLink": "https://www.qbittorrent.org/download",
+      "storeLink": null,
+      "about": "Official qBittorrent Windows downloads list x64 installers without explicit ARM64-native installer.",
+      "icon": "https://www.qbittorrent.org/favicon.ico",
+      "slug": "qbittorrent",
+      "publisher": "qBittorrent Team",
+      "description": "qBittorrent is an open-source BitTorrent client with a lightweight interface and web UI. Official Windows downloads list x64 installer variants, so Windows on Arm usage typically relies on emulation.",
+      "highlights": [
+        "Open-source BitTorrent client",
+        "x64 Windows installers officially listed",
+        "Built-in search and RSS features",
+        "Runs on Windows on Arm via emulation"
+      ],
+      "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "108",
+      "name": "VMware Workstation",
+      "category": "Development",
+      "status": "Not Available",
+      "directDownloadLink": "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion",
+      "storeLink": null,
+      "about": "VMware Workstation documentation and distribution do not provide a Windows ARM64 host build.",
+      "icon": "https://www.vmware.com/favicon.ico",
+      "slug": "vmware-workstation",
+      "publisher": "VMware by Broadcom",
+      "description": "VMware Workstation is a desktop hypervisor for running virtual machines on Windows and Linux hosts. Current distribution and documentation do not provide a Windows ARM64 host edition.",
+      "highlights": [
+        "Desktop virtualization platform",
+        "No Windows ARM64 host edition published",
+        "Broad guest OS support on supported hosts",
+        "Alternative ARM hypervisor options may be required"
+      ],
+      "lastUpdated": "2026-02-10"
     }
   ]
 }

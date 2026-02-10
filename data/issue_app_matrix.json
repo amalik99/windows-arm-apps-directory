@@ -1,0 +1,174 @@
+{
+  "generatedOn": "2026-02-10",
+  "scope": "Open issues #54-#64",
+  "notes": "Issue-to-app mapping below is based on the open-issue intake set used for this update and should be confirmed against issue bodies before bulk-closing issues.",
+  "issues": [
+    {
+      "issue": "#64",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/64",
+      "apps": ["Zen Browser", "Adobe Creative Cloud", "Opera"]
+    },
+    {
+      "issue": "#63",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/63",
+      "apps": ["iCloud for Windows", "RedisInsight", "k6"]
+    },
+    {
+      "issue": "#62",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/62",
+      "apps": ["SQL Server Management Studio", "SQL Server 2022", "Turso CLI"]
+    },
+    {
+      "issue": "#61",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/61",
+      "apps": ["Obsidian", "Steam", "R", "RStudio"]
+    },
+    {
+      "issue": "#60",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/60",
+      "apps": ["Spotify", "Notion", "NordVPN"]
+    },
+    {
+      "issue": "#59",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/59",
+      "apps": ["Intel Unison", "Parsec", "qBittorrent"]
+    },
+    {
+      "issue": "#58",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/58",
+      "apps": ["Tor Browser", "Brave Browser", "VMware Workstation"]
+    },
+    {
+      "issue": "#57",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/57",
+      "apps": []
+    },
+    {
+      "issue": "#56",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/56",
+      "apps": []
+    },
+    {
+      "issue": "#55",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/55",
+      "apps": []
+    },
+    {
+      "issue": "#54",
+      "url": "https://github.com/amalik99/windows-arm-apps-directory/issues/54",
+      "apps": []
+    }
+  ],
+  "appVerification": [
+    {
+      "app": "Zen Browser",
+      "status": "Available Natively",
+      "source": "https://github.com/zen-browser/desktop/releases"
+    },
+    {
+      "app": "Adobe Creative Cloud",
+      "status": "Available Natively",
+      "source": "https://helpx.adobe.com/download-install/kb/arm-processors.html"
+    },
+    {
+      "app": "Opera",
+      "status": "Available Natively",
+      "source": "https://blogs.opera.com/desktop/2024/11/opera-on-arm-overview/"
+    },
+    {
+      "app": "iCloud for Windows",
+      "status": "Available via Emulation",
+      "source": "https://support.apple.com/en-us/103232"
+    },
+    {
+      "app": "RedisInsight",
+      "status": "Available via Emulation",
+      "source": "https://redis.io/docs/latest/operate/redisinsight/install/"
+    },
+    {
+      "app": "k6",
+      "status": "Available via Emulation",
+      "source": "https://grafana.com/docs/k6/latest/set-up/install-k6/"
+    },
+    {
+      "app": "SQL Server Management Studio",
+      "status": "Available Natively",
+      "source": "https://learn.microsoft.com/en-us/ssms/support-policy"
+    },
+    {
+      "app": "SQL Server 2022",
+      "status": "Not Available",
+      "source": "https://learn.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server-2022"
+    },
+    {
+      "app": "Turso CLI",
+      "status": "Not Available",
+      "source": "https://docs.turso.tech/cli/installation"
+    },
+    {
+      "app": "Obsidian",
+      "status": "Available Natively",
+      "source": "https://forum.obsidian.md/t/obsidian-now-runs-natively-on-windows-arm-devices/93000"
+    },
+    {
+      "app": "Steam",
+      "status": "Available via Emulation",
+      "source": "https://help.steampowered.com/en/faqs/view/2D16-EDBA-161F-DF2F"
+    },
+    {
+      "app": "R",
+      "status": "Available Natively",
+      "source": "https://blog.r-project.org/2024/04/23/r-on-64-bit-arm-windows/"
+    },
+    {
+      "app": "RStudio",
+      "status": "Available via Emulation",
+      "source": "https://github.com/rstudio/rstudio/issues/11977"
+    },
+    {
+      "app": "Spotify",
+      "status": "Available via Emulation",
+      "source": "https://support.spotify.com/us/article/system-requirements/"
+    },
+    {
+      "app": "Notion",
+      "status": "Available Natively",
+      "source": "https://www.notion.com/help/install-notion"
+    },
+    {
+      "app": "NordVPN",
+      "status": "Available Natively",
+      "source": "https://nordvpn.com/blog/arm-app-for-windows/"
+    },
+    {
+      "app": "Intel Unison",
+      "status": "Not Available",
+      "source": "https://www.intel.com/content/www/us/en/support/articles/000097815/software/software-applications.html"
+    },
+    {
+      "app": "Parsec",
+      "status": "Available via Emulation",
+      "source": "https://support.parsec.app/hc/en-us/articles/32381352822804"
+    },
+    {
+      "app": "qBittorrent",
+      "status": "Available via Emulation",
+      "source": "https://www.qbittorrent.org/download"
+    },
+    {
+      "app": "Tor Browser",
+      "status": "Available via Emulation",
+      "source": "https://support.torproject.org/tbb/tbb-6/"
+    },
+    {
+      "app": "Brave Browser",
+      "status": "Available Natively",
+      "source": "https://brave.com/blog/brave-arm64/"
+    },
+    {
+      "app": "VMware Workstation",
+      "status": "Not Available",
+      "source": "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion"
+    }
+  ]
+}
