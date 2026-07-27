@@ -1857,6 +1857,26 @@
         "Alternative ARM hypervisor options may be required"
       ],
       "lastUpdated": "2026-02-10"
+    },
+    {
+      "id": "109",
+      "name": "OpenFiles",
+      "category": "Utilities",
+      "status": "Available Natively",
+      "directDownloadLink": "https://github.com/pansysoft/openfiles.desktop/releases/download/3.2026.725/OpenFiles.3.2026.725.arm64.appx",
+      "storeLink": "https://apps.microsoft.com/detail/9N34Z0HXDTGK",
+      "about": "OpenFiles provides a native Windows ARM64 package for opening and editing more than 350 file formats.",
+      "icon": "https://openfiles.pansysoft.app/favicon.ico",
+      "slug": "openfiles",
+      "publisher": "Liang Wensen",
+      "description": "OpenFiles is an AI-native desktop file workspace for documents, media, code, archives, Jupyter notebooks, SQLite databases, and DWG/DXF CAD drawings. The publisher provides a dedicated Windows ARM64 APPX package.",
+      "highlights": [
+        "Dedicated Windows ARM64 APPX package",
+        "Opens and edits more than 350 file formats",
+        "Local-first file viewing and editing",
+        "Available from Microsoft Store and GitHub Releases"
+      ],
+      "lastUpdated": "2026-07-25"
     }
   ]
 }
