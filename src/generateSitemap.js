@@ -9,7 +9,7 @@ import { dirname } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const WEBSITE_URL = 'https://windowsarm.org';
+const WEBSITE_URL = 'https://windowsarm.amitmalik.net';
 
 async function generateSitemap() {
   try {

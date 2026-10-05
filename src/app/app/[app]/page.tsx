@@ -230,7 +230,7 @@ const AppPage = ({ params }: AppPageProps) => {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Windows ARM Apps Directory" />
         {app?.icon && <meta property="og:image" content={app.icon} />}
-        <meta property="og:url" content={`https://windowsarm.org/app/${params.app}`} />
+        <meta property="og:url" content={`https://windowsarm.amitmalik.net/app/${params.app}`} />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary" />

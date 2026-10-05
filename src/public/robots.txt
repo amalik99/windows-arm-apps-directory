@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://windowsarm.org/sitemap.xml
+Sitemap: https://windowsarm.amitmalik.net/sitemap.xml

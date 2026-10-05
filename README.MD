@@ -1,4 +1,4 @@
-# Windows ARM Apps Directory - windowsarm.org
+# Windows ARM Apps Directory - windowsarm.amitmalik.net
 
 A comprehensive, community-maintained directory of applications compatible with Windows ARM64 devices.
 
@@ -8,7 +8,7 @@ This web application serves as a directory for applications that are compatible 
 
 ## ## Hosted on WindowsARM.org
 
-This project is hosted on [WindowsARM.org](https://windowsarm.org).
+This project is hosted on [windowsarm.amitmalik.net](https://windowsarm.amitmalik.net).
 
 
 ## How to Contribute
