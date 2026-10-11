@@ -1877,6 +1877,28 @@
         "Available from Microsoft Store and GitHub Releases"
       ],
       "lastUpdated": "2026-07-25"
+    },
+    {
+      "id": "110",
+      "name": "Klakk",
+      "category": "Utilities",
+      "status": "Available Natively",
+      "directDownloadLink": "https://tryklakk.com/download/klakk-windows-native-arm64.exe",
+      "storeLink": null,
+      "about": "Keyboard sound playback with 14 sound packs and a native Windows ARM64 build. Three-day trial, then a paid license; the installer is unsigned.",
+      "icon": "https://tryklakk.com/assets/images/app-logo.png",
+      "slug": "klakk",
+      "publisher": "Levin",
+      "description": "Klakk adds keyboard sound playback to Windows 10 and 11. Version 1.4.1 has a dedicated installer that installs the native ARM64 application and runtime. It includes 14 sound packs, volume controls and output-device selection. The three-day trial begins at first launch; a Windows license costs US$4.49 once, plus applicable tax, and is separate from the Mac and App Store licenses. The installer is unsigned. Keyboard events and key codes are processed locally for playback; usage, settings and licensing can involve network communication. Sound playback does not reduce physical keyboard noise.",
+      "highlights": [
+        "Native ARM64 application and runtime for Windows 10/11",
+        "14 sound packs with volume and output-device controls",
+        "Three-day trial from first launch; US$4.49 Windows license plus tax",
+        "Unsigned installer; separate Windows, Mac and App Store licenses"
+      ],
+      "lastUpdated": "2026-10-10",
+      "price": 4.49,
+      "priceCurrency": "USD"
     }
   ]
 }
