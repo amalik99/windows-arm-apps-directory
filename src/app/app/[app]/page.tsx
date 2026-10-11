@@ -21,6 +21,8 @@ interface App {
   icon: string
   publisher: string
   lastUpdated: string
+  price?: number
+  priceCurrency?: string
 }
 
 interface AppPageProps {
@@ -117,7 +119,7 @@ const AppPage = ({ params }: AppPageProps) => {
         case 'Available Natively':
           return {
             status: 'native ARM64 support',
-            detail: 'optimized for Windows ARM processors',
+            detail: 'native ARM64 build available',
             compatibility: 'runs natively on ARM64'
           }
         case 'Available via Emulation':
@@ -169,7 +171,7 @@ const AppPage = ({ params }: AppPageProps) => {
     const description = [
       `${app.name} ${armStatus.compatibility} on Windows ARM devices.`,
       app.status === 'Available Natively' 
-        ? `This application provides native ARM64 support, offering optimal performance on Windows ARM processors.`
+        ? `This application provides a native ARM64 build for Windows ARM devices.`
         : app.status === 'Available via Emulation'
         ? `This application runs on Windows ARM through x64 emulation.`
         : `This application is currently not supported on Windows ARM devices.`,
@@ -263,11 +265,15 @@ const AppPage = ({ params }: AppPageProps) => {
             "requirements": metadata.armStatus 
               ? `Windows ARM - ${metadata.armStatus.compatibility}`
               : 'Windows ARM',
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD"
-            }
+            ...(typeof app.price === 'number' && Number.isFinite(app.price) && app.price >= 0 && app.priceCurrency
+              ? {
+                  "offers": {
+                    "@type": "Offer",
+                    "price": app.price,
+                    "priceCurrency": app.priceCurrency
+                  }
+                }
+              : {})
           })}
         </script>
       </Head>
